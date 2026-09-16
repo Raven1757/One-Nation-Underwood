@@ -7,13 +7,13 @@ campaignTrail_temp.election_json = [
             "summary": "<p>Garrett Walker was a failure. Plain and Simple. A man of no dignity, now stuck in his final hour</p><p>We've worked hard to get here, Claire and I. We have worked tirelessly since i was snubbed, for better or worse, of my promised position as secretary of state. Now i sit the Vice President. Quite the upgrade huh?</p> You loved watching me come here, now it's time to watch me go further. America made their bed, now I've taken it.",
             "image_url": "https://imgs.search.brave.com/dj0EFUZzhWqOrTFKPNIOEWgVGMT9MhwY3bnhLaDOY7k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtd3d3LmFkd2Vl/ay5jb20vd3AtY29u/dGVudC91cGxvYWRz/L2ZpbGVzL2Jsb2dz/L2ZyYW5rLXVuZGVy/d29vZC1wb3N0ZXJz/LWhlZC0yMDE1Lmpw/Zz93PTEwNDg",
             "winning_electoral_vote_number": 270,
-            "advisor_url": "https://imgs.search.brave.com/_PHSMkEsSvswR0KZZfuvLzH1QF6i7PSrk6TXQgWiDpQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTIuZ2lwaHkuY29t/L21lZGlhL3YxLlky/bGtQVGM1TUdJM05q/RXhlamh1TldwcGNH/aDVPR296TWpnNVpE/ZzJjSE53YzJNek5Y/SmpjRGM0WkcxaWRE/Y3ljRzkxZWlabGNE/MTJNVjluYVdaelgz/TmxZWEpqYUNaamRE/MW4vMTRoV1RRV1NY/OHE5MGMvMjAwLmdp/Zg.gif",
+            "advisor_url": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood.gif",
             "recommended_reading": "Major thanks to the original creators of the codes I've used to make this mod:",
             "has_visits": 1,
             "no_electoral_majority_image": "https://thecampaigntrail.net/static/images/2012-no-majority.jpg",
-            "creator": "Your_local_bulgarian",
+            "creator": "Your_Local_Bulgarian",
             "is_historical": true,
-            "display_year": "The House of Cards",
+            "display_year": "One Nation Underwood",
             "recommended_reading_enabled": true,
             "site_description": "<p>Garrett Walker was a failure. Plain and Simple. A man of no dignity, now stuck in his final hour</p><p>We've worked hard to get here, Claire and I. We have worked tirelessly since i was snubbed, for better or worse, of my promised position as secretary of state. Now i sit the Vice President. Quite the upgrade huh?</p> You loved watching me come here, now it's time to watch me go further. America made their bed, now I've taken it."
         }
@@ -25,13 +25,13 @@ campaignTrail_temp.temp_election_list = [
         "id": 20,
         "year": 2016,
         "is_premium": 0,
-        "display_year": "The House of Cards"
+        "display_year": "One Nation Underwood"
     }
 ];
 
 RecReading = true;
 
-campaignTrail_temp.credits = "Dan Bryan";
+campaignTrail_temp.credits = "Your_Local_Bulgarian";
 
 campaignTrail_temp.global_parameter_json = [
     {
@@ -61,19 +61,19 @@ campaignTrail_temp.global_parameter_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 1200,
+        "pk": 1201,
         "fields": {
-            "first_name": "The",
-            "last_name": "Republicans",
+            "first_name": "Francis J.",
+            "last_name": "Underwood",
             "election": 20,
-            "party": "Republican",
-            "state": "New York",
+            "party": "Democrat",
+            "state": "South Carolina",
             "priority": 1,
-            "description": ".",
-            "color_hex": "#8d0000",
-            "secondary_color_hex": "#855252",
-            "is_active": 0,
-            "image_url": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/MV5BMTUyNzc0NzMwM15BMl5BanBnXkFtZTgwNzQzOTA0OTE@.webp",
+            "description": "<p><strong>The Blue Dog made of Iron</strong></p><p>Francis J. Underwood, the name everybody fears. I've climbed to the top of the nation all on my own. And you've been along for the ride. Enjoying the fall of democracy. Well now you've seen it firsthand. We'll just have to make you a bigger show this time.</p><p>I'm not doing this for charity, I'm not doing this for fun. I'm doing this because power is all that matters. When I have it all I won't let anyone stand in our way ever again. One Nation Underwood. 2020, 2024, 2028, 2032, 2036. A legacy enshrined, never to be tarnished",
+            "color_hex": "#2e2e69",
+            "secondary_color_hex": "#4c6b94",
+            "is_active": 1,
+            "image_url": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood%20Portrait.webp",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
             "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
@@ -84,19 +84,19 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 1201,
+        "pk": 1200,
         "fields": {
-            "first_name": "Frank",
-            "last_name": "Underwood",
+            "first_name": "The",
+            "last_name": "Republicans",
             "election": 20,
-            "party": "Democrat",
-            "state": "South Carolina",
+            "party": "Republican",
+            "state": "National",
             "priority": 2,
-            "description": "<p><strong>The Blue Dog made of Iron, Francis J. Underwood</strong>, the name everybody fears. I've climbed to the top of the nation all on my own. And you've been along for the ride.</p><p>I'm not doing this for charity, I'm not doing this for fun. I'm doing this because power is all that matters. When I have it all I won't let anyone stand in our way ever again",
-            "color_hex": "#050585",
-            "secondary_color_hex": "#4c6b94",
+            "description": "<p><strong>The Grand Old Party</p></strong><p>The last line of defense against the Underwoods. The GOP has had a field day with the Walker presidency and it seems that the Underwood Presidency will be no different.</p><p>The Party is divided however, the three main candidates running in 2016 are all determined to win the primaries since that seems like the bigger challenge. Underwood is polling up to 18% lower than the Republicans. </p><p>The three candidates are New York Governor Will Conway, Wyoming Senator Curtis Haas and Arizona Senator Hector Mendoza",
+            "color_hex": "#792020",
+            "secondary_color_hex": "#7d4a4a",
             "is_active": 1,
-            "image_url": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/thumbnail_32.webp",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Republican_Disc.svg/1280px-Republican_Disc.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
             "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
@@ -116,8 +116,8 @@ campaignTrail_temp.candidate_json = [
             "state": "New Mexico",
             "priority": 3,
             "description": "'",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
+            "color_hex": "#666666",
+            "secondary_color_hex": "#c7c7c7",
             "is_active": 0,
             "image_url": "'",
             "electoral_victory_message": "'",
@@ -155,21 +155,21 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 1205,
         "fields": {
-            "first_name": "Chris",
-            "last_name": "Christie",
+            "first_name": "The",
+            "last_name": "Triumvirate",
             "election": 20,
             "party": "Republican",
-            "state": "New Jersey",
+            "state": "Multiple",
             "priority": 6,
             "description": "'",
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://thecampaigntrail.net/static/images/chris-christie-2016.jpg",
+            "image_url": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Triumverate",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>",
+            "description_as_running_mate": "<p>The Current leaders of the Republican Party. William Conway, Hector Mendoza and Curtis Haas have put aside their differences to focus on negating as much of Underwood's Policies as possible. This is a very loose alliance but it will last at least until the primaries.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -247,21 +247,21 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 1209,
         "fields": {
-            "first_name": "Tim",
-            "last_name": "Kaine",
+            "first_name": "Vacant",
+            "last_name": "",
             "election": 20,
-            "party": "Democrat",
-            "state": "Virginia",
+            "party": "-",
+            "state": "-",
             "priority": 9,
             "description": "'",
             "color_hex": "#0000FF",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
-            "image_url": "https://thecampaigntrail.net/static/images/tim-kaine-2016.jpg",
+            "image_url": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood%20Logo",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
+            "description_as_running_mate": "With Walkers resignation the Vice Presidency has been left empty...for now",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -369,7 +369,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Massachusetts",
             "priority": 14,
             "description": "'",
-            "color_hex": "#FFFF00",
+            "color_hex": "#ababab",
             "secondary_color_hex": "#FFFFC0",
             "is_active": 0,
             "image_url": "'",
@@ -437,8 +437,8 @@ campaignTrail_temp.opponents_default_json = [
     {
         "election": 20,
         "candidates": [
-            1200,
             1201,
+            1200,
             1202
         ]
     }
@@ -448,8 +448,8 @@ campaignTrail_temp.opponents_weighted_json = [
     {
         "election": 20,
         "candidates": [
-            1200,
             1201,
+            1200,
             1202
         ]
     }
@@ -477,7 +477,7 @@ jet_data = {
     "descriptionWindowColor": "#f8f8f8",
     "descriptionWindowTextColor": "#000000",
     "startButtonColor": "#e8e8e8",
-    "bannerImageUrl": "https://imgs.search.brave.com/HOZ6iGrJl4ojP4ox9ssW7dovXN2E2bGNeRosyy1zbiw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJhbmt1bmRlcndv/b2QuY29tL2hlcm8u/anBn",
+    "bannerImageUrl": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-08-31%20204655.png",
     "backgroundImageUrl": "https://imgs.search.brave.com/96WHgcRTNl1eQY1VK0o6E3bn_Fc76U8bQOkWTNKn3dg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvc29s/aWQtYmx1ZS1iYWNr/Z3JvdW5kLXpta3Nq/YW91cjd4ZjJ4bWUu/anBn",
     "gameTitle": "THE CAMPAIGN TRAIL",
     "customQuote": "You are entitled to nothing- F.U",
@@ -544,11 +544,12 @@ const theme = nct_stuff.themes[nct_stuff.selectedTheme];
 theme.coloring_title     = "#700016";
 theme.coloring_window    = "#073d5f";
 theme.coloring_container = "#ffffff";
-theme.header_image = "https://imgs.search.brave.com/HOZ6iGrJl4ojP4ox9ssW7dovXN2E2bGNeRosyy1zbiw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJhbmt1bmRlcndv/b2QuY29tL2hlcm8u/anBn";
+theme.header_image = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-08-31%20204655.png";
 theme.body_background = "https://imgs.search.brave.com/96WHgcRTNl1eQY1VK0o6E3bn_Fc76U8bQOkWTNKn3dg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvc29s/aWQtYmx1ZS1iYWNr/Z3JvdW5kLXpta3Nq/YW91cjd4ZjJ4bWUu/anBn";
 
 applyTheme(theme);
 //#endcode
+
 // This is a modified version of the music player
 // used in the mod W. and 2004: Four More Wars.
 class Song {
@@ -929,3 +930,228 @@ function setupMusicPlayer() {
 }
 
 setupMusicPlayer();
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+campaignTrail_temp.achievements = {
+  "If you were a Democrat..." : {
+      "image" : "img url",
+      "description" : "Beat Will Conway",
+      "cannotBeCheated" : true
+  },
+  "Cowboy Reagan" : {
+      "image" : "img url",
+      "description" : "Beat Hector Mendoza",
+      "cannotBeCheated" : true
+  },
+  "Tea Party's Bullhorn" : {
+      "image" : "img url",
+      "description" : "Beat Curtis Haas",
+      "cannotBeCheated" : true
+  },
+  "One Nation Underwood" : {
+      "image" : "img url",
+      "description" : "Rig the election in your favor",
+      "cannotBeCheated" : true
+  },
+  "You made this bet, America." : {
+      "image" : "img url",
+      "description" : "Win without rigging the election",
+      "cannotBeCheated" : true
+  },
+  "Not every kitten grows up to be a cat" : {
+      "image" : "img url",
+      "description" : "As Frank Underwood, lose",
+      "cannotBeCheated" : true
+  },
+  "More Than Sharks Love Blood" : {
+      "image" : "img url",
+      "description" : "Win with Claire as your Running Mate",
+      "cannotBeCheated" : true
+  },
+  "Flipism" : {
+      "image" : "img url",
+      "description" : "Have the election be decided by a coin flip",
+      "cannotBeCheated" : true
+  },
+  "Ten seconds" : {
+      "image" : "img url",
+      "description" : "Win California against Hector Mendoza",
+      "cannotBeCheated" : true
+  },
+  "Wait in Line" : {
+      "image" : "img url",
+      "description" : "As Frank Underwood, surive an assassination attempt",
+      "cannotBeCheated" : true
+  },
+  "You are entitled to nothing." : {
+      "image" : "img url",
+      "description" : "Make sure AmWorks succeeds",
+      "cannotBeCheated" : true
+  },
+  "Neoobstructionists" : {
+      "image" : "img url",
+      "description" : "Have Republicans block AmWorks from passing",
+      "cannotBeCheated" : true
+  },
+  "All I need is just one more vote" : {
+      "image" : "img url",
+      "description" : "Win despite failing at everything",
+      "cannotBeCheated" : true
+  },
+  "Republican's powerful gun" : {
+      "image" : "img url",
+      "description" : "Have Republicans sweep the midterms",
+      "cannotBeCheated" : true
+  },
+  "Plan A is much safer" : {
+      "image" : "img url",
+      "description" : "Have Republicans falter in the midterms",
+      "cannotBeCheated" : true
+  },
+  "Do I like him? No." : {
+      "image" : "img url",
+      "description" : "Attack Walker's legacy at every opportunity",
+      "cannotBeCheated" : true
+  },
+  "Back Home in Gaffney" : {
+      "image" : "img url",
+      "description" : "Win while running a traditional Democratic campaign",
+      "cannotBeCheated" : true
+  },
+  "Asian Exclusion Act" : {
+      "image" : "img url",
+      "description" : "Kick Xander Feng out for little to nothing",
+      "cannotBeCheated" : true
+  },
+  "Better Dead than Red" : {
+      "image" : "img url",
+      "description" : "Give no dice to the Chinese",
+      "cannotBeCheated" : true
+  },
+  "No Russian" : {
+      "image" : "img url",
+      "description" : "Make Sure that Russia doesn't have any foreign influence",
+      "cannotBeCheated" : true
+  },
+  "No more Underwood" : {
+      "image" : "img url",
+      "description" : "Have Heather Dunbar win the nomination",
+      "cannotBeCheated" : true
+  },
+  "The Lawyer's Legacy" : {
+      "image" : "img url",
+      "description" : "As Heather Dunbar, win the election",
+      "cannotBeCheated" : true
+  },
+  "Underwood's Work" : {
+      "image" : "img url",
+      "description" : "As Heather Dunbar, win the election without attacking Frank Underwood",
+      "cannotBeCheated" : true
+  },
+  "Take care not to tip him over" : {
+      "image" : "img url",
+      "description" : "As Heather Dunbar, expose Barne's murder",
+      "cannotBeCheated" : true
+  },
+  "Here we go again" : {
+      "image" : "img url",
+      "description" : "Have the DNC end in a deadlock",
+      "cannotBeCheated" : true
+  },
+  "DNC Whip" : {
+      "image" : "img url",
+      "description" : "Have Jackie Sharp win the Democratic Party Nomination",
+      "cannotBeCheated" : true
+  }
+}
+// This will change the election night song
+const originalElectionNight = electionNight;
+
+electionNight = function (...args) {
+  const electionPlaylist = new Playlist();
+  const electionSong = new Song(
+    "What I've Done",
+    "Linkin Park",
+    "https://imgs.search.brave.com/ztANxBGk1MQhZgsWme-m0mVvvoAV3L4d6h_iCOmra-g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/OS85NC9XaGF0SSUy/N3ZlRG9uZUNvdmVy/LmpwZy8yNTBweC1X/aGF0SSUyN3ZlRG9u/ZUNvdmVyLmpwZz91/dG1fc291cmNlPWVu/Lndpa2lwZWRpYS5v/cmcmdXRtX2NhbXBh/aWduPXBhcnNlciZ1/dG1fY29udGVudD10/aHVtYm5haWw",
+    "https://audio.jukehost.co.uk/01a073a1-8893-734b-b28b-5d21dbff95ba"
+  );
+  electionPlaylist.addSong(electionSong);
+  changePlaylist(electionPlaylist);
+
+  return originalElectionNight.apply(this, args);
+};
+
+function addDynamicCSS() {
+    var css = `
+
+        .inner_window_question h3 .mytooltip{
+            background-color: lightskyblue;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #f3ef0a;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: #d8dee8;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+            background-image: url("https://imgs.search.brave.com/3j5ENfLV-qnuMlgydSnce-WJX1DEmKkBKtIfBU-2w_I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/Z29wZWRpYS9pbWFn/ZXMvMi8yYy9XaGl0/ZUhvdXNlXzIwMjEu/cG5nL3JldmlzaW9u/L2xhdGVzdC9zY2Fs/ZS10by13aWR0aC1k/b3duLzI1MD9jYj0y/MDIxMDEyOTEwMjg0/Mw");
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+addDynamicCSS();
+
+e.displayTooltips = true;
+
+
+tooltipList = [
+
+    {searchString: "Walker", explanationText: "<img src=https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Walker> A Weak man"},
+
+];
