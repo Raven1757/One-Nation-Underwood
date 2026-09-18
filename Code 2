@@ -3,21 +3,21 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1042,
         "fields": {
-            "description": "You and Claire sit in the White House, now empty, all yours. You knew it was always meant to be but you never expected this. Your plans were completely successful, the coup was orchestrated and the gun went off without a hitch. You now stood the strongest man in America, in the world. What else could you be? You were the best of the best. Well that was exaggerating of course. You didn't really think i was talking about myself right? No, I've learned to never overestimate my chances. I may be president but that doesn't mean anything if i ain't willing to do what it takes to keep it. There is only one path forward. The one the people want to hear..."
+            "description": "You and Claire sit in the White House, now empty, all yours. You knew it was always meant to be but you never expected this. Your plans were completely successful, the coup was orchestrated and the gun went off without a hitch. You now stood the strongest man in American, in the world. What else could you be? You were the best of the best. Well that was exaggerating of course. You didn't really think i was talking about myself right? No, I've learned to never overestimate my chances. I may be president but that doesn't mean anything if i ain't willing to do what it takes to keep it. There is only one path forward. The one the people want to hear"
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 1044,
         "fields": {
-            "description": "You sit  in the oval office all alone. Nothing here to help you but yourself. Your party despises you and the opposition is emboldened beyond compare. they are projected to win a landslide not seen since Reagan in 1984. Your polling has you down by up to 17%. Approval ratings are a joke now. Not a great start but you've worked with bad starts before. For now a Vice President is top priority. We have many options. Blythe is a weak, feeble man who can easily be controlled. Claire is also an option, radical yes, but when have we backed out of a challenge. Maybe Jackie Sharp would want the job but she'd be moving up too quickly for people to ignore it. We'll see what i choose..."
+            "description": "You sit  in the oval office all alone. Nothing here to help you but yourself. Your party despises you and the opposition is emboldened beyond compare. they are projected to win a landslide not seen since Reagan in 1984. Your polling has you down by up to 17%. Approval ratings are a joke now. Not a great start but you've worked with bad starts before. For now a Vice President is top priority. Who will you choose to court."
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 1043,
         "fields": {
-            "description": "Ever since Feng showed his face in America you knew that he'd be nothing but trouble. Now trouble has reared it's ugly face. Down South you knew that you need to fight fire with fire but this time walking on eggshells might be for the best. You still have some options on what to do with him. The Chinese have offered to withdraw from "
+            "description": "Ever since you learned of Tusk and Walker's dealings with Zander Feng you knew that there would be nothing but trouble. Now trouble has reared it's ugly face. Back home in Gaffney the main philosophy is fighting fire with fire, here however that philosophy can only lead to destruction. Many options present themselves but it is still too early to tell what will be the best option. The Chinese navy has been circling the Taiwan sea and the American one has been, unsuccessfully, trying to scare them off. I am running out of options..."
         }
     },
     {
@@ -193,7 +193,21 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 20805,
         "fields": {
-            "description": "You have officially beaten back President Underwood in the primaries. We should however not celebrate too early. Democrat's numbers are in the gutter and approval is even lower. Despite your efforts to fight against the Walker and Underwood's administrations. Your fight against the corruption has given you more strength than Underwood had however it's clear that Underwood isn't being a good loser about this. "
+            "description": "You have officially beaten back President Underwood in the primaries. We should however not celebrate too early. Democrat's numbers are in the gutter and approval is even lower, despite your efforts to fight against the Walker and Underwood's administrations. Your fight against corruption has given you more strength than Underwood had however it's clear that Underwood isn't being a good loser about this. "
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20836,
+        "fields": {
+            "description": "#Sharp Questions"
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20837,
+        "fields": {
+            "description": "The DNC has officially been deadlocked. You have many options but it's clear that Dunbar won't allow you to get the Presidency, you have to get creative, we obviously won't allow this all to be for nothing will we? Sometimes you have to swallow your pride for the long term."
         }
     }
 ];
@@ -212,7 +226,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5143,
         "fields": {
             "question": 1043,
-            "description": "The Republicans can't beat us on the issues, like raising the minimum wage or making college more affordable. So instead their allies in the right-wing media use these non-stories and innuendo to defend the privilege of the 1%. There is nothing to see here."
+            "description": "We know what the Chinese want. They don't know what it is that we want. Our strength is their lack of knowledge. We should us that to highball them at first before droping our demands later, making them think that we have surrendered"
         }
     },
     {
@@ -220,7 +234,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5144,
         "fields": {
             "question": 1043,
-            "description": "Let's take a step back. George Bush and Dick Cheney lost over 20 million emails from their time in office. I have already turned over every relevant email from my time as Secretary of State. Anything else is a right-wing hit job."
+            "description": "Let's take a step back. Walker wanted the bridge done and I think we should fight to keep it in play. Feng is the ace up our sleeve. As long as the Chinese keep their ships armed we will keep him in America, under our protection."
         }
     },
     {
@@ -228,7 +242,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5145,
         "fields": {
             "question": 1043,
-            "description": "I used the same email practices as Colin Powell and many other people in government. I was far too busy dealing with Russia, the Arab Spring, and the E.U. crisis to keep track of how IT was setting up my email system."
+            "description": "How about this, we are the United States of America, if they want Feng then they'll have to come get him and witness our wrath. Feng is ours the bridge will be built and we will leave the negotiations ourselves if the demands aren't met."
         }
     },
     {
@@ -236,7 +250,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5146,
         "fields": {
             "question": 1043,
-            "description": "This email system was a lapse in judgment, and I apologize. It was simply a matter of convenience to prevent me from carrying two phones everywhere, but if I was doing it again, I might do something different."
+            "description": "You know what. They can have Feng, I honestly don't care. We have so many other issues to deal with that a Chinese businessman should be the least of our concerns."
         }
     },
     {
@@ -828,7 +842,15 @@ campaignTrail_temp.answers_json = [
         "pk": 20806,
         "fields": {
             "question": 20805,
-            "description": "We will hope that Frank doesn't make any harsh choices. We will push forward and whatever necessary to win against Conway"
+            "description": "We will hope that Frank doesn't make any harsh choices. We will push forward and whatever necessary to win against Conway but we need to court him to our side"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 20838,
+        "fields": {
+            "question": 20837,
+            "description": "Call Mrs. Dunbar and Mrs. Sharp to discuss how to move forward, the republicans already have a huge advantage and we cannot allow them to get even more."
         }
     }
 ];
@@ -4806,7 +4828,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5143,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "global_multiplier": 0.002
+            "global_multiplier": -0.005
         }
     },
     {
@@ -5407,6 +5429,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1201,
             "affected_candidate": 1202,
             "global_multiplier": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20840,
+        "fields": {
+            "answer": 5143,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": 0.005
         }
     }
 ];
@@ -7321,6 +7353,270 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 1202,
             "state_multiplier": 1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20812,
+        "fields": {
+            "answer": 20806,
+            "state": 1000,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20813,
+        "fields": {
+            "answer": 20806,
+            "state": 1002,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20814,
+        "fields": {
+            "answer": 20806,
+            "state": 1003,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20815,
+        "fields": {
+            "answer": 20806,
+            "state": 1005,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20816,
+        "fields": {
+            "answer": 20806,
+            "state": 1008,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20817,
+        "fields": {
+            "answer": 20806,
+            "state": 1009,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20818,
+        "fields": {
+            "answer": 20806,
+            "state": 1011,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20819,
+        "fields": {
+            "answer": 20806,
+            "state": 1015,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20820,
+        "fields": {
+            "answer": 20806,
+            "state": 1016,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20821,
+        "fields": {
+            "answer": 20806,
+            "state": 1017,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20822,
+        "fields": {
+            "answer": 20806,
+            "state": 1023,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20823,
+        "fields": {
+            "answer": 20806,
+            "state": 1025,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20824,
+        "fields": {
+            "answer": 20806,
+            "state": 1026,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20825,
+        "fields": {
+            "answer": 20806,
+            "state": 1027,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20826,
+        "fields": {
+            "answer": 20806,
+            "state": 1030,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20827,
+        "fields": {
+            "answer": 20806,
+            "state": 1032,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20828,
+        "fields": {
+            "answer": 20806,
+            "state": 1033,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20829,
+        "fields": {
+            "answer": 20806,
+            "state": 1035,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20830,
+        "fields": {
+            "answer": 20806,
+            "state": 1036,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20831,
+        "fields": {
+            "answer": 20806,
+            "state": 1040,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20832,
+        "fields": {
+            "answer": 20806,
+            "state": 1041,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20833,
+        "fields": {
+            "answer": 20806,
+            "state": 1043,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20834,
+        "fields": {
+            "answer": 20806,
+            "state": 1048,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20835,
+        "fields": {
+            "answer": 20806,
+            "state": 1050,
+            "candidate": 1201,
+            "affected_candidate": 1202,
+            "state_multiplier": 0.5
+        }
     }
 ];
 
@@ -7340,7 +7636,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5143,
             "candidate": 1201,
-            "answer_feedback": "It's good to hit back hard, even if a few bloviators question how this affects your \"likeability\"."
+            "answer_feedback": "The demand are sent, the Chinese hate it and leave immediately, my calls don't go through either. Maybe i'll have to wait before finishing this fight."
         }
     },
     {
@@ -7349,7 +7645,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5144,
             "candidate": 1201,
-            "answer_feedback": "Maybe your best bet here is to turn this into a \"both sides\" partisan story. And it's not as if you're wrong about Bush."
+            "answer_feedback": "The Chinese are furious but remain in the negotiations. I'll agree to hand over Feng as long as the bridge is built and the Chinese navy withdraws from the region"
         }
     },
     {
@@ -7358,7 +7654,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5145,
             "candidate": 1201,
-            "answer_feedback": "This story is having a definite effect on your campaign, unfortunately."
+            "answer_feedback": "They announce that they won't be strong-armed, not surprising, I didn't care and hung up the phone. I knew that Feng was important to them and they would never pass up the chance to take him back to China. All I have to do is wait."
         }
     },
     {
@@ -7367,7 +7663,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5146,
             "candidate": 1201,
-            "answer_feedback": "This story is having a definite effect on your campaign, unfortunately."
+            "answer_feedback": "The Chinese are dumbfounded at the fact that you are willing t give up Feng this easily."
         }
     },
     {
@@ -7907,7 +8203,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20806,
             "candidate": 1201,
-            "answer_feedback": "Underwood doesn't call you, doesn't accept your calls. The next day he announces "
+            "answer_feedback": "Underwood doesn't call you, doesn't accept your calls. The next day he announces that he's running a an Independent. You feel your blood boil."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20839,
+        "fields": {
+            "answer": 20838,
+            "candidate": 1201,
+            "answer_feedback": "Enter feedback text here"
         }
     }
 ];
@@ -7919,6 +8224,7 @@ campaignTrail_temp.running_mate_last_name = "Vacant";
 
 //#startcode
 // CYOA Variables
+var China = 0;
 var Ico = 0;
 var Mendoza = 0;
 var Haas = 0;
@@ -8073,6 +8379,57 @@ function setCandidateIdentity(candidatePk, options) {
 cyoAdventure = function (a) {
     const ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
     e.noCounter = campaignTrail_temp.player_answers.length;
+    // question swap CYOA here
+    if (ans == 5235 && Primaries < 0) {
+        questionSwapper(1063, 20805);
+    }
+
+    // [JETS_CYOA_VARIABLE_EFFECTS_START]
+    // -1 Primaries
+    if (ans == 5139) {
+        Primaries -= 1;
+    }
+
+    // -1 Haas
+    if (ans == 5147) {
+        Haas -= 1;
+    }
+
+    // +1 Conway
+    if (ans == 5147) {
+        Conway += 1;
+    }
+
+    // -3 Conway
+    if ([5148, 5149].includes(ans)) {
+        Conway -= 3;
+    }
+
+    // +2 Haas
+    if ([5148, 5139].includes(ans)) {
+        Haas += 2;
+    }
+
+    // +1 Mendoza
+    if ([5148, 5139].includes(ans)) {
+        Mendoza += 1;
+    }
+
+    // +2 Mendoza
+    if (ans == 5149) {
+        Mendoza += 2;
+    }
+
+    // +1 Haas
+    if (ans == 5149) {
+        Haas += 1;
+    }
+
+    // +10 Conway
+    if (ans == 5139) {
+        Conway += 10;
+    }
+    // [JETS_CYOA_VARIABLE_EFFECTS_END]
     if (ans == 5147) {
 campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
 campaignTrail_temp.running_mate_last_name = 'Blythe'
@@ -8129,56 +8486,39 @@ campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
 }
 if (ans == 5224 && Mendoza > Haas && Mendoza > Conway && Primaries >= 0) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector" 
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
 }
-    // question swap CYOA here
-    if (ans == 5235 && Primaries < 0) {
-        questionSwapper(1063, 20805);
-    }
+}
 
-    // [JETS_CYOA_VARIABLE_EFFECTS_START]
-    // -1 Primaries
-    if (ans == 5139) {
-        Primaries -= 1;
-    }
+let imgUrl = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood%20Banner";
 
-    // -1 Haas
-    if (ans == 5147) {
-        Haas -= 1;
-    }
+const customStyling = document.createElement("style");
+document.head.appendChild(customStyling);
 
-    // +1 Conway
-    if (ans == 5147) {
-        Conway += 1;
-    }
+function updateStyling(url) {
+    customStyling.textContent = `
+        #campaign_sign {
+            background-image: url("${url}");
+            background-size: cover;
+            background-position: center;
+            border-color: #c9c9c9;
+            border-width: .01em;
+            width: 100%;
+            height: 92px;
+            margin-left: -0.07em;
+            font-size: 0;
+        }
+    `;
+}
 
-    // -3 Conway
-    if ([5148, 5149].includes(ans)) {
-        Conway -= 3;
-    }
+updateStyling(imgUrl);
 
-    // +2 Haas
-    if (ans == 5148) {
-        Haas += 2;
-    }
-
-    // +1 Mendoza
-    if (ans == 5148) {
-        Mendoza += 1;
-    }
-
-    // +2 Mendoza
-    if (ans == 5149) {
-        Mendoza += 2;
-    }
-
-    // +1 Haas
-    if (ans == 5149) {
-        Haas += 1;
-    }
-    // [JETS_CYOA_VARIABLE_EFFECTS_END]
+function changeImage(newImgUrl) {
+    imgUrl = newImgUrl;
+    console.log("Banner changed");
+    updateStyling(newImgUrl);
 }
 
 // [JETS_CYOA_CAMPAIGN_DATA_START]
@@ -8255,7 +8595,7 @@ campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields
             showLabel: true,
             tiers: [
                 [-1, `Heather Dunbar holds a *commanding lead`, "#ef4444"],
-                [0, `Heather Dunbar holds a *slight lead`, "#ef4444"],
+                [0, `Heather Dunbar holds a *slight lead`, "#808080"],
                 [Infinity, `You hold a *slight lead`, "#22c55e"],
             ],
         },
@@ -8265,7 +8605,7 @@ campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields
             showLabel: false,
             tiers: [
                 [2, `Mendoza is *struggling.`, "#ef4444"],
-                [5, `Mendoza is *pushing forward.`, "#ef4444"],
+                [5, `Mendoza is *pushing forward.`, "#808080"],
                 [Infinity, `Mendoza is *the nominee in waiting.`, "#22c55e"],
             ],
         },
@@ -8275,7 +8615,7 @@ campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields
             showLabel: false,
             tiers: [
                 [2, `Haas is *irrelevent.`, "#ef4444"],
-                [5, `Haas is *getting recognition.`, "#ef4444"],
+                [5, `Haas is *getting recognition.`, "#808080"],
                 [Infinity, `Haas is *the nominee in waiting.`, "#22c55e"],
             ],
         },
@@ -8285,7 +8625,7 @@ campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields
             showLabel: false,
             tiers: [
                 [2, `Conway is *losing momentum.`, "#ef4444"],
-                [5, `Conway is *strong.`, "#ef4444"],
+                [5, `Conway is *strong.`, "#808080"],
                 [Infinity, `Conway is *the nominee in waiting.`, "#22c55e"],
             ],
         },
@@ -8295,8 +8635,18 @@ campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields
             showLabel: false,
             tiers: [
                 [0, `-`, "#ef4444"],
-                [1, `America is at war with ICO`, "#ef4444"],
+                [1, `America is at war with ICO`, "#808080"],
                 [Infinity, `a`, "#22c55e"],
+            ],
+        },
+    {
+            getValue: () => China,
+            label: `The Taiwan Strait`,
+            showLabel: false,
+            tiers: [
+                [-1, `The Situation with China is Tense`, "#ef4444"],
+                [0, `The Situation with China is calm`, "#808080"],
+                [Infinity, `China has been passified`, "#22c55e"],
             ],
         }
     ];
@@ -8434,6 +8784,11 @@ campaignTrail_temp.jet_data = [{
             "id": 1789510251736,
             "name": "Ico",
             "defaultValue": 0
+        },
+        "1789662323503": {
+            "id": 1789662323503,
+            "name": "China",
+            "defaultValue": 0
         }
     },
     "cyoa_variable_effects": {
@@ -8499,6 +8854,27 @@ campaignTrail_temp.jet_data = [{
             "variable": "Conway",
             "operation": "subtract",
             "amount": 3
+        },
+        "20841": {
+            "id": 20841,
+            "answer": 5139,
+            "variable": "Mendoza",
+            "operation": "add",
+            "amount": 1
+        },
+        "20842": {
+            "id": 20842,
+            "answer": 5139,
+            "variable": "Haas",
+            "operation": "add",
+            "amount": 2
+        },
+        "20843": {
+            "id": 20843,
+            "answer": 5139,
+            "variable": "Conway",
+            "operation": "add",
+            "amount": 10
         }
     },
     "cyoa_campaign_data_enabled": true,
@@ -8553,12 +8929,22 @@ campaignTrail_temp.jet_data = [{
             "lowText": "-",
             "midText": "America is at war with ICO",
             "highText": "a"
+        },
+        "1789662332263": {
+            "id": 1789662332263,
+            "variable": "China",
+            "label": "The Taiwan Strait",
+            "lowMax": -1,
+            "midMax": 0,
+            "lowText": "The Situation with China is Tense",
+            "midText": "The Situation with China is calm",
+            "highText": "China has been passified"
         }
     },
     "campaign_data_style": {
         "title": "The House of Cards",
         "width": "320",
-        "tierMid": "#ef4444"
+        "tierMid": "#808080"
     },
     "cyoa_question_swaps": {
         "1789511504727": {
@@ -8585,28 +8971,6 @@ campaignTrail_temp.jet_data = [{
 ]
 
 
-// This updates the candidate banner logos. Taken from 1992 - Moonbeam
-let imgUrl = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood%20Banner";
-
-const customStyling = document.createElement("style");
-document.head.appendChild(customStyling);
-
-function updateStyling(url) {
-    customStyling.textContent = `
-        #campaign_sign {
-            background-image: url("${url}");
-            background-size: cover;
-            background-position: center;
-            border-color: #c9c9c9;
-            border-width: .01em;
-            width: 100%;
-            height: 92px;
-            margin-left: -0.07em;
-            font-size: 0;
-        }
-    `;
-}
-
 // initial render
 updateStyling(imgUrl);
 
@@ -8614,4 +8978,23 @@ function changeImage(newImgUrl) {
     imgUrl = newImgUrl;
     console.log("Banner changed");
     updateStyling(newImgUrl);
+}
+// Feedback updater, taken and modified from 2021DE
+const feedbackMap = new Map(
+  campaignTrail_temp.answer_feedback_json.map(e => [e.pk, e])
+);
+
+const feedbackByAnswerMap = new Map(
+  campaignTrail_temp.answer_feedback_json.map(e => [e.fields.answer, e])
+);
+
+function updateFeedback(pkValue, newFeedback) {
+  let entry = feedbackMap.get(pkValue);
+
+  // as fallback, treat pkValue as an answer pk
+  if (!entry) {
+    entry = feedbackByAnswerMap.get(pkValue);
+  }
+
+  if (entry) entry.fields.answer_feedback = newFeedback;
 }
