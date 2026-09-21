@@ -22,23 +22,23 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 1045,
+        "pk": 20842,
         "fields": {
-            "description": "What message will you emphasize as you accept your party's nomination for President of the United States?"
+            "description": "One of the things that people like to say are inevitable are taxes, death and the incumbent losing the midterms. Unless you are the president after 9/11, it's clear that midterms are no fun for the party in power. That's been my main hatred with democracy, it's a tyranny of idiocy, sometimes it helps us other times it does. The people never know what they want but they know how to complain. We have seen exactly that. The midterm goal for the party was to hamper losses, hold swing races and not go bold. I like that strategy and i pushed for it. Hopefully it's paid off..."
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 1046,
         "fields": {
-            "description": "What was your rationale behind selecting Tim Kaine as your running mate?"
+            "description": "With the Midterms now behind us it's time to get back on track. America isn't going to be happy if it grinds to a halt and congress being red won't change that. I can right an election but i can't do so if we've done nothing to deserve a vote. I've already come up with a new program, an initiative if you will, that will help America get back to the dream it has long lost. An interview with Stephen Colbert to reveal the plan shall be in order."
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 1051,
         "fields": {
-            "description": "Will you give Bernie Sanders a prime speaking slot at the Democratic Convention?"
+            "description": "America works has had a less than graceful start"
         }
     },
     {
@@ -209,6 +209,41 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "description": "The DNC has officially been deadlocked. You have many options but it's clear that Dunbar won't allow you to get the Presidency, you have to get creative, we obviously won't allow this all to be for nothing will we? Sometimes you have to swallow your pride for the long term."
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20841,
+        "fields": {
+            "description": "#Midterms"
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20843,
+        "fields": {
+            "description": "One of the things that people like to say are inevitable are taxes, death and the incumbent losing the midterms. Unless you are the president after 9/11, it's clear that midterms are no fun for the party in power. That's been my main hatred with democracy, it's a tyranny of idiocy, sometimes it helps us other times it does. The people never know what they want but they know how to complain. We have seen exactly that. The midterm goal for the party was to hamper losses, hold swing races and not go bold. I like that strategy and i pushed for it. Hopefully it's paid off..."
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20844,
+        "fields": {
+            "description": "#Russia/China Questions"
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20845,
+        "fields": {
+            "description": "put description here"
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20863,
+        "fields": {
+            "description": "put description here"
+        }
     }
 ];
 
@@ -279,42 +314,10 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 5151,
-        "fields": {
-            "question": 1045,
-            "description": "We need to do more for America. I have a plan to make college and health care affordable for every American, paid for by the 1%. The Republicans want to cut taxes for America's wealthiest citizens, so they can keep buying elections and asking Washington for bailouts and subsidies."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5152,
-        "fields": {
-            "question": 1045,
-            "description": "We have a wonderful, diverse, and strong party in the Democratic Party. When I'm President, we're going to raise the minimum wage. We're going to further improve Obamacare. We're going to create millions of high paying, green jobs. And we're going to make college more affordable for the next generation!"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5153,
-        "fields": {
-            "question": 1045,
-            "description": "There is only one choice in this election. Donald Trump is so unqualified, and vastly offensive to our ideals, that his election could be an existential disaster for the nation. I am the safe, responsible alternative who will take our country forward."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5154,
-        "fields": {
-            "question": 1045,
-            "description": "I have the experience to grow our economy, strengthen our military, create millions of new, high-paying jobs, and much more. I will be a President for all Americans when I am in office."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 5155,
         "fields": {
             "question": 1046,
-            "description": "Tim Kaine has fought for American workers and families for his entire career. He is amply qualified and ready to step in for our agenda at a moment's notice."
+            "description": "I like to call it Amworks, America Works. It's a jobs program and a fundamentally different look at how to solve the problem of unemployment."
         }
     },
     {
@@ -322,7 +325,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5156,
         "fields": {
             "question": 1046,
-            "description": "Tim Kaine has served his home state of Virginia with great energy and effectiveness as a Governor and Senator. He is a hard working and honest person who can appeal to Americans across the ideological spectrum."
+            "description": "The program is called America Works, a jobs program that has the size and scope of the new deal. A deal for those in need and willing to work that will skip entitlements and give them the jobs they deserve."
         }
     },
     {
@@ -330,7 +333,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5157,
         "fields": {
             "question": 1046,
-            "description": "When I'm thinking about a running-mate, I'm thinking about the person who will make the best President if, God forbid, they must step into that role. Tim Kaine has outstanding experience and judgment and I'm proud to make him my running mate."
+            "description": "America Works is a revolutionary new program that will fight against entitlements and will bring jobs back to the nation, to the people. The American dream is dead but we will bring it back."
         }
     },
     {
@@ -851,6 +854,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 20837,
             "description": "Call Mrs. Dunbar and Mrs. Sharp to discuss how to move forward, the republicans already have a huge advantage and we cannot allow them to get even more."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 20846,
+        "fields": {
+            "question": 20842,
+            "description": "America gets to choose, tonight, whether they believe in the system, in my government, or whether they'll follow in the path of history, fighting for changes that, when they come, Americans will reject. I hope your choice tonight is the one I'd like but democracy never is about what the President likes is it?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 20854,
+        "fields": {
+            "question": 20843,
+            "description": "America gets to choose, tonight, whether they believe in the system, in my government, or whether they'll follow in the path of history, fighting for changes that, when they come, Americans will reject. I hope your choice tonight is the one I'd like but democracy never is about what the President likes is it?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 20859,
+        "fields": {
+            "question": 20845,
+            "description": "New answer option"
         }
     }
 ];
@@ -4623,16 +4650,6 @@ campaignTrail_temp.candidate_state_multiplier_json = [
 campaignTrail_temp.answer_score_global_json = [
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3086,
-        "fields": {
-            "answer": 5153,
-            "candidate": 1201,
-            "affected_candidate": 1200,
-            "global_multiplier": -0.003
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 3087,
         "fields": {
             "answer": 5176,
@@ -4839,36 +4856,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1201,
             "affected_candidate": 1201,
             "global_multiplier": 0.004
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3134,
-        "fields": {
-            "answer": 5151,
-            "candidate": 1201,
-            "affected_candidate": 1201,
-            "global_multiplier": 0.008
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3135,
-        "fields": {
-            "answer": 5153,
-            "candidate": 1201,
-            "affected_candidate": 1201,
-            "global_multiplier": -0.004
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3136,
-        "fields": {
-            "answer": 5154,
-            "candidate": 1201,
-            "affected_candidate": 1201,
-            "global_multiplier": -0.01
         }
     },
     {
@@ -5203,16 +5190,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3292,
-        "fields": {
-            "answer": 5151,
-            "candidate": 1201,
-            "affected_candidate": 1202,
-            "global_multiplier": -0.033
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 3293,
         "fields": {
             "answer": 5185,
@@ -5428,7 +5405,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20806,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "global_multiplier": 2
+            "global_multiplier": 1
         }
     },
     {
@@ -5440,30 +5417,50 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 1200,
             "global_multiplier": 0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20848,
+        "fields": {
+            "answer": 20846,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20849,
+        "fields": {
+            "answer": 20846,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20857,
+        "fields": {
+            "answer": 20854,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20858,
+        "fields": {
+            "answer": 20854,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": -0.01
+        }
     }
 ];
 
 campaignTrail_temp.answer_score_issue_json = [
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2649,
-        "fields": {
-            "answer": 5151,
-            "issue": 104,
-            "issue_score": 0.55,
-            "issue_importance": 5
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2655,
-        "fields": {
-            "answer": 5154,
-            "issue": 104,
-            "issue_score": 0.4,
-            "issue_importance": 3
-        }
-    },
     {
         "model": "campaign_trail.answer_score_issue",
         "pk": 2683,
@@ -5482,36 +5479,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 104,
             "issue_score": 0.5,
             "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2839,
-        "fields": {
-            "answer": 5155,
-            "issue": 104,
-            "issue_score": 0.55,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2844,
-        "fields": {
-            "answer": 5156,
-            "issue": 104,
-            "issue_score": 0.55,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2849,
-        "fields": {
-            "answer": 5157,
-            "issue": 104,
-            "issue_score": 0.55,
-            "issue_importance": 2
         }
     }
 ];
@@ -7362,7 +7329,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1000,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7373,7 +7340,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1002,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7384,7 +7351,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7395,7 +7362,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7406,7 +7373,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1008,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7417,7 +7384,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7428,7 +7395,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1011,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7439,7 +7406,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7450,7 +7417,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7461,7 +7428,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1017,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7472,7 +7439,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1023,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7483,7 +7450,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1025,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7494,7 +7461,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1026,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7505,7 +7472,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1027,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7516,7 +7483,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1030,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7527,7 +7494,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7538,7 +7505,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7549,7 +7516,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1035,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7560,7 +7527,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1036,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7571,7 +7538,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7582,7 +7549,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1041,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7593,7 +7560,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7604,7 +7571,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1048,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     },
     {
@@ -7615,7 +7582,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1050,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0
         }
     }
 ];
@@ -7686,47 +7653,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 2632,
-        "fields": {
-            "answer": 5151,
-            "candidate": 1201,
-            "answer_feedback": "Pundits talk a lot about the surprisingly pugnacious and populist tone of your acceptance speech."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2633,
-        "fields": {
-            "answer": 5152,
-            "candidate": 1201,
-            "answer_feedback": "Pundits detect the standard, Democratic talking points in your speech that will appeal to a wide variety of potential supporters."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2634,
-        "fields": {
-            "answer": 5153,
-            "candidate": 1201,
-            "answer_feedback": "Pundits talk a lot about you eschewed ideology to take the attack to Trump."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2635,
-        "fields": {
-            "answer": 5154,
-            "candidate": 1201,
-            "answer_feedback": "Pundits conclude that your speech was somewhat moderate, unifying, and surprisingly non-controversial. Some just thought it was boring."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 2636,
         "fields": {
             "answer": 5155,
             "candidate": 1201,
-            "answer_feedback": "Tim Kaine is very popular within the party establishment, but less well known in the general public."
+            "answer_feedback": "The interview is a barrel of laughs, at my expense. These people don't know what's good for them do they?"
         }
     },
     {
@@ -7735,7 +7666,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5156,
             "candidate": 1201,
-            "answer_feedback": "Tim Kaine is very popular within the party establishment, but less well known in the general public."
+            "answer_feedback": "Colbert attacks the name and anything he can get his hands on but i don't give him an inch. Hopefully this will be good enough for now."
         }
     },
     {
@@ -8214,6 +8145,24 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 1201,
             "answer_feedback": "Enter feedback text here"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20847,
+        "fields": {
+            "answer": 20846,
+            "candidate": 1201,
+            "answer_feedback": "The Midterms end exactly how they were expected to. Republicans win 76 seats in the House making their caucus 323 seats large. The Senate was no better, 8 seats were gained by Republicans and the results were so bad that the Green party won over 5%. Oregon was somehow held but by the slimmest of margins. Seems like Hass might make gains..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20856,
+        "fields": {
+            "answer": 20854,
+            "candidate": 1201,
+            "answer_feedback": "The Results are still bad but democrats seem to mostly hold on, the House has just 10 flips to Republican and the Senate has just 2, New Hampshire and Virginia. Hass is immediately forced to resign as Senate Majority leader due to this underwhelming results. Maybe we have a chance after all don't we?"
+        }
     }
 ];
 
@@ -8224,6 +8173,8 @@ campaignTrail_temp.running_mate_last_name = "Vacant";
 
 //#startcode
 // CYOA Variables
+var Boldness = 0;
+var Russia = 0;
 var China = 0;
 var Ico = 0;
 var Mendoza = 0;
@@ -8379,15 +8330,70 @@ function setCandidateIdentity(candidatePk, options) {
 cyoAdventure = function (a) {
     const ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
     e.noCounter = campaignTrail_temp.player_answers.length;
+if (ans == 5147) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
+campaignTrail_temp.running_mate_last_name = 'Blythe'
+campaignTrail_temp.running_mate_state_id = "1028"
+}
+if (ans == 5148) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/333290b407e43ac23322f98a27f62c81.webp"
+campaignTrail_temp.running_mate_last_name = 'Underwood'
+campaignTrail_temp.running_mate_state_id = "1042"
+}
+if (ans == 5149) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268%20(1).webp"
+campaignTrail_temp.running_mate_last_name = 'Mathews'
+campaignTrail_temp.running_mate_state_id = "1004"
+}
+if (ans == 5235 && Primaries < 0) {
+    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268.webp"
+campaignTrail_temp.candidate_last_name = 'Dunbar'
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Heather"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Dunbar"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#376c86"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.first_name = "Frank"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.last_name = "Underwood"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1202).fields.color_hex = "#7a6a6a"
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
+campaignTrail_temp.running_mate_last_name = 'Sharp'
+campaignTrail_temp.running_mate_state_id = "1004"
+campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
+changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
+}
+if (ans == 5224 && Haas > Conway && Haas > Mendoza ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
+}
+if (ans == 5224 && Conway > Haas && Conway > Mendoza ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
+}
+if (ans == 5224 && Mendoza > Haas && Mendoza > Conway ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
+}
+if (ans == 5224 && (Mendoza == Haas || Mendoza == Conway || Conway == Haas)) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
+}
+if (ans == 5224 && China < 0 && Ico < 0 && Russia < 0) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
+}
     // question swap CYOA here
     if (ans == 5235 && Primaries < 0) {
         questionSwapper(1063, 20805);
     }
 
     // [JETS_CYOA_VARIABLE_EFFECTS_START]
-    // -1 Primaries
+    // -10 Primaries
     if (ans == 5139) {
-        Primaries -= 1;
+        Primaries -= 10;
     }
 
     // -1 Haas
@@ -8411,7 +8417,7 @@ cyoAdventure = function (a) {
     }
 
     // +1 Mendoza
-    if ([5148, 5139].includes(ans)) {
+    if ([5148, 5139, 20846].includes(ans)) {
         Mendoza += 1;
     }
 
@@ -8429,67 +8435,47 @@ cyoAdventure = function (a) {
     if (ans == 5139) {
         Conway += 10;
     }
+
+    // -2 Primaries
+    if (ans == 20846) {
+        Primaries -= 2;
+    }
+
+    // +3 Haas
+    if (ans == 20846) {
+        Haas += 3;
+    }
+
+    // -1 Conway
+    if (ans == 20846) {
+        Conway -= 1;
+    }
+
+    // +3 Primaries
+    if (ans == 20854) {
+        Primaries += 3;
+    }
+
+    // -1 Ico
+    if (ans == 20859) {
+        Ico -= 1;
+    }
+
+    // -1 China
+    if (ans == 20859) {
+        China -= 1;
+    }
+
+    // -1 Russia
+    if (ans == 20859) {
+        Russia -= 1;
+    }
+
+    // +2 Primaries
+    if (ans == 5149) {
+        Primaries += 2;
+    }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
-    if (ans == 5147) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
-campaignTrail_temp.running_mate_last_name = 'Blythe'
-campaignTrail_temp.running_mate_state_id = "1028"
-}
-if (ans == 5148) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/333290b407e43ac23322f98a27f62c81.webp"
-campaignTrail_temp.running_mate_last_name = 'Underwood'
-campaignTrail_temp.running_mate_state_id = "1042"
-}
-if (ans == 5149) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268%20(1).webp"
-campaignTrail_temp.running_mate_last_name = 'Mathews'
-campaignTrail_temp.running_mate_state_id = "1004"
-}
-if (ans == 5235 && Primaries < 0) {
-    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268.webp"
-campaignTrail_temp.candidate_last_name = 'Dunbar'
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Heather"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Dunbar"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#376c86"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.first_name = "Frank"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.last_name = "Underwood"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1202).fields.color_hex = "#7a6a6a"
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
-campaignTrail_temp.running_mate_last_name = 'Sharp'
-campaignTrail_temp.running_mate_state_id = "1004"
-campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
-}
-if (ans == 5235 && Primaries == 0) {
-    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
-campaignTrail_temp.candidate_last_name = 'Sharp'
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Jackie"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Sharp"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#54aad4"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Frank_UnderwoodAlternate"
-campaignTrail_temp.running_mate_last_name = 'Underwood'
-campaignTrail_temp.running_mate_state_id = "1004"
-}
-if (ans == 5224 && Haas > Conway && Haas > Mendoza && Primaries >= 0) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
-}
-if (ans == 5224 && Conway > Haas && Conway > Mendoza && Primaries >= 0) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
-}
-if (ans == 5224 && Mendoza > Haas && Mendoza > Conway && Primaries >= 0) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
-}
 }
 
 let imgUrl = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood%20Banner";
@@ -8521,6 +8507,32 @@ function changeImage(newImgUrl) {
     updateStyling(newImgUrl);
 }
 
+updateStyling(imgUrl);
+
+function changeImage(newImgUrl) {
+    imgUrl = newImgUrl;
+    console.log("Banner changed");
+    updateStyling(newImgUrl);
+}
+
+const feedbackMap = new Map(
+  campaignTrail_temp.answer_feedback_json.map(e => [e.pk, e])
+);
+
+const feedbackByAnswerMap = new Map(
+  campaignTrail_temp.answer_feedback_json.map(e => [e.fields.answer, e])
+);
+
+function updateFeedback(pkValue, newFeedback) {
+  let entry = feedbackMap.get(pkValue);
+
+  if (!entry) {
+    entry = feedbackByAnswerMap.get(pkValue);
+  }
+
+  if (entry) entry.fields.answer_feedback = newFeedback;
+}
+
 // [JETS_CYOA_CAMPAIGN_DATA_START]
 ;(() => {
     const styleEl = document.createElement("style");
@@ -8530,7 +8542,7 @@ function changeImage(newImgUrl) {
             bottom: 20px;
             right: 20px;
             width: 320px;
-            background-color: #0f172a;
+            background-color: #152037;
             border: 2px solid #334155;
             border-radius: 2px;
             padding: 10px 12px;
@@ -8590,13 +8602,13 @@ function changeImage(newImgUrl) {
 
     const STATS = [
     {
-            getValue: () => Primaries,
-            label: `Primary Polling`,
+            getValue: () => Boldness,
+            label: `Your Boldness`,
             showLabel: true,
             tiers: [
-                [-1, `Heather Dunbar holds a *commanding lead`, "#ef4444"],
-                [0, `Heather Dunbar holds a *slight lead`, "#808080"],
-                [Infinity, `You hold a *slight lead`, "#22c55e"],
+                [0, `You are *being passive*`, "#ef4444"],
+                [2, `You are *lacking resolve*`, "#808080"],
+                [Infinity, `You are *the man that America needs*`, "#22c55e"],
             ],
         },
     {
@@ -8606,7 +8618,7 @@ function changeImage(newImgUrl) {
             tiers: [
                 [2, `Mendoza is *struggling.`, "#ef4444"],
                 [5, `Mendoza is *pushing forward.`, "#808080"],
-                [Infinity, `Mendoza is *the nominee in waiting.`, "#22c55e"],
+                [Infinity, `Mendoza is *a prominent contender.`, "#22c55e"],
             ],
         },
     {
@@ -8616,7 +8628,7 @@ function changeImage(newImgUrl) {
             tiers: [
                 [2, `Haas is *irrelevent.`, "#ef4444"],
                 [5, `Haas is *getting recognition.`, "#808080"],
-                [Infinity, `Haas is *the nominee in waiting.`, "#22c55e"],
+                [Infinity, `Haas is *a prominent contender.`, "#22c55e"],
             ],
         },
     {
@@ -8626,7 +8638,7 @@ function changeImage(newImgUrl) {
             tiers: [
                 [2, `Conway is *losing momentum.`, "#ef4444"],
                 [5, `Conway is *strong.`, "#808080"],
-                [Infinity, `Conway is *the nominee in waiting.`, "#22c55e"],
+                [Infinity, `Conway is *a prominent contender.`, "#22c55e"],
             ],
         },
     {
@@ -8647,6 +8659,26 @@ function changeImage(newImgUrl) {
                 [-1, `The Situation with China is Tense`, "#ef4444"],
                 [0, `The Situation with China is calm`, "#808080"],
                 [Infinity, `China has been passified`, "#22c55e"],
+            ],
+        },
+    {
+            getValue: () => Primaries,
+            label: `Primary Polling`,
+            showLabel: false,
+            tiers: [
+                [-1, `Heather Dunbar holds a *commanding lead`, "#ef4444"],
+                [0, `Heather Dunbar holds a *slight lead`, "#808080"],
+                [Infinity, `You hold a *slight lead`, "#22c55e"],
+            ],
+        },
+    {
+            getValue: () => Russia,
+            label: `Russian agression`,
+            showLabel: false,
+            tiers: [
+                [-1, `Russia is *fanning the flames*`, "#ef4444"],
+                [0, `Russia is *not making sudden moves*`, "#808080"],
+                [Infinity, `Russia is *completely alone*`, "#22c55e"],
             ],
         }
     ];
@@ -8763,22 +8795,22 @@ campaignTrail_temp.jet_data = [{
         "1788722987557": {
             "id": 1788722987557,
             "name": "Primaries",
-            "defaultValue": -10
+            "defaultValue": 0
         },
         "1788730642781": {
             "id": 1788730642781,
             "name": "Mendoza",
-            "defaultValue": 1
+            "defaultValue": 0
         },
         "1788730648269": {
             "id": 1788730648269,
             "name": "Haas",
-            "defaultValue": 3
+            "defaultValue": 0
         },
         "1788730651134": {
             "id": 1788730651134,
             "name": "Conway",
-            "defaultValue": 10
+            "defaultValue": 0
         },
         "1789510251736": {
             "id": 1789510251736,
@@ -8789,6 +8821,16 @@ campaignTrail_temp.jet_data = [{
             "id": 1789662323503,
             "name": "China",
             "defaultValue": 0
+        },
+        "1789847256626": {
+            "id": 1789847256626,
+            "name": "Boldness",
+            "defaultValue": 0
+        },
+        "1789847262239": {
+            "id": 1789847262239,
+            "name": "Russia",
+            "defaultValue": 0
         }
     },
     "cyoa_variable_effects": {
@@ -8797,7 +8839,7 @@ campaignTrail_temp.jet_data = [{
             "answer": 5139,
             "variable": "Primaries",
             "operation": "subtract",
-            "amount": 1
+            "amount": 10
         },
         "20805": {
             "id": 20805,
@@ -8875,20 +8917,83 @@ campaignTrail_temp.jet_data = [{
             "variable": "Conway",
             "operation": "add",
             "amount": 10
+        },
+        "20850": {
+            "id": 20850,
+            "answer": 20846,
+            "variable": "Primaries",
+            "operation": "subtract",
+            "amount": 2
+        },
+        "20851": {
+            "id": 20851,
+            "answer": 20846,
+            "variable": "Mendoza",
+            "operation": "add",
+            "amount": 1
+        },
+        "20852": {
+            "id": 20852,
+            "answer": 20846,
+            "variable": "Haas",
+            "operation": "add",
+            "amount": 3
+        },
+        "20855": {
+            "id": 20855,
+            "answer": 20846,
+            "variable": "Conway",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "20859": {
+            "id": 20859,
+            "answer": 20854,
+            "variable": "Primaries",
+            "operation": "add",
+            "amount": 3
+        },
+        "20860": {
+            "id": 20860,
+            "answer": 20859,
+            "variable": "Ico",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "20861": {
+            "id": 20861,
+            "answer": 20859,
+            "variable": "China",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "20862": {
+            "id": 20862,
+            "answer": 20859,
+            "variable": "Russia",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "20863": {
+            "id": 20863,
+            "answer": 5149,
+            "variable": "Primaries",
+            "operation": "add",
+            "amount": 2
         }
     },
     "cyoa_campaign_data_enabled": true,
     "cyoa_campaign_data_stats": {
         "1788736483651": {
             "id": 1788736483651,
-            "variable": "Primaries",
-            "label": "Primary Polling",
+            "variable": "Boldness",
+            "label": "Your Boldness",
             "showLabel": true,
-            "lowMax": -1,
-            "midMax": 0,
-            "lowText": "Heather Dunbar holds a *commanding lead",
-            "midText": "Heather Dunbar holds a *slight lead",
-            "highText": "You hold a *slight lead"
+            "lowMax": 0,
+            "midMax": 2,
+            "lowText": "You are *being passive*",
+            "midText": "You are *lacking resolve*",
+            "highText": "You are *the man that America needs*"
         },
         "1789305742854": {
             "id": 1789305742854,
@@ -8898,7 +9003,7 @@ campaignTrail_temp.jet_data = [{
             "midMax": 5,
             "lowText": "Mendoza is *struggling.",
             "midText": "Mendoza is *pushing forward.",
-            "highText": "Mendoza is *the nominee in waiting."
+            "highText": "Mendoza is *a prominent contender."
         },
         "1789305762384": {
             "id": 1789305762384,
@@ -8908,7 +9013,7 @@ campaignTrail_temp.jet_data = [{
             "midMax": 5,
             "lowText": "Haas is *irrelevent.",
             "midText": "Haas is *getting recognition.",
-            "highText": "Haas is *the nominee in waiting."
+            "highText": "Haas is *a prominent contender."
         },
         "1789305826070": {
             "id": 1789305826070,
@@ -8918,7 +9023,7 @@ campaignTrail_temp.jet_data = [{
             "midMax": 5,
             "lowText": "Conway is *losing momentum.",
             "midText": "Conway is *strong.",
-            "highText": "Conway is *the nominee in waiting."
+            "highText": "Conway is *a prominent contender."
         },
         "1789510257979": {
             "id": 1789510257979,
@@ -8939,12 +9044,33 @@ campaignTrail_temp.jet_data = [{
             "lowText": "The Situation with China is Tense",
             "midText": "The Situation with China is calm",
             "highText": "China has been passified"
+        },
+        "1789847268733": {
+            "id": 1789847268733,
+            "variable": "Primaries",
+            "label": "Primary Polling",
+            "lowMax": -1,
+            "midMax": 0,
+            "lowText": "Heather Dunbar holds a *commanding lead",
+            "midText": "Heather Dunbar holds a *slight lead",
+            "highText": "You hold a *slight lead"
+        },
+        "1789847281461": {
+            "id": 1789847281461,
+            "variable": "Russia",
+            "label": "Russian agression",
+            "lowMax": -1,
+            "midMax": 0,
+            "lowText": "Russia is *fanning the flames*",
+            "midText": "Russia is *not making sudden moves*",
+            "highText": "Russia is *completely alone*"
         }
     },
     "campaign_data_style": {
         "title": "The House of Cards",
         "width": "320",
-        "tierMid": "#808080"
+        "tierMid": "#808080",
+        "bg": "#152037"
     },
     "cyoa_question_swaps": {
         "1789511504727": {
@@ -8970,31 +9096,3 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
-
-// initial render
-updateStyling(imgUrl);
-
-function changeImage(newImgUrl) {
-    imgUrl = newImgUrl;
-    console.log("Banner changed");
-    updateStyling(newImgUrl);
-}
-// Feedback updater, taken and modified from 2021DE
-const feedbackMap = new Map(
-  campaignTrail_temp.answer_feedback_json.map(e => [e.pk, e])
-);
-
-const feedbackByAnswerMap = new Map(
-  campaignTrail_temp.answer_feedback_json.map(e => [e.fields.answer, e])
-);
-
-function updateFeedback(pkValue, newFeedback) {
-  let entry = feedbackMap.get(pkValue);
-
-  // as fallback, treat pkValue as an answer pk
-  if (!entry) {
-    entry = feedbackByAnswerMap.get(pkValue);
-  }
-
-  if (entry) entry.fields.answer_feedback = newFeedback;
-}
