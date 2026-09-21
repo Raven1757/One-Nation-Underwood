@@ -1,3 +1,4 @@
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -507,11 +508,16 @@ function applyTheme(theme) {
     const gameWindow = document.getElementById("game_window");
     if (gameWindow && theme.coloring_window) {
         gameWindow.style.backgroundColor = theme.coloring_window;
-    }
+        gameWindow.style.backgroundImage = `url("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/wp1839800.webp")`;
+        gameWindow.style.backgroundSize = "cover";
+        gameWindow.style.backgroundPosition = "center center";
+        gameWindow.style.backgroundRepeat = "no-repeat";
+      }
 
     const container = document.querySelector(".container");
     if (container && theme.coloring_container) {
         container.style.backgroundColor = theme.coloring_container;
+        
     }
 
     const headerImg = document.getElementById("header");
@@ -547,7 +553,6 @@ theme.coloring_window    = "#073d5f";
 theme.coloring_container = "#ffffff";
 theme.header_image = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-08-31%20204655.png";
 theme.body_background = "https://imgs.search.brave.com/96WHgcRTNl1eQY1VK0o6E3bn_Fc76U8bQOkWTNKn3dg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvc29s/aWQtYmx1ZS1iYWNr/Z3JvdW5kLXpta3Nq/YW91cjd4ZjJ4bWUu/anBn";
-$("#game_window")[0].style.backgroundImage = "url(https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/wp1839800.webp)"
 
 applyTheme(theme);
 //#endcode
@@ -1078,22 +1083,6 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   }
 }
-// This will change the election night song
-const originalElectionNight = electionNight;
-
-electionNight = function (...args) {
-  const electionPlaylist = new Playlist();
-  const electionSong = new Song(
-    "What I've Done",
-    "Linkin Park",
-    "https://imgs.search.brave.com/ztANxBGk1MQhZgsWme-m0mVvvoAV3L4d6h_iCOmra-g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/OS85NC9XaGF0SSUy/N3ZlRG9uZUNvdmVy/LmpwZy8yNTBweC1X/aGF0SSUyN3ZlRG9u/ZUNvdmVyLmpwZz91/dG1fc291cmNlPWVu/Lndpa2lwZWRpYS5v/cmcmdXRtX2NhbXBh/aWduPXBhcnNlciZ1/dG1fY29udGVudD10/aHVtYm5haWw",
-    "https://audio.jukehost.co.uk/01a073a1-8893-734b-b28b-5d21dbff95ba"
-  );
-  electionPlaylist.addSong(electionSong);
-  changePlaylist(electionPlaylist);
-
-  return originalElectionNight.apply(this, args);
-};
 
 function addDynamicCSS() {
     var css = `
