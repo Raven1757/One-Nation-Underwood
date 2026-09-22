@@ -38,7 +38,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1051,
         "fields": {
-            "description": "America works has had a less than graceful start"
+            "description": "America works has had a less than graceful start but it doesn't mean that we give up does it? I've never been one to give up and since you are now under my wing you won't either. America Works will be the program I want it to be whether we have to twist a few arms or not. That's where the ace up my sleeve is. Mayor of the District of Colombia, Barney Hull, is in my good graces due to the whole Russo fiasco. We will call on his help and given that he's a democrat, it wont be difficult to get it."
         }
     },
     {
@@ -341,7 +341,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5170,
         "fields": {
             "question": 1051,
-            "description": "Absolutely. The differences between us are much smaller than the things that unite us. We both wake up every day and fight for average Americans -- for their health care, their housing and education costs, and their personal rights."
+            "description": "The funding isn't there for the project yet but should you declare a state of emergency maybe, just maybe, we wil show congress and the people how successful America Works can be on a national scale."
         }
     },
     {
@@ -349,7 +349,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5171,
         "fields": {
             "question": 1051,
-            "description": "We don't really have a choice. He has far too much support in our party for us to pretend like he doesn't exist. Let's make sure to do a couple of appearances together before this is all over."
+            "description": "Barney we have to be honest with ourselves. This is a great opportunity to fight for what's right. What's right for the people. They hate me but if you,  popular mayor, show your support we will have at least some footing to declare a start. I'll get the funds, you go get me a line of people"
         }
     },
     {
@@ -7684,7 +7684,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5170,
             "candidate": 1201,
-            "answer_feedback": "Whatever your personal feelings, you must do something to reach out to Bernie Sanders and his legion of supporters."
+            "answer_feedback": "Hull doesn't hesitate. He gives a speech about the unemployment crisis and calls it a state of emergency in the District. I immediately redirect FEMA money to fund AmWorks. Hopefully the people will see the effects."
         }
     },
     {
@@ -8330,61 +8330,6 @@ function setCandidateIdentity(candidatePk, options) {
 cyoAdventure = function (a) {
     const ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
     e.noCounter = campaignTrail_temp.player_answers.length;
-if (ans == 5147) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
-campaignTrail_temp.running_mate_last_name = 'Blythe'
-campaignTrail_temp.running_mate_state_id = "1028"
-}
-if (ans == 5148) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/333290b407e43ac23322f98a27f62c81.webp"
-campaignTrail_temp.running_mate_last_name = 'Underwood'
-campaignTrail_temp.running_mate_state_id = "1042"
-}
-if (ans == 5149) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268%20(1).webp"
-campaignTrail_temp.running_mate_last_name = 'Mathews'
-campaignTrail_temp.running_mate_state_id = "1004"
-}
-if (ans == 5235 && Primaries < 0) {
-    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268.webp"
-campaignTrail_temp.candidate_last_name = 'Dunbar'
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Heather"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Dunbar"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#376c86"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.first_name = "Frank"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.last_name = "Underwood"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1202).fields.color_hex = "#7a6a6a"
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
-campaignTrail_temp.running_mate_last_name = 'Sharp'
-campaignTrail_temp.running_mate_state_id = "1004"
-campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
-changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
-}
-if (ans == 5224 && Haas > Conway && Haas > Mendoza ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
-}
-if (ans == 5224 && Conway > Haas && Conway > Mendoza ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
-}
-if (ans == 5224 && Mendoza > Haas && Mendoza > Conway ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
-}
-if (ans == 5224 && (Mendoza == Haas || Mendoza == Conway || Conway == Haas)) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
-}
-if (ans == 5224 && China < 0 && Ico < 0 && Russia < 0) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
-}
     // question swap CYOA here
     if (ans == 5235 && Primaries < 0) {
         questionSwapper(1063, 20805);
@@ -8476,6 +8421,61 @@ campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields
         Primaries += 2;
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
+if (ans == 5147) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
+campaignTrail_temp.running_mate_last_name = 'Blythe'
+campaignTrail_temp.running_mate_state_id = "1028"
+}
+if (ans == 5148) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/333290b407e43ac23322f98a27f62c81.webp"
+campaignTrail_temp.running_mate_last_name = 'Underwood'
+campaignTrail_temp.running_mate_state_id = "1042"
+}
+if (ans == 5149) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268%20(1).webp"
+campaignTrail_temp.running_mate_last_name = 'Mathews'
+campaignTrail_temp.running_mate_state_id = "1004"
+}
+if (ans == 5235 && Primaries < 0) {
+    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268.webp"
+campaignTrail_temp.candidate_last_name = 'Dunbar'
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Heather"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Dunbar"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#376c86"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.first_name = "Frank"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.last_name = "Underwood"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1202).fields.color_hex = "#7a6a6a"
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
+campaignTrail_temp.running_mate_last_name = 'Sharp'
+campaignTrail_temp.running_mate_state_id = "1004"
+campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
+changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
+}
+if (ans == 5224 && Haas > Conway && Haas > Mendoza ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
+}
+if (ans == 5224 && Conway > Haas && Conway > Mendoza ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
+}
+if (ans == 5224 && Mendoza > Haas && Mendoza > Conway ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
+}
+if (ans == 5224 && (Mendoza == Haas || Mendoza == Conway || Conway == Haas)) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
+}
+if (ans == 5224 && China < 0 && Ico < 0 && Russia < 0) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
+}
 }
 
 let imgUrl = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood%20Banner";
@@ -9095,4 +9095,5 @@ campaignTrail_temp.jet_data = [{
     }
 }
 ]
+
 
