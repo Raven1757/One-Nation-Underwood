@@ -22,6 +22,13 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 20866,
+        "fields": {
+            "description": "Well now's the time for the big question. Only one other president has had to deal with this sort of dilemma, that bein Gerald Ford. Pardoning Walker and Tusk, what a decision to make. The pragmatic choice will be to let them burn given that I'm trying to distance myself from them but maybe the more responsible choice will be to pardon them and earn their silence."
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 20842,
         "fields": {
             "description": "One of the things that people like to say are inevitable are taxes, death and the incumbent losing the midterms. Unless you are the president after 9/11, it's clear that midterms are no fun for the party in power. That's been my main hatred with democracy, it's a tyranny of idiocy, sometimes it helps us other times it does. The people never know what they want but they know how to complain. We have seen exactly that. The midterm goal for the party was to hamper losses, hold swing races and not go bold. I like that strategy and i pushed for it. Hopefully it's paid off..."
@@ -878,6 +885,22 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 20845,
             "description": "New answer option"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 20867,
+        "fields": {
+            "question": 20866,
+            "description": "My fellow Americans, we have lived through one of the most corrupt administrations in recent times. I was even a part of it. Tonight I'm tasked with the momentous decision of whether to pardon that corruption or to make sure that  message is sent. As much as this will hurt trust, I am Pardoning former President Walker and Businessman Raymond Tusk"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 20868,
+        "fields": {
+            "question": 20866,
+            "description": "My fellow Americans, we have lived through one of the most corrupt administrations in recent times. I was even a part of it. Tonight I'm tasked with the momentous decision of whether to pardon that corruption or to make sure that  message is sent. I think the will of the people has been clear, a pardon is out of the question"
         }
     }
 ];
@@ -5457,6 +5480,26 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 1200,
             "global_multiplier": -0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20864,
+        "fields": {
+            "answer": 5155,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": -0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20865,
+        "fields": {
+            "answer": 5155,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": 0
+        }
     }
 ];
 
@@ -7675,7 +7718,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5157,
             "candidate": 1201,
-            "answer_feedback": "Tim Kaine is very popular within the party establishment, but less well known in the general public."
+            "answer_feedback": "Calling the American dream dead is a solution I wouldn't normally resort to but in this case I'm willing to make an exception. The effect is immediate. People pay attention"
         }
     },
     {
@@ -8162,6 +8205,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 20854,
             "candidate": 1201,
             "answer_feedback": "The Results are still bad but democrats seem to mostly hold on, the House has just 10 flips to Republican and the Senate has just 2, New Hampshire and Virginia. Hass is immediately forced to resign as Senate Majority leader due to this underwhelming results. Maybe we have a chance after all don't we?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20869,
+        "fields": {
+            "answer": 20867,
+            "candidate": 1201,
+            "answer_feedback": "This will hurt but their silence is just too important not to bring up."
         }
     }
 ];
