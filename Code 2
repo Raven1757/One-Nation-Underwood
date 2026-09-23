@@ -249,7 +249,14 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 20863,
         "fields": {
-            "description": "put description here"
+            "description": "#UsherQuestions"
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20880,
+        "fields": {
+            "description": "It seems that Mark Usher has been chosen as the compromise nominee for the Republicans. Their polling has completely collapsed after their division"
         }
     }
 ];
