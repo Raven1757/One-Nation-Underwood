@@ -52,7 +52,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1055,
         "fields": {
-            "description": "Would you consider making a pledge to, if elected, serve a single term as President?"
+            "description": "Well, no rest for the wicked is there? The Jordan Valley has been a thorn in every world leader's ass ever since decolonization. The region has been marred by instability and I honestly lack the care to focus on it. Russia seemingly does care which means we can't ignore it any longer. The Valley has been a hotbed of conflict for decades and it seems like with ICO now in the region too, tensions are even higher."
         }
     },
     {
@@ -316,7 +316,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5149,
         "fields": {
             "question": 1044,
-            "description": "Jim Matthews, the governor of Pennsylvania and former Vice President. He gives us experience and I've held good relations"
+            "description": "Jim Matthews, the governor of Pennsylvania and former Vice President. He gives us experience and I've held good relations with him since replacing him as Vice President. He could be useful"
         }
     },
     {
@@ -428,7 +428,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5184,
         "fields": {
             "question": 1055,
-            "description": "I am opposed to this idea. Why should I turn myself into a lame duck and project weakness before the voting for my first term even starts?"
+            "description": "I will call President Petrov to try and find a way for us to come to an agreement on peacekeepers in the region. We all value peace whether you believe it or not and this is an important first step towards that goal"
         }
     },
     {
@@ -5500,6 +5500,86 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 1200,
             "global_multiplier": 0
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20870,
+        "fields": {
+            "answer": 20867,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20871,
+        "fields": {
+            "answer": 20867,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20873,
+        "fields": {
+            "answer": 20868,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20874,
+        "fields": {
+            "answer": 20868,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20876,
+        "fields": {
+            "answer": 5146,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20877,
+        "fields": {
+            "answer": 5146,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20878,
+        "fields": {
+            "answer": 5145,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20879,
+        "fields": {
+            "answer": 5145,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": 0.005
+        }
     }
 ];
 
@@ -7322,17 +7402,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 20744,
-        "fields": {
-            "answer": 5149,
-            "state": 1004,
-            "candidate": 1201,
-            "affected_candidate": 1201,
-            "state_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 20802,
         "fields": {
             "answer": 5147,
@@ -7627,6 +7696,17 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 1202,
             "state_multiplier": 0
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20875,
+        "fields": {
+            "answer": 5149,
+            "state": 1037,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.02
+        }
     }
 ];
 
@@ -7655,7 +7735,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5144,
             "candidate": 1201,
-            "answer_feedback": "The Chinese are furious but remain in the negotiations. I'll agree to hand over Feng as long as the bridge is built and the Chinese navy withdraws from the region"
+            "answer_feedback": "The Chinese are furious but remain in the negotiations. I'll agree to hand over Feng as long as the bridge is built and the Chinese navy withdraws from the region but that's for the official negotiations"
         }
     },
     {
@@ -7673,7 +7753,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5146,
             "candidate": 1201,
-            "answer_feedback": "The Chinese are dumbfounded at the fact that you are willing t give up Feng this easily."
+            "answer_feedback": "The Chinese are dumbfounded at the fact that I was so easily willing to give them Feng back but I made sure that they knew this wasn't for nothing. The people however, they are just as shocked"
         }
     },
     {
@@ -7817,7 +7897,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5184,
             "candidate": 1201,
-            "answer_feedback": "It's not like anyone is asking you to comment on this, but it could have been an interesting gambit, given the stakes of this election."
+            "answer_feedback": "Petrov agrees "
         }
     },
     {
@@ -8168,7 +8248,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5149,
             "candidate": 1201,
-            "answer_feedback": "Jackie is in my good graces from getting her the house whip position. She is going to be even more grateful that we'll push her forward."
+            "answer_feedback": "Mathews is skeptical obviously, who wouldn't be, but he's willing to accept just for this term. He does not want me nominating him again."
         }
     },
     {
@@ -8213,7 +8293,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20867,
             "candidate": 1201,
-            "answer_feedback": "This will hurt but their silence is just too important not to bring up."
+            "answer_feedback": "This will hurt but their silence is just too important not to try and win. If they even dare to speak all of this will be over before it even starts,"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20872,
+        "fields": {
+            "answer": 20868,
+            "candidate": 1201,
+            "answer_feedback": "While silence is valuable its also easily to turn it against them. I'm not going to be their prisoner while they are in prison."
         }
     }
 ];
@@ -8388,9 +8477,9 @@ cyoAdventure = function (a) {
     }
 
     // [JETS_CYOA_VARIABLE_EFFECTS_START]
-    // -10 Primaries
+    // -20 Primaries
     if (ans == 5139) {
-        Primaries -= 10;
+        Primaries -= 20;
     }
 
     // -1 Haas
@@ -8434,7 +8523,7 @@ cyoAdventure = function (a) {
     }
 
     // -2 Primaries
-    if (ans == 20846) {
+    if ([20846, 5148].includes(ans)) {
         Primaries -= 2;
     }
 
@@ -8468,8 +8557,28 @@ cyoAdventure = function (a) {
         Russia -= 1;
     }
 
+    // +5 Primaries
+    if ([5149, 20868].includes(ans)) {
+        Primaries += 5;
+    }
+
+    // -1 Boldness
+    if (ans == 20867) {
+        Boldness -= 1;
+    }
+
+    // -5 Primaries
+    if (ans == 20867) {
+        Primaries -= 5;
+    }
+
+    // +1 Boldness
+    if (ans == 20868) {
+        Boldness += 1;
+    }
+
     // +2 Primaries
-    if (ans == 5149) {
+    if (ans == 5147) {
         Primaries += 2;
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
@@ -8891,7 +9000,7 @@ campaignTrail_temp.jet_data = [{
             "answer": 5139,
             "variable": "Primaries",
             "operation": "subtract",
-            "amount": 10
+            "amount": 20
         },
         "20805": {
             "id": 20805,
@@ -9031,6 +9140,48 @@ campaignTrail_temp.jet_data = [{
             "answer": 5149,
             "variable": "Primaries",
             "operation": "add",
+            "amount": 5
+        },
+        "20875": {
+            "id": 20875,
+            "answer": 20867,
+            "variable": "Boldness",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "20876": {
+            "id": 20876,
+            "answer": 20867,
+            "variable": "Primaries",
+            "operation": "subtract",
+            "amount": 5
+        },
+        "20877": {
+            "id": 20877,
+            "answer": 20868,
+            "variable": "Primaries",
+            "operation": "add",
+            "amount": 5
+        },
+        "20878": {
+            "id": 20878,
+            "answer": 20868,
+            "variable": "Boldness",
+            "operation": "add",
+            "amount": 1
+        },
+        "20879": {
+            "id": 20879,
+            "answer": 5147,
+            "variable": "Primaries",
+            "operation": "add",
+            "amount": 2
+        },
+        "20880": {
+            "id": 20880,
+            "answer": 5148,
+            "variable": "Primaries",
+            "operation": "subtract",
             "amount": 2
         }
     },
