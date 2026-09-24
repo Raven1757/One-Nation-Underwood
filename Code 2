@@ -256,7 +256,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 20880,
         "fields": {
-            "description": "It seems that Mark Usher has been chosen as the compromise nominee for the Republicans. Their polling has completely collapsed after their division"
+            "description": "(UnderwoodUsher) Well well well. Seems the Republican might screw this up after all. They have entered a deadlock, not my plan but I can work with this. Out of the ruble, they have chosen a compromise, Mark Usher, Conway's campaign chief. Many have lost confidence in the Grand Old Party and have come back to our column. Maybe I won't have to rig this whole thing after all."
         }
     }
 ];
@@ -371,7 +371,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5172,
         "fields": {
             "question": 1051,
-            "description": "Donald Trump would be a disaster for the future of this country. We need to do everything we can to appeal to moderate voters who can be swayed by a qualified candidate. Bernie unfortunately complicates things on that front."
+            "description": "Listen to me Barney, our nation is standing on a never before seen crisis, you are the one who can hep start fxin it. You' be hailed as a hero."
         }
     },
     {
@@ -908,6 +908,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 20866,
             "description": "My fellow Americans, we have lived through one of the most corrupt administrations in recent times. I was even a part of it. Tonight I'm tasked with the momentous decision of whether to pardon that corruption or to make sure that  message is sent. I think the will of the people has been clear, a pardon is out of the question"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 20881,
+        "fields": {
+            "question": 20880,
+            "description": "We will congratulate Mr. Usher on his nomination and we will hope for a respectful campaign for the future of our Nation"
         }
     }
 ];
@@ -4890,26 +4898,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3137,
-        "fields": {
-            "answer": 5171,
-            "candidate": 1201,
-            "affected_candidate": 1201,
-            "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3138,
-        "fields": {
-            "answer": 5172,
-            "candidate": 1201,
-            "affected_candidate": 1201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 3139,
         "fields": {
             "answer": 5174,
@@ -4926,16 +4914,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1201,
             "affected_candidate": 1201,
             "global_multiplier": -0.001
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3144,
-        "fields": {
-            "answer": 5185,
-            "candidate": 1201,
-            "affected_candidate": 1201,
-            "global_multiplier": 0.0125
         }
     },
     {
@@ -5216,16 +5194,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1201,
             "affected_candidate": 1201,
             "global_multiplier": -0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3293,
-        "fields": {
-            "answer": 5185,
-            "candidate": 1201,
-            "affected_candidate": 1202,
-            "global_multiplier": -0.04
         }
     },
     {
@@ -5586,6 +5554,26 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1201,
             "affected_candidate": 1200,
             "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20883,
+        "fields": {
+            "answer": 20881,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20884,
+        "fields": {
+            "answer": 20881,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": -0.2
         }
     }
 ];
@@ -7823,7 +7811,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5171,
             "candidate": 1201,
-            "answer_feedback": "People on all sides mostly see you trying to strike a middle path on the \"Bernie question\"."
+            "answer_feedback": "Hull agrees, he sees the logic in my plan but he seems more worried about winning reelection rather than getting my program up and running. It'll be interesting to see the results of this."
         }
     },
     {
@@ -7832,7 +7820,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5172,
             "candidate": 1201,
-            "answer_feedback": "Even close advisors feel it was probably a mistake to freeze Bernie out so aggressively from the convention, given the backlash that has ensued."
+            "answer_feedback": "He hesitates, I knew he would. He's a weak man but he's effective when it's needed. We agree to work together on AmWorks and I'll assist him in his reelection."
         }
     },
     {
@@ -7904,7 +7892,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5184,
             "candidate": 1201,
-            "answer_feedback": "Petrov agrees "
+            "answer_feedback": "Petrov agrees to talk but he is not willing to let American forces into the Valley given his strategic interests in the caucus. He says Russia"
         }
     },
     {
@@ -8311,6 +8299,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 1201,
             "answer_feedback": "While silence is valuable its also easily to turn it against them. I'm not going to be their prisoner while they are in prison."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20882,
+        "fields": {
+            "answer": 20881,
+            "candidate": 1201,
+            "answer_feedback": "Obviously I don't mean a word of the speech but it's good publicity and PR is at an all time low for Democrats so might as well take the easy opportunities to gain some support."
+        }
     }
 ];
 
@@ -8478,6 +8475,61 @@ function setCandidateIdentity(candidatePk, options) {
 cyoAdventure = function (a) {
     const ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
     e.noCounter = campaignTrail_temp.player_answers.length;
+    if (ans == 5147) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
+campaignTrail_temp.running_mate_last_name = 'Blythe'
+campaignTrail_temp.running_mate_state_id = "1028"
+}
+if (ans == 5148) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/333290b407e43ac23322f98a27f62c81.webp"
+campaignTrail_temp.running_mate_last_name = 'Underwood'
+campaignTrail_temp.running_mate_state_id = "1042"
+}
+if (ans == 5149) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268%20(1).webp"
+campaignTrail_temp.running_mate_last_name = 'Mathews'
+campaignTrail_temp.running_mate_state_id = "1004"
+}
+if (ans == 5235 && Primaries < 0) {
+    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268.webp"
+campaignTrail_temp.candidate_last_name = 'Dunbar'
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Heather"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Dunbar"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#376c86"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.first_name = "Frank"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.last_name = "Underwood"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1202).fields.color_hex = "#7a6a6a"
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
+campaignTrail_temp.running_mate_last_name = 'Sharp'
+campaignTrail_temp.running_mate_state_id = "1004"
+campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
+changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
+}
+if (ans == 5224 && Haas > Conway && Haas > Mendoza ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
+}
+if (ans == 5224 && Conway > Haas && Conway > Mendoza ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
+}
+if (ans == 5224 && Mendoza > Haas && Mendoza > Conway ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
+}
+if (ans == 5224 && (Mendoza == Haas || Mendoza == Conway || Conway == Haas)) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
+}
+if (ans == 5224 && China < 0 && Ico < 0 && Russia < 0) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
+}
     // question swap CYOA here
     if (ans == 5235 && Primaries < 0) {
         questionSwapper(1063, 20805);
@@ -8589,61 +8641,6 @@ cyoAdventure = function (a) {
         Primaries += 2;
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
-if (ans == 5147) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
-campaignTrail_temp.running_mate_last_name = 'Blythe'
-campaignTrail_temp.running_mate_state_id = "1028"
-}
-if (ans == 5148) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/333290b407e43ac23322f98a27f62c81.webp"
-campaignTrail_temp.running_mate_last_name = 'Underwood'
-campaignTrail_temp.running_mate_state_id = "1042"
-}
-if (ans == 5149) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268%20(1).webp"
-campaignTrail_temp.running_mate_last_name = 'Mathews'
-campaignTrail_temp.running_mate_state_id = "1004"
-}
-if (ans == 5235 && Primaries < 0) {
-    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268.webp"
-campaignTrail_temp.candidate_last_name = 'Dunbar'
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Heather"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Dunbar"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#376c86"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.first_name = "Frank"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.last_name = "Underwood"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1202).fields.color_hex = "#7a6a6a"
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
-campaignTrail_temp.running_mate_last_name = 'Sharp'
-campaignTrail_temp.running_mate_state_id = "1004"
-campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
-changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
-}
-if (ans == 5224 && Haas > Conway && Haas > Mendoza ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
-}
-if (ans == 5224 && Conway > Haas && Conway > Mendoza ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
-}
-if (ans == 5224 && Mendoza > Haas && Mendoza > Conway ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
-}
-if (ans == 5224 && (Mendoza == Haas || Mendoza == Conway || Conway == Haas)) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
-}
-if (ans == 5224 && China < 0 && Ico < 0 && Russia < 0) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
-}
 }
 
 let imgUrl = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood%20Banner";
@@ -9305,5 +9302,4 @@ campaignTrail_temp.jet_data = [{
     }
 }
 ]
-
 
