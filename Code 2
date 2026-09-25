@@ -8475,64 +8475,12 @@ function setCandidateIdentity(candidatePk, options) {
 cyoAdventure = function (a) {
     const ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
     e.noCounter = campaignTrail_temp.player_answers.length;
-    if (ans == 5147) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
-campaignTrail_temp.running_mate_last_name = 'Blythe'
-campaignTrail_temp.running_mate_state_id = "1028"
-}
-if (ans == 5148) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/333290b407e43ac23322f98a27f62c81.webp"
-campaignTrail_temp.running_mate_last_name = 'Underwood'
-campaignTrail_temp.running_mate_state_id = "1042"
-}
-if (ans == 5149) {
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268%20(1).webp"
-campaignTrail_temp.running_mate_last_name = 'Mathews'
-campaignTrail_temp.running_mate_state_id = "1004"
-}
-if (ans == 5235 && Primaries < 0) {
-    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268.webp"
-campaignTrail_temp.candidate_last_name = 'Dunbar'
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Heather"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Dunbar"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#376c86"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.first_name = "Frank"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.last_name = "Underwood"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1202).fields.color_hex = "#7a6a6a"
-campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
-campaignTrail_temp.running_mate_last_name = 'Sharp'
-campaignTrail_temp.running_mate_state_id = "1004"
-campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
-changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
-}
-if (ans == 5224 && Haas > Conway && Haas > Mendoza ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
-}
-if (ans == 5224 && Conway > Haas && Conway > Mendoza ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
-}
-if (ans == 5224 && Mendoza > Haas && Mendoza > Conway ) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
-}
-if (ans == 5224 && (Mendoza == Haas || Mendoza == Conway || Conway == Haas)) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
-}
-if (ans == 5224 && China < 0 && Ico < 0 && Russia < 0) {
-    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
-campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
-}
     // question swap CYOA here
     if (ans == 5235 && Primaries < 0) {
         questionSwapper(1063, 20805);
+    }
+    if (ans == 5144 || ans == 5147 || ans == 20868) {
+        questionSwapper(20842, 20843);
     }
 
     // [JETS_CYOA_VARIABLE_EFFECTS_START]
@@ -8641,6 +8589,61 @@ campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields
         Primaries += 2;
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
+    if (ans == 5147) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
+campaignTrail_temp.running_mate_last_name = 'Blythe'
+campaignTrail_temp.running_mate_state_id = "1028"
+}
+if (ans == 5148) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/333290b407e43ac23322f98a27f62c81.webp"
+campaignTrail_temp.running_mate_last_name = 'Underwood'
+campaignTrail_temp.running_mate_state_id = "1042"
+}
+if (ans == 5149) {
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268%20(1).webp"
+campaignTrail_temp.running_mate_last_name = 'Mathews'
+campaignTrail_temp.running_mate_state_id = "1004"
+}
+if (ans == 5235 && Primaries < 0) {
+    campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/268.webp"
+campaignTrail_temp.candidate_last_name = 'Dunbar'
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.first_name = "Heather"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1201).fields.last_name = "Dunbar"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1201).fields.color_hex = "#376c86"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.first_name = "Frank"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1202).fields.last_name = "Underwood"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1202).fields.color_hex = "#7a6a6a"
+campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Jackie_Portrait%20(1).webp"
+campaignTrail_temp.running_mate_last_name = 'Sharp'
+campaignTrail_temp.running_mate_state_id = "1004"
+campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
+changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
+}
+if (ans == 5224 && Haas > Conway && Haas > Mendoza ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
+}
+if (ans == 5224 && Conway > Haas && Conway > Mendoza ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
+}
+if (ans == 5224 && Mendoza > Haas && Mendoza > Conway ) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
+}
+if (ans == 5224 && (Mendoza == Haas || Mendoza == Conway || Conway == Haas) &&! (Haas > Conway && Haas > Mendoza || Conway > Haas && Conway > Mendoza || Mendoza > Haas && Mendoza > Conway)) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
+}
+if (ans == 5224 && China < 0 && Ico < 0 && Russia < 0) {
+    campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
+campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
+}
 }
 
 let imgUrl = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood%20Banner";
@@ -9298,6 +9301,28 @@ campaignTrail_temp.jet_data = [{
                     "pk2": 20805
                 }
             ]
+        },
+        "1790350701272": {
+            "id": 1790350701272,
+            "triggers": [
+                5144,
+                5147,
+                20868
+            ],
+            "swaps": [
+                {
+                    "pk1": 20842,
+                    "pk2": 20843
+                }
+            ]
+        }
+    },
+    "cyoa_candidate_switches": {
+        "1790351089020": {
+            "id": 1790351089020,
+            "first_name": "",
+            "last_name": "",
+            "color_hex": ""
         }
     }
 }
