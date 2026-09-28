@@ -5,7 +5,7 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2016,
             "summary": "<p>Garrett Walker was a failure. Plain and Simple. A man of no dignity, now stuck in his final hour</p><p>We've worked hard to get here, Claire and I. We have worked tirelessly since i was snubbed, for better or worse, of my promised position as secretary of state. Now i sit the Vice President. Quite the upgrade huh?</p> You loved watching me come here, now it's time to watch me go further. America made their bed, now I've taken it.",
-            "image_url": "https://imgs.search.brave.com/dj0EFUZzhWqOrTFKPNIOEWgVGMT9MhwY3bnhLaDOY7k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtd3d3LmFkd2Vl/ay5jb20vd3AtY29u/dGVudC91cGxvYWRz/L2ZpbGVzL2Jsb2dz/L2ZyYW5rLXVuZGVy/d29vZC1wb3N0ZXJz/LWhlZC0yMDE1Lmpw/Zz93PTEwNDg",
+            "image_url": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Opening%20Gif.gif",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Underwood.gif",
             "recommended_reading": "Major thanks to the original creators of the codes I've used to make this mod:",
@@ -507,7 +507,7 @@ function applyTheme(theme) {
     const gameWindow = document.getElementById("game_window");
     if (gameWindow && theme.coloring_window) {
         gameWindow.style.backgroundColor = theme.coloring_window;
-        gameWindow.style.backgroundImage = 'url("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/wp1839801.webp")';
+        gameWindow.style.backgroundImage = 'url("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/HOCBG")';
         gameWindow.style.backgroundSize = "cover";
         gameWindow.style.backgroundPosition = "center center";
         gameWindow.style.backgroundRepeat = "no-repeat";
@@ -516,6 +516,7 @@ function applyTheme(theme) {
     const container = document.querySelector(".container");
     if (container && theme.coloring_container) {
         container.style.backgroundColor = theme.coloring_container;
+        
         
     }
 
@@ -1045,7 +1046,7 @@ campaignTrail_temp.achievements = {
   },
   "Back Home in Gaffney" : {
       "image" : "img url",
-      "description" : "Win while running a traditional Democratic campaign",
+      "description" : "Give Amworks funding to the south",
       "cannotBeCheated" : true
   },
   "Asian Exclusion Act" : {
@@ -1061,6 +1062,26 @@ campaignTrail_temp.achievements = {
   "No Russian" : {
       "image" : "img url",
       "description" : "Make Sure that Russia doesn't have any foreign influence",
+      "cannotBeCheated" : true
+  },
+  "The line we wait" : {
+      "image" : "img url",
+      "description" : "As Frank Underwood, be assinated",
+      "cannotBeCheated" : true
+  },
+  "Death of the age of reason" : {
+      "image" : "img url",
+      "description" : "Have Walker and Tusk testify against you",
+      "cannotBeCheated" : true
+  },
+  "No more middle east" : {
+      "image" : "img url",
+      "description" : "As Frank Underwood, destroy every ounce of ICO",
+      "cannotBeCheated" : true
+  },
+  "I should have never made you President" : {
+      "image" : "img url",
+      "description" : "As Frank Underwood, divorce",
       "cannotBeCheated" : true
   },
   "No more Underwood" : {
