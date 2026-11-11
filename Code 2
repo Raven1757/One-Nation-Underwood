@@ -52,21 +52,21 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1055,
         "fields": {
-            "description": "Well, no rest for the wicked is there? The Jordan Valley has been a thorn in every world leader's ass ever since decolonization. The region has been marred by instability and I honestly lack the care to focus on it. Russia seemingly does care which means we can't ignore it any longer. The Valley has been a hotbed of conflict for decades and it seems like with ICO now in the region too, tensions are even higher."
+            "description": "Well, no rest for the wicked is there? The Jordan Valley has been a thorn in every world leader's ass ever since decolonization. The region has been marred by instability and I honestly lack the care to focus on it. Russia seemingly does care which means we can't ignore it any longer. The Valley has been a hotbed of conflict for decades and it seems like with ICO now in the region too, tensions are even higher. An attack by ICO has destroyed the remnants of stability in"
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 1052,
         "fields": {
-            "description": "The Chinese have finally called back. It sounds like we are teenagers figuring out what love is but I digress. Our negotiations are finally to be answered. They are asking what are our final conditions for Xander's return, I think this is a great opportunity to show international strength and our negotiating capabilities. The Chinese want Feng, we want the bridge and, potentially, a "
+            "description": "The Chinese have finally come to their senses. With their delegation arriving to Washington the final terms of our deal have been "
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 1077,
         "fields": {
-            "description": "No one has ever said that politics moves fast. I'm not different. Congress has been dragging it's feet with AmWorks funding ever since i announced the program, now they've finally decided to vote on it. I've pulled in every favor possible, every piece of blackmail i could get my hands on. All that has paid off. Congress has provided a small but very important amount of funds that are at our disposal for America Works. We just have to choose where to allocate it."
+            "description": "AMWORKS QUESTIONS"
         }
     },
     {
@@ -270,7 +270,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 20886,
         "fields": {
-            "description": "No one has ever said that politics moves fast. I'm not different. Congress has been dragging it's feet with AmWorks funding ever since i announced the program, now they've finally decided to vote on it. I've pulled in every favor possible, every piece of blackmail i could get my hands on. All that has paid off. Congress has provided a small but very important amount of funds that are at our disposal for America Works. We just have to choose where to allocate it."
+            "description": "No one has ever said that politics moves fast. I'm not different. Congress has been dragging it's feet with AmWorks funding ever since i announced the program, now they've finally decided to vote on it. I've pulled in every favor possible, every piece of blackmail i could get my hands on. Bribery, blackmail and whatever other draconian measures I've been required to take. All that has resulted, somehow, in the narrow passage of funding for the program. Amworks  will officially receive federal funds to operate which is a huge step forward. All there is left to do is decide which voters we want to buy."
         }
     }
 ];
@@ -953,7 +953,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20914,
         "fields": {
             "question": 20886,
-            "description": "New answer option"
+            "description": "We should allocate these funds to states that have been historically ignored by the federal government. The Rockie states especially, Montana and the Dakotas might be our most likely flips but most of the states in that region could be useful for the future"
         }
     }
 ];
@@ -7957,6 +7957,149 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 1201,
             "state_multiplier": 0.05
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20917,
+        "fields": {
+            "answer": 20914,
+            "state": 1033,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20918,
+        "fields": {
+            "answer": 20914,
+            "state": 1040,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20919,
+        "fields": {
+            "answer": 20914,
+            "state": 1025,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20920,
+        "fields": {
+            "answer": 20914,
+            "state": 1002,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20921,
+        "fields": {
+            "answer": 20914,
+            "state": 1005,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20922,
+        "fields": {
+            "answer": 20914,
+            "state": 1011,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20923,
+        "fields": {
+            "answer": 20914,
+            "state": 1015,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20924,
+        "fields": {
+            "answer": 20914,
+            "state": 1026,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20925,
+        "fields": {
+            "answer": 20914,
+            "state": 1027,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20926,
+        "fields": {
+            "answer": 20914,
+            "state": 1030,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20927,
+        "fields": {
+            "answer": 20914,
+            "state": 1035,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20928,
+        "fields": {
+            "answer": 20914,
+            "state": 1043,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 20929,
+        "fields": {
+            "answer": 20914,
+            "state": 1050,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.01
+        }
     }
 ];
 
@@ -8579,7 +8722,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20902,
             "candidate": 1201,
-            "answer_feedback": "The lines are longer than anyone expected. The funding isn't nearly enough but I'm not the one people blame. They are looking at me like a savior"
+            "answer_feedback": "The lines are longer than anyone expected. The funding isn't nearly enough but I'm not the one people blame. They are looking at me like a savior which is exactly what i want. I am their savior and soon I'll be their emperor."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20916,
+        "fields": {
+            "answer": 20914,
+            "candidate": 1201,
+            "answer_feedback": "While these states might not seem important to the Democrats now, i see the future. These funds will get them in our good graces and will indebt them to us. With a weak Republican we will easily win these states."
         }
     }
 ];
@@ -8588,6 +8740,519 @@ campaignTrail_temp.candidate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/T
 campaignTrail_temp.running_mate_image_url = "https://imgs.search.brave.com/p2kK4JqSkYikyrk_RxmQ1r0YlGBX8wXzIr-enNBv_PU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWlsaXRhcnlwbGFx/dWVzLmNvbS9pbWFn/ZXMvY29tX2hpa2Fz/aG9wL3VwbG9hZC90/aHVtYm5haWxzLzQw/MHg0MDBmL3ZpY2Vf/cHJlc2lkZW50X29m/X3RoZV91bml0ZWRf/c3RhdGVzX29mX2Ft/ZXJpY2Ffc2VhbC5w/bmc";
 campaignTrail_temp.candidate_last_name = "Underwood";
 campaignTrail_temp.running_mate_last_name = "Vacant";
+
+// [TCT_BANNER_SIGN_START]
+;(() => {
+    const css = `
+    #campaign_sign {
+        background-color: #0000D1;
+        border-style: solid;
+        border-width: .5em;
+        border-color: #700016;
+    }
+    `;
+
+    const apply = () => {
+        let tag = document.getElementById("campaign_sign_style");
+        if (!tag) {
+            tag = document.createElement("style");
+            tag.id = "campaign_sign_style";
+            (document.head || document.documentElement).appendChild(tag);
+        }
+        tag.textContent = css;
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", apply);
+    } else {
+        apply();
+    }
+})();
+// [TCT_BANNER_SIGN_END]
+// [JETS_ENDINGS_START]
+campaignTrail_temp.multiple_endings = true;
+
+const endingDefs = [
+    {
+        "id": 1794356107368,
+        "variable": 0,
+        "operator": ">",
+        "amount": 269,
+        "endingTitle": "Real Estate",
+        "endingSubtitle": "",
+        "endingText": "And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your ",
+        "endingImage": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png",
+        "endingHideImage": false,
+        "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  }\n]",
+        "audioTitle": "More Human Now",
+        "audioArtist": "Jeff Beal",
+        "audioCover": "https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg",
+        "audioUrl": "https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e",
+        "endingAccentColor": "transparent",
+        "endingBackgroundColor": "#ffffff",
+        "endingTextColor": "#000000",
+        "variableConditions": [],
+        "variableConditionOperator": "AND",
+        "outcomeCondition": "ignore",
+        "answerConditionType": "ignore",
+        "answerConditionAnswer": "",
+        "answerConditionAnswers": ""
+    }
+];
+
+const opMap = {
+    ">": (a, b) => a > b,
+    ">=": (a, b) => a >= b,
+    "==": (a, b) => a == b,
+    "<=": (a, b) => a <= b,
+    "<": (a, b) => a < b,
+    "!=": (a, b) => a != b
+};
+
+const getEndingImageEl = () => {
+    const imageContainer = document.querySelector(".person_image");
+    if (!imageContainer) return null;
+    if (imageContainer.tagName && imageContainer.tagName.toLowerCase() === "img") {
+        return imageContainer;
+    }
+    return imageContainer.querySelector("img");
+};
+
+const readVariable = (name) => {
+    if (!name || typeof name !== "string") return undefined;
+    if (!/^[A-Za-z_$][A-Za-z0-9_$]*$/.test(name)) return undefined;
+    try {
+        return eval("(typeof " + name + " !== 'undefined') ? " + name + " : undefined;");
+    } catch (_err) {
+        return undefined;
+    }
+};
+
+const parseConditionValue = (value) => {
+    if (value == null || value === "") return "";
+    const n = Number(value);
+    if (!Number.isNaN(n)) return n;
+    return value;
+};
+
+const checkOutcomeCondition = (entry, finalOutcome) => {
+    const cond = String(entry?.outcomeCondition || "ignore");
+    if (cond === "ignore") return true;
+    return cond === String(finalOutcome || "");
+};
+
+const matchesPrimaryCondition = (entry, quickstats, finalOutcome) => {
+    if (!checkOutcomeCondition(entry, finalOutcome)) return false;
+
+    const cond = String(entry?.outcomeCondition || "ignore");
+    if (cond !== "ignore") {
+        // explicit outcome match bypasses stat threshold checks
+        return true;
+    }
+
+    const opFn = opMap[entry?.operator] || opMap[">"];
+    const left = quickstats?.[Number(entry?.variable) || 0];
+    const right = Number(entry?.amount) || 0;
+    return opFn(left, right);
+};
+
+const checkExtraConditions = (entry, playerAnswers) => {
+    // check variable conditions
+    if (Array.isArray(entry.variableConditions) && entry.variableConditions.length > 0) {
+        const operator = entry.variableConditionOperator || "AND";
+        const results = entry.variableConditions.map((cond) => {
+            const left = readVariable(cond.variable);
+            const right = parseConditionValue(cond.value);
+            const opFn = opMap[cond.comparator] || opMap["=="];
+            return opFn(left, right);
+        });
+
+        if (operator === "AND") {
+            if (!results.every((r) => r)) return false;
+        } else if (operator === "OR") {
+            if (!results.some((r) => r)) return false;
+        }
+    }
+
+    const answerType = entry.answerConditionType || "ignore";
+    if (answerType !== "ignore") {
+        const rawAnswers = String(entry.answerConditionAnswers || entry.answerConditionAnswer || "").trim();
+        const answerIds = rawAnswers
+            .split(/[s,]+/)
+            .filter((v) => v.length > 0)
+            .map((v) => Number(v))
+            .filter((v) => Number.isFinite(v));
+
+        if (answerIds.length === 0) return false;
+
+        const hasAny = Array.isArray(playerAnswers) && answerIds.some((id) => playerAnswers.includes(id));
+        if (answerType === "has" && !hasAny) return false;
+        if (answerType === "not_has" && hasAny) return false;
+    }
+
+    return true;
+};
+
+const playEndingSong = (title, artist, cover, url) => {
+    if (!url) return;
+    const PlaylistCtor = (typeof window !== "undefined" && window.Playlist)
+        || (typeof Playlist !== "undefined" ? Playlist : null);
+    const SongCtor = (typeof window !== "undefined" && window.Song)
+        || (typeof Song !== "undefined" ? Song : null);
+    const changePlaylistFn = (typeof window !== "undefined" && window.changePlaylist)
+        || (typeof changePlaylist === "function" ? changePlaylist : null);
+
+    if (PlaylistCtor && SongCtor && typeof changePlaylistFn === "function") {
+        try {
+            const playlist = new PlaylistCtor();
+            const song = new SongCtor(title || "", artist || "", cover || "", url);
+            if (typeof playlist.addSong === "function") {
+                playlist.addSong(song);
+                changePlaylistFn(playlist);
+                return;
+            }
+        } catch (err) {
+            console.warn("Failed to route ending song:", err);
+        }
+    }
+
+    // fallback for custom players: drive the shared audio element directly
+    const audioEl = document.getElementById("audio") || document.querySelector("audio#audio, audio");
+    if (!audioEl) return;
+
+    if (audioEl.src !== url) {
+        audioEl.src = url;
+    }
+
+    const player = document.getElementById("player");
+    if (player) {
+        const titleEl = player.querySelector("#title");
+        const artistEl = player.querySelector("#artist");
+        const coverEl = player.querySelector("#cover");
+        if (titleEl) titleEl.textContent = title || "";
+        if (artistEl) artistEl.textContent = artist || "";
+        if (coverEl && cover) coverEl.src = cover;
+    }
+
+    const playPromise = audioEl.play?.();
+    if (playPromise && typeof playPromise.catch === "function") {
+        playPromise.catch(() => {});
+    }
+};
+
+const styleEndingDescription = () => {
+    const desc = document.querySelector("#final_results_description");
+    if (!desc) return;
+
+    const e = campaignTrail_temp;
+    const theme = e._endingTheme || {};
+    const bg = theme.backgroundColor || "#ffffff";
+    const fg = theme.textColor || "#000000";
+    const border = theme.accentColor || "#11299e";
+    const isBorderTransparent = String(border).toLowerCase() === "transparent";
+
+    Object.assign(desc.style, {
+        textAlign: "left",
+        width: "72%",
+        maxHeight: "20em",
+        minHeight: "8em",
+        height: "auto",
+        display: "block",
+        margin: "0 auto",
+        overflowY: "auto",
+        overflowX: "hidden",
+        whiteSpace: "normal",
+        overflowWrap: "anywhere",
+        wordBreak: "break-word",
+        transform: "translateZ(0)",
+        backgroundColor: bg,
+        color: fg,
+        border: isBorderTransparent ? "none" : "2px solid " + border,
+        borderRadius: "4px",
+        padding: "10px"
+    });
+
+    desc.dataset.endingStyled = "1";
+};
+
+const applyEndingImage = (slide) => {
+    const imageEl = getEndingImageEl();
+    if (!imageEl || !slide) return;
+
+    if (slide.image === false) {
+        imageEl.style.display = "none";
+        imageEl.removeAttribute("src");
+        return;
+    }
+
+    const e = campaignTrail_temp;
+    const theme = e._endingTheme || {};
+    const border = theme.accentColor || "#11299e";
+    const imageBorder = String(border).toLowerCase() === "transparent" ? "none" : "3px solid " + border;
+
+    if (!imageEl.dataset.endingStyled) {
+        Object.assign(imageEl.style, {
+            border: imageBorder,
+            display: "block",
+            width: "210px",
+            height: "250px",
+            objectFit: "cover"
+        });
+        imageEl.dataset.endingStyled = "1";
+    } else {
+        imageEl.style.display = "block";
+        imageEl.style.border = imageBorder;
+    }
+
+    if (slide.image && imageEl.getAttribute("src") !== slide.image) {
+        imageEl.src = slide.image;
+    }
+};
+
+const applyEndingButtons = () => {
+    const e = campaignTrail_temp;
+    const theme = e._endingTheme || {};
+    const imageEl = getEndingImageEl();
+    if (!imageEl || !imageEl.parentNode) return;
+
+    let btnContainer = document.getElementById("ending_slide_buttons");
+    if (!btnContainer) {
+        btnContainer = document.createElement("div");
+        btnContainer.id = "ending_slide_buttons";
+        Object.assign(btnContainer.style, {
+            display: "flex",
+            gap: "20px",
+            left: "13px",
+            top: "280px",
+            position: "absolute"
+        });
+        imageEl.parentNode.insertBefore(btnContainer, imageEl.nextSibling);
+    }
+
+    let buttonsHtml = "";
+    if (e.page > 0) {
+        buttonsHtml += '<button onclick="endingConstructor(-1)">Back</button>';
+    }
+    if (e.page < e.endingSlides.length - 1) {
+        buttonsHtml += '<button onclick="endingConstructor(1)">Next</button>';
+    }
+
+    if (btnContainer.innerHTML !== buttonsHtml) {
+        btnContainer.innerHTML = buttonsHtml;
+    }
+
+    const buttonBg = theme.accentColor || "#11299e";
+    const isBtnTransparent = String(buttonBg).toLowerCase() === "transparent";
+    const buttonBgColor = isBtnTransparent ? "transparent" : buttonBg;
+    const buttonText = isBtnTransparent ? (theme.textColor || "#000000") : "#ffffff";
+    const buttonBorder = isBtnTransparent ? ("1px solid " + buttonText) : ("1px solid " + buttonBg);
+
+    btnContainer.querySelectorAll("button").forEach((btn) => {
+        Object.assign(btn.style, {
+            backgroundColor: buttonBgColor,
+            border: buttonBorder,
+            color: buttonText,
+            padding: "4px 10px",
+            cursor: "pointer"
+        });
+    });
+};
+
+const syncEndingSlideDom = () => {
+    const e = campaignTrail_temp;
+    const slide = e.endingSlides?.[e.page];
+    if (!slide) return;
+
+    styleEndingDescription();
+    applyEndingImage(slide);
+    applyEndingButtons();
+
+    if (slide.audio && slide.audio.url) {
+        const key = [slide.audio.title || "", slide.audio.artist || "", slide.audio.url || ""].join("|");
+        const globalKey = (typeof window !== "undefined" && window.__tctLastEndingAudioKey) || "";
+
+        const currentAudioEl = document.getElementById("audio") || document.querySelector("audio#audio, audio");
+        const currentSrc = currentAudioEl ? (currentAudioEl.currentSrc || currentAudioEl.src || "") : "";
+        const sameSrcLoaded = !!currentSrc && currentSrc.includes(slide.audio.url);
+
+        if (e._endingAudioPlayedKey !== key && globalKey !== key && !sameSrcLoaded) {
+            playEndingSong(slide.audio.title, slide.audio.artist, slide.audio.cover, slide.audio.url);
+        }
+
+        e._endingAudioPlayedKey = key;
+        if (typeof window !== "undefined") {
+            window.__tctLastEndingAudioKey = key;
+        }
+    }
+};
+
+const syncEndingSlideDomDeferred = () => {
+    requestAnimationFrame(() => {
+        syncEndingSlideDom();
+    });
+};
+
+const buildSlides = (entry, quickstats, finalOutcome) => {
+    if (entry && entry.endingSlidesJson) {
+        try {
+            const parsed = JSON.parse(entry.endingSlidesJson);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+                const normalizeSlide = (slide) => ({
+                    variable: Number(slide?.variable ?? 0),
+                    operator: slide?.operator || ">",
+                    amount: Number(slide?.amount ?? 0),
+                    outcomeCondition: slide?.outcomeCondition || "ignore",
+                    title: slide?.title || "",
+                    subtitle: slide?.subtitle || "",
+                    content: slide?.content || "",
+                    image: slide?.image,
+                    audio: slide?.audio && slide.audio.url ? {
+                        title: slide.audio.title || "",
+                        artist: slide.audio.artist || "",
+                        cover: slide.audio.cover || "",
+                        url: slide.audio.url || ""
+                    } : undefined
+                });
+
+                const hasGroups = parsed.some((slide) => slide && slide.slideGroup);
+                if (!hasGroups) {
+                    return parsed.map((slide) => normalizeSlide(slide));
+                }
+
+                const groupMap = new Map();
+                const groupOrder = [];
+                for (const slide of parsed) {
+                    const groupKey = slide?.slideGroup || "main";
+                    if (!groupMap.has(groupKey)) {
+                        groupMap.set(groupKey, []);
+                        groupOrder.push(groupKey);
+                    }
+                    groupMap.get(groupKey).push(slide);
+                }
+
+                const playerAnswers = campaignTrail_temp?.player_answers || [];
+                const selectedSlides = [];
+
+                for (const groupKey of groupOrder) {
+                    const groupSlides = groupMap.get(groupKey) || [];
+                    let selected = groupSlides.find((slide) => {
+                        return matchesPrimaryCondition(slide, quickstats, finalOutcome)
+                            && checkExtraConditions(slide, playerAnswers);
+                    });
+                    if (!selected) selected = groupSlides[0];
+                    if (selected) selectedSlides.push(normalizeSlide(selected));
+                }
+
+                return selectedSlides;
+            }
+        } catch (err) {
+            console.warn("Invalid endingSlidesJson for ending", entry?.id, err);
+        }
+    }
+
+    const fallbackSlide = {
+        title: entry?.endingTitle || "",
+        subtitle: entry?.endingSubtitle || "",
+        content: entry?.endingText || "",
+        image: entry?.endingHideImage ? false : (entry?.endingImage || undefined)
+    };
+
+    if (entry?.audioUrl) {
+        fallbackSlide.audio = {
+            title: entry.audioTitle || "",
+            artist: entry.audioArtist || "",
+            cover: entry.audioCover || "",
+            url: entry.audioUrl || ""
+        };
+    }
+
+    return [fallbackSlide];
+};
+
+const constructSlide = (direction = 1) => {
+    const e = campaignTrail_temp;
+    if (!Array.isArray(e.endingSlides) || e.endingSlides.length === 0) return "";
+
+    e.page += direction;
+    if (e.page < 0) e.page = 0;
+    if (e.page >= e.endingSlides.length) e.page = e.endingSlides.length - 1;
+
+    const currentSlide = e.endingSlides[e.page];
+    if (!currentSlide) return "";
+
+    let html = "";
+    if (currentSlide.title) html += "<h3>" + currentSlide.title + "</h3>";
+    if (currentSlide.subtitle) html += "<h4>" + currentSlide.subtitle + "</h4>";
+    html += (currentSlide.content || "") + "<br><br>";
+    return html;
+};
+
+endingConstructor = (direction = 1) => {
+    const desc = document.querySelector("#final_results_description");
+    if (!desc) return;
+    desc.innerHTML = constructSlide(direction);
+    syncEndingSlideDomDeferred();
+};
+
+endingPicker = (out, totv, aa, quickstats) => {
+    const playerAnswers = campaignTrail_temp?.player_answers || [];
+    for (const entry of endingDefs) {
+        let isMatch = false;
+
+        try {
+            const parsed = entry.endingSlidesJson ? JSON.parse(entry.endingSlidesJson) : [];
+            if (Array.isArray(parsed) && parsed.length > 0) {
+                const groupMap = new Map();
+                for (const slide of parsed) {
+                    const groupKey = slide?.slideGroup || "main";
+                    if (!groupMap.has(groupKey)) {
+                        groupMap.set(groupKey, []);
+                    }
+                    groupMap.get(groupKey).push(slide);
+                }
+
+                const mainSlides = groupMap.get("main") || parsed;
+                let validMain = mainSlides.find((slide) => {
+                    return matchesPrimaryCondition(slide, quickstats, out)
+                        && checkExtraConditions(slide, playerAnswers);
+                });
+
+                if (validMain) isMatch = true;
+            } else {
+                // legacy format without json slides
+                if (matchesPrimaryCondition(entry, quickstats, out) && checkExtraConditions(entry, playerAnswers)) {
+                    isMatch = true;
+                }
+            }
+        } catch(e) {
+            // legacy format without json slides
+            if (matchesPrimaryCondition(entry, quickstats, out) && checkExtraConditions(entry, playerAnswers)) {
+                isMatch = true;
+            }
+        }
+
+        if (isMatch) {
+            const e = campaignTrail_temp;
+            e.multiple_endings = true;
+            e.page = -1;
+            e._endingTheme = {
+                accentColor: (entry?.endingAccentColor != null && entry.endingAccentColor !== "") ? entry.endingAccentColor : "#11299e",
+                backgroundColor: (entry?.endingBackgroundColor != null && entry.endingBackgroundColor !== "") ? entry.endingBackgroundColor : "#ffffff",
+                textColor: (entry?.endingTextColor != null && entry.endingTextColor !== "") ? entry.endingTextColor : "#000000"
+            };
+            e.endingSlides = buildSlides(entry, quickstats, out);
+            e._endingAudioPlayedKey = (typeof window !== "undefined" && window.__tctLastEndingAudioKey) || "";
+
+            const html = constructSlide(1);
+            syncEndingSlideDomDeferred();
+            return html;
+        }
+    }
+
+    return "";
+};
+
+// [JETS_ENDINGS_END]
 
 //#startcode
 // CYOA Variables
@@ -8625,17 +9290,6 @@ function getQuestionIndexFromPk(pk) {
     idx = _questionIdxByPk.get(n);
   }
   return idx ?? -1;
-}
-
-// index to assign into question_number before nextQuestion()
-function getJumpIndexFromPk(pk) {
-  const idx = getQuestionIndexFromPk(pk);
-  return idx >= 0 ? idx - 1 : -1;
-}
-
-// for backwards compatibility
-function getQuestionNumberFromPk(pk) {
-  return getJumpIndexFromPk(pk);
 }
 
 function questionSwapper(pk1, pk2) {
@@ -8745,6 +9399,17 @@ function setCandidateIdentity(candidatePk, options) {
         }
     }
 }
+
+// index to assign into question_number before nextQuestion()
+function getJumpIndexFromPk(pk) {
+  const idx = getQuestionIndexFromPk(pk);
+  return idx >= 0 ? idx - 1 : -1;
+}
+
+// for backwards compatibility
+function getQuestionNumberFromPk(pk) {
+  return getJumpIndexFromPk(pk);
+}
 cyoAdventure = function (a) {
     const ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
     e.noCounter = campaignTrail_temp.player_answers.length;
@@ -8755,16 +9420,8 @@ cyoAdventure = function (a) {
     if (ans == 5144 || ans == 5147 || ans == 20868) {
         questionSwapper(20842, 20843);
     }
-    if (ans == 5149 || ans == 5156) {
-        questionSwapper(1077, 20886);
-    }
 
     // [JETS_CYOA_VARIABLE_EFFECTS_START]
-    // -20 Primaries
-    if (ans == 5139) {
-        Primaries -= 20;
-    }
-
     // -1 Haas
     if ([5147, 20887].includes(ans)) {
         Haas -= 1;
@@ -8776,17 +9433,17 @@ cyoAdventure = function (a) {
     }
 
     // -3 Conway
-    if ([5148, 5149, 20887].includes(ans)) {
+    if ([5148, 5149, 20887, 20902].includes(ans)) {
         Conway -= 3;
     }
 
     // +2 Haas
-    if ([5148, 5139].includes(ans)) {
+    if (ans == 5148) {
         Haas += 2;
     }
 
     // +1 Mendoza
-    if ([5148, 5139, 20846].includes(ans)) {
+    if ([5148, 20846].includes(ans)) {
         Mendoza += 1;
     }
 
@@ -8798,11 +9455,6 @@ cyoAdventure = function (a) {
     // +1 Haas
     if (ans == 5149) {
         Haas += 1;
-    }
-
-    // +10 Conway
-    if (ans == 5139) {
-        Conway += 10;
     }
 
     // -2 Primaries
@@ -8841,7 +9493,7 @@ cyoAdventure = function (a) {
     }
 
     // +5 Primaries
-    if ([5149, 20868, 20887].includes(ans)) {
+    if ([5149, 20868, 20887, 20902].includes(ans)) {
         Primaries += 5;
     }
 
@@ -8865,11 +9517,22 @@ cyoAdventure = function (a) {
         Primaries += 2;
     }
 
-    // +4 Mendoza
+    // +5 Mendoza
     if (ans == 20887) {
-        Mendoza += 4;
+        Mendoza += 5;
+    }
+
+    // -1 Mendoza
+    if (ans == 20902) {
+        Mendoza -= 1;
+    }
+
+    // +5 Haas
+    if (ans == 20902) {
+        Haas += 5;
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
+
     if (ans == 5147) {
 campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
 campaignTrail_temp.running_mate_last_name = 'Blythe'
@@ -9244,22 +9907,22 @@ campaignTrail_temp.jet_data = [{
         "1788722987557": {
             "id": 1788722987557,
             "name": "Primaries",
-            "defaultValue": 0
+            "defaultValue": -20
         },
         "1788730642781": {
             "id": 1788730642781,
             "name": "Mendoza",
-            "defaultValue": 0
+            "defaultValue": 1
         },
         "1788730648269": {
             "id": 1788730648269,
             "name": "Haas",
-            "defaultValue": 0
+            "defaultValue": 2
         },
         "1788730651134": {
             "id": 1788730651134,
             "name": "Conway",
-            "defaultValue": 0
+            "defaultValue": 10
         },
         "1789510251736": {
             "id": 1789510251736,
@@ -9283,13 +9946,6 @@ campaignTrail_temp.jet_data = [{
         }
     },
     "cyoa_variable_effects": {
-        "20804": {
-            "id": 20804,
-            "answer": 5139,
-            "variable": "Primaries",
-            "operation": "subtract",
-            "amount": 20
-        },
         "20805": {
             "id": 20805,
             "answer": 5147,
@@ -9345,27 +10001,6 @@ campaignTrail_temp.jet_data = [{
             "variable": "Conway",
             "operation": "subtract",
             "amount": 3
-        },
-        "20841": {
-            "id": 20841,
-            "answer": 5139,
-            "variable": "Mendoza",
-            "operation": "add",
-            "amount": 1
-        },
-        "20842": {
-            "id": 20842,
-            "answer": 5139,
-            "variable": "Haas",
-            "operation": "add",
-            "amount": 2
-        },
-        "20843": {
-            "id": 20843,
-            "answer": 5139,
-            "variable": "Conway",
-            "operation": "add",
-            "amount": 10
         },
         "20850": {
             "id": 20850,
@@ -9484,7 +10119,7 @@ campaignTrail_temp.jet_data = [{
             "answer": 20887,
             "variable": "Mendoza",
             "operation": "add",
-            "amount": 4
+            "amount": 5
         },
         "20907": {
             "id": 20907,
@@ -9496,6 +10131,34 @@ campaignTrail_temp.jet_data = [{
         "20908": {
             "id": 20908,
             "answer": 20887,
+            "variable": "Conway",
+            "operation": "subtract",
+            "amount": 3
+        },
+        "20930": {
+            "id": 20930,
+            "answer": 20902,
+            "variable": "Primaries",
+            "operation": "add",
+            "amount": 5
+        },
+        "20931": {
+            "id": 20931,
+            "answer": 20902,
+            "variable": "Mendoza",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "20932": {
+            "id": 20932,
+            "answer": 20902,
+            "variable": "Haas",
+            "operation": "add",
+            "amount": 5
+        },
+        "20933": {
+            "id": 20933,
+            "answer": 20902,
             "variable": "Conway",
             "operation": "subtract",
             "amount": 3
@@ -9628,20 +10291,43 @@ campaignTrail_temp.jet_data = [{
                 }
             ]
         },
-        "1790468890012": {
-            "id": 1790468890012,
-            "triggers": [
-                5149,
-                5156
-            ],
+        "1794355559486": {
+            "id": 1794355559486,
             "swaps": [
-                {
-                    "pk1": 1077,
-                    "pk2": 20886
-                }
+                null
             ]
+        }
+    },
+    "endings_enabled": true,
+    "ending_data": {
+        "1794356107368": {
+            "id": 1794356107368,
+            "variable": 0,
+            "operator": ">",
+            "amount": 269,
+            "endingTitle": "Real Estate",
+            "endingSubtitle": "",
+            "endingImage": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png",
+            "endingText": "And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your ",
+            "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  }\n]",
+            "audioTitle": "More Human Now",
+            "audioArtist": "Jeff Beal",
+            "audioCover": "https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg",
+            "audioUrl": "https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e",
+            "endingAccentColor": "transparent",
+            "endingBackgroundColor": "#ffffff",
+            "endingTextColor": "#000000",
+            "variableConditionOperator": "AND",
+            "outcomeCondition": "ignore",
+            "answerConditionType": "ignore",
+            "answerConditionAnswer": "",
+            "answerConditionAnswers": "",
+            "variableConditionName": "",
+            "variableConditionValue": "",
+            "endingMode": "simple"
         }
     }
 }
 ]
+
 
