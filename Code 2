@@ -4432,7 +4432,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1201,
             "state": 1006,
-            "state_multiplier": 0.76
+            "state_multiplier": 0.82
         }
     },
     {
@@ -4639,7 +4639,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1201,
             "state": 1029,
-            "state_multiplier": 0.76
+            "state_multiplier": 0.85
         }
     },
     {
@@ -10135,27 +10135,27 @@ campaignTrail_temp.running_mate_state_id = "1004"
 campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
 changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
 }
-if (ans == 5224 && haas > conway && haas > mendoza ) {
+if (ans == 5224 && hass >= 10 && (haas > conway && haas > mendoza) ) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
 }
-if (ans == 5224 && conway > haas && conway > mendoza ) {
+if (ans == 5224 && conway >= 10 && (conway > haas && conway > mendoza )) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
 }
-if (ans == 5224 && mendoza > haas && mendoza > conway ) {
+if (ans == 5224 && mendoza >= 10 && (mendoza > haas && mendoza > conway) ) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
 }
-if (ans == 5224 && (Mendoza < 10 && Conway <10 && Haas < 10)) {
+if (ans == 5224 && (mendoza < 10 && conway <10 && haas < 10)) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
 }
-if (ans == 5224 && China < 0 && Ico < 0 && Russia < 0) {
+if (ans == 5224 && china < 0 && ico < 0 && russia < 0) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
