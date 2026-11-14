@@ -24,7 +24,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 20866,
         "fields": {
-            "description": "Well now's the time for the big question. Only one other president has had to deal with this sort of dilemma, that bein Gerald Ford. Pardoning Walker and Tusk, what a decision to make. The pragmatic choice will be to let them burn given that I'm trying to distance myself from them but maybe the more responsible choice will be to pardon them and earn their silence."
+            "description": "Well now's the time for the big question. Only one other president has had to deal with this sort of dilemma, that being Gerald Ford, a poor soul that was given an awful situation without the guts to deal with it. Pardoning Walker and Tusk, what a decision to make. The pragmatic choice will be to let them burn given that I'm trying to distance myself from them but maybe the more responsible choice will be to pardon them and earn their silence."
         }
     },
     {
@@ -52,7 +52,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1055,
         "fields": {
-            "description": "Well, no rest for the wicked is there? The Jordan Valley has been a thorn in every world leader's ass ever since decolonization. The region has been marred by instability and I honestly lack the care to focus on it. Russia seemingly does care which means we can't ignore it any longer. The Valley has been a hotbed of conflict for decades and it seems like with ICO now in the region too, tensions are even higher. An attack by ICO has destroyed the remnants of stability in"
+            "description": "Well, no rest for the wicked is there? The Jordan Valley has been a thorn in every world leader's ass ever since decolonization. The region has been marred by instability and I honestly lack the care to focus on it. Russia seemingly does care which means we can't ignore it any longer. The Valley has been a hotbed of conflict for decades and it seems like with ICO now in the region too, tensions are even higher. An attack by ICO has destroyed the remnants of stability in the Middle East and has removed any and all effectiveness of the peacekeeping mission. All that's left is to call President Petrov and to negotiate terms of intervention."
         }
     },
     {
@@ -242,7 +242,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 20845,
         "fields": {
-            "description": "put description here"
+            "description": "With the Chinese now out of any negotiations it's clear to say that we are going to have a lot of fun parading Feng around like a sock puppet. The Chinese can do nothing to try and get him back and now he's chosen to try and meet with me. We'll see what he has decided to try now to offer a continuation of his scheme but this time to come back to democrats. It's an interesting offer but he's not known to be the most loyal friends."
         }
     },
     {
@@ -271,6 +271,13 @@ campaignTrail_temp.questions_json = [
         "pk": 20886,
         "fields": {
             "description": "No one has ever said that politics moves fast. I'm not different. Congress has been dragging it's feet with AmWorks funding ever since i announced the program, now they've finally decided to vote on it. I've pulled in every favor possible, every piece of blackmail i could get my hands on. Bribery, blackmail and whatever other draconian measures I've been required to take. All that has resulted, somehow, in the narrow passage of funding for the program. Amworks  will officially receive federal funds to operate which is a huge step forward. All there is left to do is decide which voters we want to buy."
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 20993,
+        "fields": {
+            "description": "put description here"
         }
     }
 ];
@@ -369,7 +376,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5170,
         "fields": {
             "question": 1051,
-            "description": "The funding isn't there for the project yet but should you declare a state of emergency maybe, just maybe, we wil show congress and the people how successful America Works can be on a national scale."
+            "description": "The funding isn't there for the project yet but should you declare a state of emergency maybe, just maybe, we will show congress and the people how successful America Works can be on a national scale. All that requires is some faith."
         }
     },
     {
@@ -377,7 +384,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5171,
         "fields": {
             "question": 1051,
-            "description": "Barney we have to be honest with ourselves. This is a great opportunity to fight for what's right. What's right for the people. They hate me but if you,  popular mayor, show your support we will have at least some footing to declare a start. I'll get the funds, you go get me a line of people"
+            "description": "Barney we have to be honest with ourselves. This is a great opportunity to fight for what's right. What's right for the people. They hate me but if you, a popular mayor, show your support we will have at least some footing to declare a start. I'll get the funds, you go get me a line of people"
         }
     },
     {
@@ -385,7 +392,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5172,
         "fields": {
             "question": 1051,
-            "description": "Listen to me Barney, our nation is standing on a never before seen crisis, you are the one who can hep start fxin it. You' be hailed as a hero."
+            "description": "Listen to me Barney, our nation is standing on the precipice of a never before seen crisis, you are the one who can help start fixing it. You' be hailed as a hero Barney. Do you truly want to pass this opportunity up?"
         }
     },
     {
@@ -449,7 +456,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5184,
         "fields": {
             "question": 1055,
-            "description": "I will call President Petrov to try and find a way for us to come to an agreement on peacekeepers in the region. We all value peace whether you believe it or not and this is an important first step towards that goal"
+            "description": "Mr. Petrov, we are both inclined to respond to these attacks and i think this will be a great opportunity to show to the world that we are willing to achieve peace. This can be a great opportunity for us to fix our reputations."
         }
     },
     {
@@ -457,7 +464,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5185,
         "fields": {
             "question": 1055,
-            "description": "We must acknowledge the unique nature of this election, and of our opponent. This pledge might help reluctant moderates and far-left progressives support me for now, if they see an open primary coming in three years."
+            "description": "Mr. President, the situation is not favorable for either of us, we need to work together to fix this. Our nations need to come together and finally bring stability to those poor souls. "
         }
     },
     {
@@ -905,7 +912,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20859,
         "fields": {
             "question": 20845,
-            "description": "New answer option"
+            "description": "You know what Feng, I'm sure that we can come to an agreement with each other. If you keep sending money to the democrats I'm sure we will find some common ground."
         }
     },
     {
@@ -4450,7 +4457,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1201,
             "state": 1008,
-            "state_multiplier": 0.82
+            "state_multiplier": 0.76
         }
     },
     {
@@ -4531,7 +4538,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1201,
             "state": 1017,
-            "state_multiplier": 0.75
+            "state_multiplier": 0.69
         }
     },
     {
@@ -4567,7 +4574,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1201,
             "state": 1021,
-            "state_multiplier": 0.79
+            "state_multiplier": 0.87
         }
     },
     {
@@ -4792,7 +4799,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1201,
             "state": 1046,
-            "state_multiplier": 0.84
+            "state_multiplier": 0.9
         }
     },
     {
@@ -4810,7 +4817,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 1201,
             "state": 1048,
-            "state_multiplier": 0.67
+            "state_multiplier": 0.8
         }
     },
     {
@@ -5990,7 +5997,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20806,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "global_multiplier": 0.1
+            "global_multiplier": 0.2
         }
     },
     {
@@ -6000,7 +6007,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20806,
             "candidate": 1201,
             "affected_candidate": 1202,
-            "global_multiplier": 1
+            "global_multiplier": 0.5
         }
     },
     {
@@ -6060,7 +6067,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5155,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "global_multiplier": -0.001
+            "global_multiplier": -0.002
         }
     },
     {
@@ -6070,7 +6077,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5155,
             "candidate": 1201,
             "affected_candidate": 1200,
-            "global_multiplier": 0
+            "global_multiplier": 0.002
         }
     },
     {
@@ -6160,7 +6167,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20881,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "global_multiplier": 0.3
+            "global_multiplier": 0.03
         }
     },
     {
@@ -6170,7 +6177,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20881,
             "candidate": 1201,
             "affected_candidate": 1200,
-            "global_multiplier": -0.2
+            "global_multiplier": -0.025
         }
     },
     {
@@ -6202,6 +6209,76 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 1201,
             "global_multiplier": 0.02
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 20991,
+        "fields": {
+            "answer": 20859,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21016,
+        "fields": {
+            "answer": 5156,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21017,
+        "fields": {
+            "answer": 5156,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21021,
+        "fields": {
+            "answer": 5157,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21025,
+        "fields": {
+            "answer": 5170,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21026,
+        "fields": {
+            "answer": 5171,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21027,
+        "fields": {
+            "answer": 5172,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": -0.002
+        }
     }
 ];
 
@@ -6224,6 +6301,20 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 104,
             "issue_score": 0.5,
             "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 20992,
+        "fields": {
+            "answer": 20806,
+            "issue": "104",
+            "issue_score": -0.6,
+            "issue_importance": 0,
+            "affected_candidate": 1201,
+            "affected_candidate_shift": "",
+            "affected_state": null,
+            "affected_state_shift": 0
         }
     }
 ];
@@ -8732,7 +8823,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5155,
             "candidate": 1201,
-            "answer_feedback": "The interview is a barrel of laughs, at my expense. These people don't know what's good for them do they?"
+            "answer_feedback": "The interview is a barrel of laughs, at my expense. These people don't know what's good for them do they? They'll see soon enough."
         }
     },
     {
@@ -8741,7 +8832,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5156,
             "candidate": 1201,
-            "answer_feedback": "Colbert attacks the name and anything he can get his hands on but i don't give him an inch. Hopefully this will be good enough for now."
+            "answer_feedback": "Colbert attacks the name then the actual plan. He's a weak man of weak morals, i easily stop all his attacks and deflect them away towards the Republicans and whoever else i could sneak in. The interview ends well, Amworks might actually see some real support after all."
         }
     },
     {
@@ -8750,7 +8841,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5157,
             "candidate": 1201,
-            "answer_feedback": "Calling the American dream dead is a solution I wouldn't normally resort to but in this case I'm willing to make an exception. The effect is immediate. People pay attention"
+            "answer_feedback": "Calling the American dream dead is a solution I wouldn't normally resort to but in this case I'm willing to make an exception. The effect is immediate. People pay attention and even Colbert seems surprised at how direct i am but without being bold we'll never reach anything."
         }
     },
     {
@@ -8759,7 +8850,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5170,
             "candidate": 1201,
-            "answer_feedback": "Hull doesn't hesitate. He gives a speech about the unemployment crisis and calls it a state of emergency in the District. I immediately redirect FEMA money to fund AmWorks. Hopefully the people will see the effects."
+            "answer_feedback": "Hull doesn't hesitate. He gives a speech about the unemployment crisis and calls a state of emergency in the District. I immediately redirect FEMA money to fund AmWorks. "
         }
     },
     {
@@ -8777,7 +8868,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5172,
             "candidate": 1201,
-            "answer_feedback": "He hesitates, I knew he would. He's a weak man but he's effective when it's needed. We agree to work together on AmWorks and I'll assist him in his reelection."
+            "answer_feedback": "He hesitates, I knew he would. He's a weak man but he's effective when it's needed. We agree to work together on AmWorks and I'll assist him in his reelection. That's always what it is, you need to convince them they'll have power and then they will finally support you."
         }
     },
     {
@@ -8849,7 +8940,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5184,
             "candidate": 1201,
-            "answer_feedback": "Petrov agrees to talk but he is not willing to let American forces into the Valley given his strategic interests in the caucus. He says Russia"
+            "answer_feedback": "Petrov agrees to talk but he is not willing to let American forces into the Valley given his strategic interests in the caucus. He says Russia's strategic interests in the region are more important than American demands. Not surprised but hopefully we'll see his resolve faltering soon."
         }
     },
     {
@@ -8858,7 +8949,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5185,
             "candidate": 1201,
-            "answer_feedback": "It's unclear what effect this will have, but it is an interesting move."
+            "answer_feedback": "Petrov is a smart man, he says it's our fault all of this started and that it's up to us to end it."
         }
     },
     {
@@ -9292,6 +9383,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 1201,
             "answer_feedback": "While these states might not seem important to the Democrats now, i see the future. These funds will get them in our good graces and will indebt them to us. With a weak Republican we will easily win these states."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 20990,
+        "fields": {
+            "answer": 20859,
+            "candidate": 1201,
+            "answer_feedback": "With this deal I can safely ignore actually making the people like me enough to actually give us money"
+        }
     }
 ];
 
@@ -9336,26 +9436,26 @@ const endingDefs = [
         "id": 1794356107368,
         "variable": 0,
         "operator": ">",
-        "amount": 269,
+        "amount": 349,
         "endingTitle": "Real Estate",
         "endingSubtitle": "",
         "endingText": "And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your ",
         "endingImage": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png",
         "endingHideImage": false,
-        "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  }\n]",
+        "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 349,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"not_has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Dunbar's Gamble Succeeds \",\n    \"subtitle\": \"\",\n    \"content\": \"<p>Despite Democrats being underwater in polls for almost 4 years, at times as bad as 18% under the Republicans but ever since she managed to take the nomination away from incumbent President Underwood the democrats have gotten a meteoric comeback in the polls climbing back and have taken the presidency yet again. The Republicans are now left to pick up the piece of an absolute disaster of a campaign, with their scandals and failures they are going to need to find a new direction to take so that they can hope to contest the 2020 election.</p>\\n<p>Heather Dunbar will take the oath of office as the first female President and a very progressive one at that. Her open criticism of corporations and practically calling America Works a Reaganesque program. Dunbar has made a lot of people happy and a lot of donors angry, her calls for minimum wage increases and pro-worker programs have made some believe that her victory will lead directly to a rise of a new progressive wing of the Democratic Party. The few progressive senators and congressmen that have been elected have already announced support for her and her victory. All that's left to see is whether she'll be able to pass anything of note.</p>\",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\"\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Gutted\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>In a shocking turnaround former Conway campaign manager Mark Usher has managed to turn the sinking Republican ship into a victory against the Democrats. Mark Usher was considered as a completely random pick as a compromise ever since the RNC deadlocked due to a huge amount of enthusiasm for the three main Republicans which eventually lead to the deadlock. But that's the story we all know. Who even is Mark Usher? His campaign has shown him to be a moderate Republican, akin to Conway in most aspects however differs from Conway on social issues, not being as conservative as he was.</p>\\n<p>That isn't much to go off of but it gives us a tiny glimpse at what his presidency might look like. For now Usher still remains relatively unknown to most Americans which will almost certainly cause him problems when it comes time for reelection or even the midterms. All we can hope for is that Usher will be a stable President that won't be embroiled in scandal like Walker and Underwood were.</p> \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Usher%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20881\",\n    \"answerConditionAnswers\": \"20881\",\n    \"audio\": {\n      \"title\": \"To be King\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1d81e-7650-709b-a998-a78bb985a50a\"\n    }\n  }\n]",
         "audioTitle": "More Human Now",
         "audioArtist": "Jeff Beal",
         "audioCover": "https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg",
         "audioUrl": "https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e",
-        "endingAccentColor": "transparent",
+        "endingAccentColor": "#11299e",
         "endingBackgroundColor": "#ffffff",
         "endingTextColor": "#000000",
         "variableConditions": [],
         "variableConditionOperator": "AND",
         "outcomeCondition": "ignore",
-        "answerConditionType": "ignore",
-        "answerConditionAnswer": "",
-        "answerConditionAnswers": ""
+        "answerConditionType": "not_has",
+        "answerConditionAnswer": "20806",
+        "answerConditionAnswers": "20806"
     }
 ];
 
@@ -9814,6 +9914,8 @@ endingPicker = (out, totv, aa, quickstats) => {
 // [JETS_ENDINGS_END]
 
 //#startcode
+campaignTrail_temp.multiple_endings = true;
+
 // CYOA Variables
 var primaries = -20;
 var mendoza = 1;
@@ -9966,7 +10068,6 @@ function setCandidateIdentity(candidatePk, options) {
         }
     }
 }
-
 // index to assign into question_number before nextQuestion()
 function getJumpIndexFromPk(pk) {
   const idx = getQuestionIndexFromPk(pk);
@@ -9987,6 +10088,12 @@ cyoAdventure = function (a) {
     if (ans == 5144 || ans == 5147 || ans == 20868) {
         questionSwapper(20842, 20843);
     }
+    if (ans == 20854 || ans == 5157 || ans == 5174) {
+        questionSwapper(1077, 20886);
+    }
+    if (ans == 5224 && mendoza < 10 && haas < 10 && conway < 10) {
+        questionSwapper(1067, 20880);
+    }
 
     // [JETS_CYOA_VARIABLE_EFFECTS_START]
     // -1 haas
@@ -9995,22 +10102,22 @@ cyoAdventure = function (a) {
     }
 
     // +1 conway
-    if (ans == 5147) {
+    if ([5147, 20868].includes(ans)) {
         conway += 1;
     }
 
     // -3 conway
-    if ([5148, 5149, 20887, 20902].includes(ans)) {
+    if ([5148, 5149, 20887, 20914, 20854].includes(ans)) {
         conway -= 3;
     }
 
     // +2 haas
-    if (ans == 5148) {
+    if ([5148, 20902, 20867].includes(ans)) {
         haas += 2;
     }
 
     // +1 mendoza
-    if ([5148, 20846].includes(ans)) {
+    if ([5148, 20846, 20867, 20914, 20868].includes(ans)) {
         mendoza += 1;
     }
 
@@ -10020,13 +10127,13 @@ cyoAdventure = function (a) {
     }
 
     // +1 haas
-    if (ans == 5149) {
+    if ([5149, 20868].includes(ans)) {
         haas += 1;
     }
 
-    // -2 primaries
-    if ([20846, 5148].includes(ans)) {
-        primaries -= 2;
+    // -3 primaries
+    if ([20846, 5146].includes(ans)) {
+        primaries -= 3;
     }
 
     // +3 haas
@@ -10039,53 +10146,38 @@ cyoAdventure = function (a) {
         conway -= 1;
     }
 
-    // +3 primaries
-    if (ans == 20854) {
-        primaries += 3;
-    }
-
-    // -1 ico
-    if (ans == 20859) {
-        ico -= 1;
-    }
-
-    // -1 china
-    if (ans == 20859) {
-        china -= 1;
-    }
-
-    // -1 russia
-    if (ans == 20859) {
-        russia -= 1;
-    }
-
     // +5 primaries
-    if ([5149, 20868, 20887, 20902].includes(ans)) {
+    if ([20854, 5149, 20887, 20902].includes(ans)) {
         primaries += 5;
     }
 
     // -1 boldness
-    if ([20867, 5147].includes(ans)) {
+    if ([20867, 5147, 5172].includes(ans)) {
         boldness -= 1;
     }
 
-    // -5 primaries
-    if (ans == 20867) {
-        primaries -= 5;
+    // -2 primaries
+    if ([20867, 5148, 5145].includes(ans)) {
+        primaries -= 2;
+    }
+
+    // +3 primaries
+    if ([20868, 20914, 5157].includes(ans)) {
+        primaries += 3;
     }
 
     // +1 boldness
-    if (ans == 20868) {
+    if ([20868, 5155, 5170].includes(ans)) {
         boldness += 1;
     }
 
     // +2 primaries
-    if (ans == 5147) {
+    if ([5147, 5156].includes(ans)) {
         primaries += 2;
     }
 
     // +5 mendoza
-    if (ans == 20887) {
+    if ([20887, 20854].includes(ans)) {
         mendoza += 5;
     }
 
@@ -10094,17 +10186,51 @@ cyoAdventure = function (a) {
         mendoza -= 1;
     }
 
-    // +5 haas
+    // -2 conway
     if (ans == 20902) {
-        haas += 5;
+        conway -= 2;
     }
 
     // +2 boldness
-    if (ans == 5148) {
+    if ([5148, 5156, 5157].includes(ans)) {
         boldness += 2;
     }
-    // [JETS_CYOA_VARIABLE_EFFECTS_END]
 
+    // -1 china
+    if ([5143, 5145].includes(ans)) {
+        china -= 1;
+    }
+
+    // +1 china
+    if (ans == 5144) {
+        china += 1;
+    }
+
+    // +2 china
+    if (ans == 5146) {
+        china += 2;
+    }
+
+    // +1 primaries
+    if ([5143, 5144, 5155, 5170, 5171].includes(ans)) {
+        primaries += 1;
+    }
+
+    // +3 conway
+    if (ans == 20867) {
+        conway += 3;
+    }
+
+    // +4 haas
+    if (ans == 20914) {
+        haas += 4;
+    }
+
+    // -2 haas
+    if (ans == 20854) {
+        haas -= 2;
+    }
+    // [JETS_CYOA_VARIABLE_EFFECTS_END]
     if (ans == 5147) {
 campaignTrail_temp.running_mate_image_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/286151.webp"
 campaignTrail_temp.running_mate_last_name = 'Blythe'
@@ -10135,7 +10261,7 @@ campaignTrail_temp.running_mate_state_id = "1004"
 campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
 changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
 }
-if (ans == 5224 && hass >= 10 && (haas > conway && haas > mendoza) ) {
+if (ans == 5224 && haas >= 10 && (haas > conway && haas > mendoza) ) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
@@ -10290,8 +10416,8 @@ function updateFeedback(pkValue, newFeedback) {
             label: `Your Boldness`,
             showLabel: true,
             tiers: [
-                [0, `You are *being passive*`, "#ef4444"],
-                [2, `You are *lacking resolve*`, "#b8ba21"],
+                [3, `You are *being passive*`, "#ef4444"],
+                [9, `You are *lacking resolve*`, "#b8ba21"],
                 [Infinity, `You are *the man that America needs*`, "#22c55e"],
             ],
         },
@@ -10341,7 +10467,7 @@ function updateFeedback(pkValue, newFeedback) {
             showLabel: false,
             tiers: [
                 [-1, `The Situation with China is Tense`, "#ef4444"],
-                [0, `The Situation with China is calm`, "#b8ba21"],
+                [1, `The Situation with China is calm`, "#b8ba21"],
                 [Infinity, `China has been passified`, "#22c55e"],
             ],
         },
@@ -10579,7 +10705,7 @@ campaignTrail_temp.jet_data = [{
             "answer": 20846,
             "variable": "primaries",
             "operation": "subtract",
-            "amount": 2
+            "amount": 3
         },
         "20851": {
             "id": 20851,
@@ -10607,28 +10733,7 @@ campaignTrail_temp.jet_data = [{
             "answer": 20854,
             "variable": "primaries",
             "operation": "add",
-            "amount": 3
-        },
-        "20860": {
-            "id": 20860,
-            "answer": 20859,
-            "variable": "ico",
-            "operation": "subtract",
-            "amount": 1
-        },
-        "20861": {
-            "id": 20861,
-            "answer": 20859,
-            "variable": "china",
-            "operation": "subtract",
-            "amount": 1
-        },
-        "20862": {
-            "id": 20862,
-            "answer": 20859,
-            "variable": "russia",
-            "operation": "subtract",
-            "amount": 1
+            "amount": 5
         },
         "20863": {
             "id": 20863,
@@ -10649,14 +10754,14 @@ campaignTrail_temp.jet_data = [{
             "answer": 20867,
             "variable": "primaries",
             "operation": "subtract",
-            "amount": 5
+            "amount": 2
         },
         "20877": {
             "id": 20877,
             "answer": 20868,
             "variable": "primaries",
             "operation": "add",
-            "amount": 5
+            "amount": 3
         },
         "20878": {
             "id": 20878,
@@ -10726,14 +10831,14 @@ campaignTrail_temp.jet_data = [{
             "answer": 20902,
             "variable": "haas",
             "operation": "add",
-            "amount": 5
+            "amount": 2
         },
         "20933": {
             "id": 20933,
             "answer": 20902,
             "variable": "conway",
             "operation": "subtract",
-            "amount": 3
+            "amount": 2
         },
         "20994": {
             "id": 20994,
@@ -10748,6 +10853,223 @@ campaignTrail_temp.jet_data = [{
             "variable": "boldness",
             "operation": "add",
             "amount": 2
+        },
+        "20996": {
+            "id": 20996,
+            "answer": 5143,
+            "variable": "china",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "20997": {
+            "id": 20997,
+            "answer": 5144,
+            "variable": "china",
+            "operation": "add",
+            "amount": 1
+        },
+        "20998": {
+            "id": 20998,
+            "answer": 5146,
+            "variable": "china",
+            "operation": "add",
+            "amount": 2
+        },
+        "20999": {
+            "id": 20999,
+            "answer": 5143,
+            "variable": "primaries",
+            "operation": "add",
+            "amount": 1
+        },
+        "21000": {
+            "id": 21000,
+            "answer": 5144,
+            "variable": "primaries",
+            "operation": "add",
+            "amount": 1
+        },
+        "21001": {
+            "id": 21001,
+            "answer": 5145,
+            "variable": "china",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "21002": {
+            "id": 21002,
+            "answer": 5145,
+            "variable": "primaries",
+            "operation": "subtract",
+            "amount": 2
+        },
+        "21003": {
+            "id": 21003,
+            "answer": 5146,
+            "variable": "primaries",
+            "operation": "subtract",
+            "amount": 3
+        },
+        "21004": {
+            "id": 21004,
+            "answer": 20867,
+            "variable": "mendoza",
+            "operation": "add",
+            "amount": 1
+        },
+        "21005": {
+            "id": 21005,
+            "answer": 20867,
+            "variable": "haas",
+            "operation": "add",
+            "amount": 2
+        },
+        "21006": {
+            "id": 21006,
+            "answer": 20867,
+            "variable": "conway",
+            "operation": "add",
+            "amount": 3
+        },
+        "21007": {
+            "id": 21007,
+            "answer": 20914,
+            "variable": "primaries",
+            "operation": "add",
+            "amount": 3
+        },
+        "21008": {
+            "id": 21008,
+            "answer": 20914,
+            "variable": "haas",
+            "operation": "add",
+            "amount": 4
+        },
+        "21009": {
+            "id": 21009,
+            "answer": 20914,
+            "variable": "mendoza",
+            "operation": "add",
+            "amount": 1
+        },
+        "21010": {
+            "id": 21010,
+            "answer": 20914,
+            "variable": "conway",
+            "operation": "subtract",
+            "amount": 3
+        },
+        "21011": {
+            "id": 21011,
+            "answer": 20854,
+            "variable": "haas",
+            "operation": "subtract",
+            "amount": 2
+        },
+        "21012": {
+            "id": 21012,
+            "answer": 20854,
+            "variable": "mendoza",
+            "operation": "add",
+            "amount": 5
+        },
+        "21013": {
+            "id": 21013,
+            "answer": 20854,
+            "variable": "conway",
+            "operation": "subtract",
+            "amount": 3
+        },
+        "21014": {
+            "id": 21014,
+            "answer": 5155,
+            "variable": "boldness",
+            "operation": "add",
+            "amount": 1
+        },
+        "21015": {
+            "id": 21015,
+            "answer": 5155,
+            "variable": "primaries",
+            "operation": "add",
+            "amount": 1
+        },
+        "21018": {
+            "id": 21018,
+            "answer": 5156,
+            "variable": "primaries",
+            "operation": "add",
+            "amount": 2
+        },
+        "21019": {
+            "id": 21019,
+            "answer": 5156,
+            "variable": "boldness",
+            "operation": "add",
+            "amount": 2
+        },
+        "21023": {
+            "id": 21023,
+            "answer": 5157,
+            "variable": "primaries",
+            "operation": "add",
+            "amount": 3
+        },
+        "21024": {
+            "id": 21024,
+            "answer": 5157,
+            "variable": "boldness",
+            "operation": "add",
+            "amount": 2
+        },
+        "21028": {
+            "id": 21028,
+            "answer": 5170,
+            "variable": "boldness",
+            "operation": "add",
+            "amount": 1
+        },
+        "21029": {
+            "id": 21029,
+            "answer": 5172,
+            "variable": "boldness",
+            "operation": "subtract",
+            "amount": 1
+        },
+        "21030": {
+            "id": 21030,
+            "answer": 5170,
+            "variable": "primaries",
+            "operation": "add",
+            "amount": 1
+        },
+        "21031": {
+            "id": 21031,
+            "answer": 5171,
+            "variable": "primaries",
+            "operation": "add",
+            "amount": 1
+        },
+        "21032": {
+            "id": 21032,
+            "answer": 20868,
+            "variable": "mendoza",
+            "operation": "add",
+            "amount": 1
+        },
+        "21033": {
+            "id": 21033,
+            "answer": 20868,
+            "variable": "haas",
+            "operation": "add",
+            "amount": 1
+        },
+        "21034": {
+            "id": 21034,
+            "answer": 20868,
+            "variable": "conway",
+            "operation": "add",
+            "amount": 1
         }
     },
     "cyoa_campaign_data_enabled": true,
@@ -10757,8 +11079,8 @@ campaignTrail_temp.jet_data = [{
             "variable": "boldness",
             "label": "Your Boldness",
             "showLabel": true,
-            "lowMax": 0,
-            "midMax": 2,
+            "lowMax": 3,
+            "midMax": 9,
             "lowText": "You are *being passive*",
             "midText": "You are *lacking resolve*",
             "highText": "You are *the man that America needs*"
@@ -10808,7 +11130,7 @@ campaignTrail_temp.jet_data = [{
             "variable": "china",
             "label": "The Taiwan Strait",
             "lowMax": -1,
-            "midMax": 0,
+            "midMax": 1,
             "lowText": "The Situation with China is Tense",
             "midText": "The Situation with China is calm",
             "highText": "China has been passified"
@@ -10882,6 +11204,50 @@ campaignTrail_temp.jet_data = [{
             "swaps": [
                 null
             ]
+        },
+        "1794621392840": {
+            "id": 1794621392840,
+            "triggers": [
+                20854,
+                5157,
+                5174
+            ],
+            "swaps": [
+                {
+                    "pk1": 1077,
+                    "pk2": 20886
+                }
+            ]
+        },
+        "1794622717961": {
+            "id": 1794622717961,
+            "triggers": [
+                5224
+            ],
+            "conditions": [
+                {
+                    "variable": "mendoza",
+                    "comparator": "<",
+                    "value": 10
+                },
+                {
+                    "variable": "haas",
+                    "comparator": "<",
+                    "value": 10
+                },
+                {
+                    "variable": "conway",
+                    "comparator": "<",
+                    "value": 10
+                }
+            ],
+            "swaps": [
+                {
+                    "pk1": 1067,
+                    "pk2": 20880
+                }
+            ],
+            "conditionOperator": "AND"
         }
     },
     "endings_enabled": true,
@@ -10890,24 +11256,24 @@ campaignTrail_temp.jet_data = [{
             "id": 1794356107368,
             "variable": 0,
             "operator": ">",
-            "amount": 269,
+            "amount": 349,
             "endingTitle": "Real Estate",
             "endingSubtitle": "",
             "endingImage": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png",
             "endingText": "And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your ",
-            "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  }\n]",
+            "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 349,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"not_has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Dunbar's Gamble Succeeds \",\n    \"subtitle\": \"\",\n    \"content\": \"<p>Despite Democrats being underwater in polls for almost 4 years, at times as bad as 18% under the Republicans but ever since she managed to take the nomination away from incumbent President Underwood the democrats have gotten a meteoric comeback in the polls climbing back and have taken the presidency yet again. The Republicans are now left to pick up the piece of an absolute disaster of a campaign, with their scandals and failures they are going to need to find a new direction to take so that they can hope to contest the 2020 election.</p>\\n<p>Heather Dunbar will take the oath of office as the first female President and a very progressive one at that. Her open criticism of corporations and practically calling America Works a Reaganesque program. Dunbar has made a lot of people happy and a lot of donors angry, her calls for minimum wage increases and pro-worker programs have made some believe that her victory will lead directly to a rise of a new progressive wing of the Democratic Party. The few progressive senators and congressmen that have been elected have already announced support for her and her victory. All that's left to see is whether she'll be able to pass anything of note.</p>\",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\"\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Gutted\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>In a shocking turnaround former Conway campaign manager Mark Usher has managed to turn the sinking Republican ship into a victory against the Democrats. Mark Usher was considered as a completely random pick as a compromise ever since the RNC deadlocked due to a huge amount of enthusiasm for the three main Republicans which eventually lead to the deadlock. But that's the story we all know. Who even is Mark Usher? His campaign has shown him to be a moderate Republican, akin to Conway in most aspects however differs from Conway on social issues, not being as conservative as he was.</p>\\n<p>That isn't much to go off of but it gives us a tiny glimpse at what his presidency might look like. For now Usher still remains relatively unknown to most Americans which will almost certainly cause him problems when it comes time for reelection or even the midterms. All we can hope for is that Usher will be a stable President that won't be embroiled in scandal like Walker and Underwood were.</p> \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Usher%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20881\",\n    \"answerConditionAnswers\": \"20881\",\n    \"audio\": {\n      \"title\": \"To be King\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1d81e-7650-709b-a998-a78bb985a50a\"\n    }\n  }\n]",
             "audioTitle": "More Human Now",
             "audioArtist": "Jeff Beal",
             "audioCover": "https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg",
             "audioUrl": "https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e",
-            "endingAccentColor": "transparent",
+            "endingAccentColor": "#11299e",
             "endingBackgroundColor": "#ffffff",
             "endingTextColor": "#000000",
             "variableConditionOperator": "AND",
             "outcomeCondition": "ignore",
-            "answerConditionType": "ignore",
-            "answerConditionAnswer": "",
-            "answerConditionAnswers": "",
+            "answerConditionType": "not_has",
+            "answerConditionAnswer": "20806",
+            "answerConditionAnswers": "20806",
             "variableConditionName": "",
             "variableConditionValue": "",
             "endingMode": "simple"
