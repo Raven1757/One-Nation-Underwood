@@ -256,7 +256,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 20880,
         "fields": {
-            "description": "(UnderwoodUsher) Well well well. Seems the Republican might screw this up after all. They have entered a deadlock, not my plan but I can work with this. Out of the ruble, they have chosen a compromise, Mark Usher, Conway's campaign chief. Many have lost confidence in the Grand Old Party and have come back to our column. Maybe I won't have to rig this whole thing after all."
+            "description": "(UnderwoodUsher) Well well well. Seems the Republican might screw this up after all. They have entered a deadlock, not my plan but I can work with this. Out of the ruble, they have chosen a compromise, Mark Usher, Conway's campaign chief. Many have lost confidence in the Grand Old Party and have come back to our column. Maybe I won't have to take drastic measures after all."
         }
     },
     {
@@ -277,7 +277,14 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 20993,
         "fields": {
-            "description": "put description here"
+            "description": "#Mendoza Questions"
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21035,
+        "fields": {
+            "description": "The Republican party has chosen Hector Mendoza as their nominee. It's a small shock but still not too surprising. Mendoza has been one of my most vocal opponents but he wasn't exactly popular with classical Republicans either. Maybe that could be an opening for us. The South dislikes him for being perceived as a Liberal on many issues. Hell he even worked with me on many occasions, we could use this to make people think we aren't so different. In any case Mendoza is probably one of the easier opponents we could've gotten."
         }
     }
 ];
@@ -961,6 +968,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 20886,
             "description": "We should allocate these funds to states that have been historically ignored by the federal government. The Rockie states especially, Montana and the Dakotas might be our most likely flips but most of the states in that region could be useful for the future"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21036,
+        "fields": {
+            "question": 21035,
+            "description": "I wish to congratulate Senator Mendoza on his nomination, i hope that we can have a respectful campaign."
         }
     }
 ];
@@ -6279,6 +6294,26 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 1201,
             "global_multiplier": -0.002
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21077,
+        "fields": {
+            "answer": 21036,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21078,
+        "fields": {
+            "answer": 21036,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "global_multiplier": -0.02
+        }
     }
 ];
 
@@ -8473,7 +8508,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.2
         }
     },
     {
@@ -8484,7 +8519,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.3
         }
     },
     {
@@ -8495,7 +8530,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1017,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.2
         }
     },
     {
@@ -8506,7 +8541,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1041,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.3
         }
     },
     {
@@ -8517,7 +8552,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1008,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8528,7 +8563,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8539,7 +8574,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.025
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8550,7 +8585,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.025
+            "state_multiplier": 0.05
         }
     },
     {
@@ -8561,7 +8596,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.25
+            "state_multiplier": 0.3
         }
     },
     {
@@ -8616,7 +8651,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.4
         }
     },
     {
@@ -8627,7 +8662,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.4
         }
     },
     {
@@ -8638,7 +8673,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1025,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.4
         }
     },
     {
@@ -8649,7 +8684,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1002,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8660,7 +8695,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8671,7 +8706,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1011,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.25
         }
     },
     {
@@ -8682,7 +8717,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8693,7 +8728,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1026,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.25
         }
     },
     {
@@ -8704,7 +8739,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1027,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8715,7 +8750,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1030,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8726,7 +8761,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1035,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.25
         }
     },
     {
@@ -8737,7 +8772,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.4
         }
     },
     {
@@ -8748,7 +8783,304 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1050,
             "candidate": 1201,
             "affected_candidate": 1201,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21050,
+        "fields": {
+            "answer": 21036,
+            "state": 1004,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": 0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21051,
+        "fields": {
+            "answer": 21036,
+            "state": 1002,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21052,
+        "fields": {
+            "answer": 21036,
+            "state": 1030,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21053,
+        "fields": {
+            "answer": 21036,
+            "state": 1000,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21054,
+        "fields": {
+            "answer": 21036,
+            "state": 1003,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21055,
+        "fields": {
+            "answer": 21036,
+            "state": 1023,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21056,
+        "fields": {
+            "answer": 21036,
+            "state": 1039,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21057,
+        "fields": {
+            "answer": 21036,
+            "state": 1048,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21058,
+        "fields": {
+            "answer": 21036,
+            "state": 1016,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21059,
+        "fields": {
+            "answer": 21036,
+            "state": 1041,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21060,
+        "fields": {
+            "answer": 21036,
+            "state": 1009,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21061,
+        "fields": {
+            "answer": 21036,
+            "state": 1017,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21062,
+        "fields": {
+            "answer": 21036,
+            "state": 1008,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21063,
+        "fields": {
+            "answer": 21036,
+            "state": 1032,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21064,
+        "fields": {
+            "answer": 21036,
+            "state": 1045,
+            "candidate": 1201,
+            "affected_candidate": 1200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21065,
+        "fields": {
+            "answer": 21036,
+            "state": 1000,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21066,
+        "fields": {
+            "answer": 21036,
+            "state": 1009,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21067,
+        "fields": {
+            "answer": 21036,
+            "state": 1003,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21068,
+        "fields": {
+            "answer": 21036,
+            "state": 1017,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21069,
+        "fields": {
+            "answer": 21036,
+            "state": 1016,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21070,
+        "fields": {
+            "answer": 21036,
+            "state": 1041,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21071,
+        "fields": {
+            "answer": 21036,
+            "state": 1045,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21072,
+        "fields": {
+            "answer": 21036,
+            "state": 1032,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21073,
+        "fields": {
+            "answer": 21036,
+            "state": 1039,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21074,
+        "fields": {
+            "answer": 21036,
+            "state": 1008,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21075,
+        "fields": {
+            "answer": 21036,
+            "state": 1023,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21076,
+        "fields": {
+            "answer": 21036,
+            "state": 1004,
+            "candidate": 1201,
+            "affected_candidate": 1201,
+            "state_multiplier": -0.1
         }
     }
 ];
@@ -9392,6 +9724,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 1201,
             "answer_feedback": "With this deal I can safely ignore actually making the people like me enough to actually give us money"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21037,
+        "fields": {
+            "answer": 21036,
+            "candidate": 1201,
+            "answer_feedback": "Mendoza's acceptance speech is about as interesting as the rest of his career is, not at all. The polls are sent into a shock as the south starts to seem more blue than before however California and other Hispanic states swing hard towards Mendoza"
+        }
     }
 ];
 
@@ -9442,7 +9783,7 @@ const endingDefs = [
         "endingText": "And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your ",
         "endingImage": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png",
         "endingHideImage": false,
-        "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 349,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"not_has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Dunbar's Gamble Succeeds \",\n    \"subtitle\": \"\",\n    \"content\": \"<p>Despite Democrats being underwater in polls for almost 4 years, at times as bad as 18% under the Republicans but ever since she managed to take the nomination away from incumbent President Underwood the democrats have gotten a meteoric comeback in the polls climbing back and have taken the presidency yet again. The Republicans are now left to pick up the piece of an absolute disaster of a campaign, with their scandals and failures they are going to need to find a new direction to take so that they can hope to contest the 2020 election.</p>\\n<p>Heather Dunbar will take the oath of office as the first female President and a very progressive one at that. Her open criticism of corporations and practically calling America Works a Reaganesque program. Dunbar has made a lot of people happy and a lot of donors angry, her calls for minimum wage increases and pro-worker programs have made some believe that her victory will lead directly to a rise of a new progressive wing of the Democratic Party. The few progressive senators and congressmen that have been elected have already announced support for her and her victory. All that's left to see is whether she'll be able to pass anything of note.</p>\",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\"\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Gutted\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>In a shocking turnaround former Conway campaign manager Mark Usher has managed to turn the sinking Republican ship into a victory against the Democrats. Mark Usher was considered as a completely random pick as a compromise ever since the RNC deadlocked due to a huge amount of enthusiasm for the three main Republicans which eventually lead to the deadlock. But that's the story we all know. Who even is Mark Usher? His campaign has shown him to be a moderate Republican, akin to Conway in most aspects however differs from Conway on social issues, not being as conservative as he was.</p>\\n<p>That isn't much to go off of but it gives us a tiny glimpse at what his presidency might look like. For now Usher still remains relatively unknown to most Americans which will almost certainly cause him problems when it comes time for reelection or even the midterms. All we can hope for is that Usher will be a stable President that won't be embroiled in scandal like Walker and Underwood were.</p> \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Usher%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20881\",\n    \"answerConditionAnswers\": \"20881\",\n    \"audio\": {\n      \"title\": \"To be King\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1d81e-7650-709b-a998-a78bb985a50a\"\n    }\n  }\n]",
+        "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 349,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"not_has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Dunbar's Gamble Succeeds \",\n    \"subtitle\": \"\",\n    \"content\": \"<p>Despite Democrats being underwater in polls for almost 4 years, at times as bad as 18% under the Republicans but ever since she managed to take the nomination away from incumbent President Underwood the democrats have gotten a meteoric comeback in the polls climbing back and have taken the presidency yet again. The Republicans are now left to pick up the piece of an absolute disaster of a campaign, with their scandals and failures they are going to need to find a new direction to take so that they can hope to contest the 2020 election.</p>\\n<p>Heather Dunbar will take the oath of office as the first female President and a very progressive one at that. Her open criticism of corporations and practically calling America Works a Reaganesque program. Dunbar has made a lot of people happy and a lot of donors angry, her calls for minimum wage increases and pro-worker programs have made some believe that her victory will lead directly to a rise of a new progressive wing of the Democratic Party. The few progressive senators and congressmen that have been elected have already announced support for her and her victory. All that's left to see is whether she'll be able to pass anything of note.</p>\",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\"\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 0,\n    \"outcomeCondition\": \"tie\",\n    \"title\": \"Flipism \",\n    \"subtitle\": \"\",\n    \"content\": \"<p>The people are angry. Nine weeks ago, we had an election in this country, but because two states refused to certify, neither Conway nor myself received the 270 electoral votes required for victory. So they gather here every morning to exercise their magnificent right, guaranteed by the First Amendment, to let their angry voices be heard.</p><p>And so, Thanksgiving, Christmas, and half of January have come and gone, and all three branches of government are in crisis. The Congress is in disarray, the Supreme Court is doubting justice and doomed to deadlock, and the executive branch is without a boss.</p><p> You see, my feeling is, I think the Founding Fathers, they just got tired. And really, can you blame them? I mean, you can't think of everything. Black swans, Murphy's Law. I mean, at a certain point, you just have to sign off and cross your goddamn fingers and hope for the best. Or adopt \\\"flipism,\\\" a pseudo-philosophy of life in which the most important decisions are made by the flipping of a coin. It was first introduced in the Disney comic book Flip Decision - one of my favorites - in which Donald Duck is persuaded by Professor Batty to make all the most important decisions based on the flipping of a coin.\\\"Life is but a gamble. Let flipism guide your ramble.\\\"</p><p>We've had this sort of trouble before. The election of 1800, Jefferson versus Burr. They wound up in a tie. 73 electoral votes each. That was the number required then, and that's when Congress tried to address what the Founding Fathers just couldn't imagine. And, poof, the Twelfth Amendment was born. And it says that if the states don't certify, it's the House that chooses the president and the Senate that chooses the vice president. Now the House is a bit of a mess, but the Senate is rather democratic in how they choose the VP. One person, one vote. But if there's a tie - and this is where Donald Duck comes in - it's resolved by the toss of a coin. A solution that's elegant as hell. But then there's no elegance in modern politics. It's mostly hell.</p><p>The identity of the next President of these United States is once again in the hands of a bunch of self-serving, money-hungry, boot-licking, power-seeking politicians who can be seduced or sucker punched or blackmailed into submission. And all I need is just one more vote than the other guy.</p><p>As you can see, the Founding Fathers didn't plan for this.</p><p>But I did.</p>\",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Deadlock%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"not_has\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\"\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"loss\",\n    \"title\": \"Gutted\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>In a shocking turnaround former Conway campaign manager Mark Usher has managed to turn the sinking Republican ship into a victory against the Democrats. Mark Usher was considered as a completely random pick as a compromise ever since the RNC deadlocked due to a huge amount of enthusiasm for the three main Republicans which eventually lead to the deadlock. But that's the story we all know. Who even is Mark Usher? His campaign has shown him to be a moderate Republican, akin to Conway in most aspects however differs from Conway on social issues, not being as conservative as he was.</p>\\n<p>That isn't much to go off of but it gives us a tiny glimpse at what his presidency might look like. For now Usher still remains relatively unknown to most Americans which will almost certainly cause him problems when it comes time for reelection or even the midterms. All we can hope for is that Usher will be a stable President that won't be embroiled in scandal like Walker and Underwood were.</p> \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Usher%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20881\",\n    \"answerConditionAnswers\": \"20881\",\n    \"audio\": {\n      \"title\": \"To be King\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1d81e-7650-709b-a998-a78bb985a50a\"\n    }\n  }\n]",
         "audioTitle": "More Human Now",
         "audioArtist": "Jeff Beal",
         "audioCover": "https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg",
@@ -10091,7 +10432,7 @@ cyoAdventure = function (a) {
     if (ans == 20854 || ans == 5157 || ans == 5174) {
         questionSwapper(1077, 20886);
     }
-    if (ans == 5224 && mendoza < 10 && haas < 10 && conway < 10) {
+    if (ans == 5224 && conway < 8 && haas < 8 && mendoza < 8) {
         questionSwapper(1067, 20880);
     }
 
@@ -10136,9 +10477,9 @@ cyoAdventure = function (a) {
         primaries -= 3;
     }
 
-    // +3 haas
+    // +5 haas
     if (ans == 20846) {
-        haas += 3;
+        haas += 5;
     }
 
     // -1 conway
@@ -10275,6 +10616,7 @@ if (ans == 5224 && mendoza >= 10 && (mendoza > haas && mendoza > conway) ) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
+questionSwapper (1067,21035)
 }
 if (ans == 5224 && (mendoza < 10 && conway <10 && haas < 10)) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
@@ -10342,248 +10684,6 @@ function updateFeedback(pkValue, newFeedback) {
 
   if (entry) entry.fields.answer_feedback = newFeedback;
 }
-
-// [JETS_CYOA_CAMPAIGN_DATA_START]
-;(() => {
-    const styleEl = document.createElement("style");
-    styleEl.textContent = `
-        #gameStatsPopup {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 320px;
-            background-color: #ffffff;
-            border: 2px solid #5c5671;
-            border-radius: 2px;
-            padding: 10px 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-            z-index: 10000;
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            font-size: 14px;
-            color: #383838;
-            cursor: move;
-        }
-        #gameStatsContent { pointer-events: none; }
-        #gameStatsPopup h3 {
-            margin: 0 0 8px;
-            font-weight: bold;
-            border-bottom: 1px solid #ff0000;
-            padding-bottom: 4px;
-            font-size: 16px;
-        }
-        .stats-list { line-height: 1.5; }
-        #btn_game_stats { margin-left: 1.5em; }
-    `;
-    document.head.appendChild(styleEl);
-
-    const cyoaTitle = "The House of Cards";
-
-    const bold = (text, color) =>
-        `<span style="color: ${color}; font-weight: bold">${text}</span>`;
-
-    const escapeHtml = (text) =>
-        String(text ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-
-    function matchTier(value, tiers) {
-        for (const [max, text, color] of tiers) {
-            if (value <= max) return [text, color];
-        }
-        const fallback = tiers.at(-1);
-        return [fallback?.[1] || "", fallback?.[2] || "#e6e6e6"];
-    }
-
-    // parts wrapped in asterisks (*word*) are colored, while unmarked parts stay plain
-    // if the text has no asterisks, the whole sentence is colored
-    function highlight(text, color) {
-        const parts = String(text || "").split("*");
-        if (parts.length <= 1) return bold(text || "", color);
-        let out = "";
-        for (let i = 0; i < parts.length; i++) {
-            const seg = parts[i];
-            if (!seg) continue;
-            if (i % 2 === 1) {
-                out += bold(seg, color);
-            } else {
-                out += escapeHtml(seg);
-            }
-        }
-        return out;
-    }
-
-    const STATS = [
-    {
-            getValue: () => boldness,
-            label: `Your Boldness`,
-            showLabel: true,
-            tiers: [
-                [3, `You are *being passive*`, "#ef4444"],
-                [9, `You are *lacking resolve*`, "#b8ba21"],
-                [Infinity, `You are *the man that America needs*`, "#22c55e"],
-            ],
-        },
-    {
-            getValue: () => mendoza,
-            label: `Mendoza's Momentum`,
-            showLabel: false,
-            tiers: [
-                [2, `Mendoza is *struggling.`, "#ef4444"],
-                [5, `Mendoza is *pushing forward.`, "#b8ba21"],
-                [Infinity, `Mendoza is *a prominent contender.`, "#22c55e"],
-            ],
-        },
-    {
-            getValue: () => haas,
-            label: `Haas's Momentum`,
-            showLabel: false,
-            tiers: [
-                [2, `Haas is *irrelevent.`, "#ef4444"],
-                [5, `Haas is *getting recognition.`, "#b8ba21"],
-                [Infinity, `Haas is *a prominent contender.`, "#22c55e"],
-            ],
-        },
-    {
-            getValue: () => conway,
-            label: `Conway's Momentum`,
-            showLabel: false,
-            tiers: [
-                [2, `Conway is *losing momentum.`, "#ef4444"],
-                [5, `Conway is *strong.`, "#b8ba21"],
-                [Infinity, `Conway is *a prominent contender.`, "#22c55e"],
-            ],
-        },
-    {
-            getValue: () => ico,
-            label: `War With ICO`,
-            showLabel: false,
-            tiers: [
-                [0, `-`, "#ef4444"],
-                [1, `America is at war with ICO`, "#b8ba21"],
-                [Infinity, `a`, "#22c55e"],
-            ],
-        },
-    {
-            getValue: () => china,
-            label: `The Taiwan Strait`,
-            showLabel: false,
-            tiers: [
-                [-1, `The Situation with China is Tense`, "#ef4444"],
-                [1, `The Situation with China is calm`, "#b8ba21"],
-                [Infinity, `China has been passified`, "#22c55e"],
-            ],
-        },
-    {
-            getValue: () => primaries,
-            label: `Primary Polling`,
-            showLabel: false,
-            tiers: [
-                [-1, `Heather Dunbar holds a *commanding lead`, "#ef4444"],
-                [0, `Heather Dunbar holds a *slight lead`, "#b8ba21"],
-                [Infinity, `You hold a *slight lead`, "#22c55e"],
-            ],
-        },
-    {
-            getValue: () => russia,
-            label: `Russian agression`,
-            showLabel: false,
-            tiers: [
-                [-1, `Russia is *fanning the flames*`, "#ef4444"],
-                [0, `Russia is *not making sudden moves*`, "#b8ba21"],
-                [Infinity, `Russia is *completely alone*`, "#22c55e"],
-            ],
-        }
-    ];
-
-    function updateGameStatsPopup() {
-        const content = document.getElementById("gameStatsContent");
-        if (!content) return;
-
-        const lines = STATS.map(({ getValue, tiers, label, showLabel }) => {
-            const value = Number(getValue?.());
-            const score = Number.isFinite(value) ? value : 0;
-            const [text, color] = matchTier(score, tiers);
-            const prefix = showLabel && label ? escapeHtml(label) + ": " : "";
-            return "• " + prefix + highlight(text, color) + " " + bold("(" + score + ")", color);
-        });
-
-        content.innerHTML = `
-            <h3>${cyoaTitle}</h3>
-            <div class="stats-list">${lines.join("<br>")}</div>
-        `;
-    }
-
-    function createGameStatsPopup() {
-        if (document.getElementById("gameStatsPopup")) return;
-
-        const popup = document.createElement("div");
-        popup.id = "gameStatsPopup";
-        popup.style.display = "none";
-        popup.innerHTML = '<div id="gameStatsContent"></div>';
-        document.body.appendChild(popup);
-
-        makePopupDraggable(popup);
-        updateGameStatsPopup();
-    }
-
-    function makePopupDraggable(el) {
-        let offsetX, offsetY;
-
-        function onMouseMove(e) {
-            const maxX = window.innerWidth - el.offsetWidth;
-            const maxY = window.innerHeight - el.offsetHeight;
-            el.style.left   = `${Math.max(0, Math.min(e.clientX - offsetX, maxX))}px`;
-            el.style.top    = `${Math.max(0, Math.min(e.clientY - offsetY, maxY))}px`;
-            el.style.bottom = "auto";
-            el.style.right  = "auto";
-        }
-
-        function onMouseUp() {
-            document.removeEventListener("mousemove", onMouseMove);
-            document.removeEventListener("mouseup", onMouseUp);
-        }
-
-        el.addEventListener("mousedown", (e) => {
-            const rect = el.getBoundingClientRect();
-            offsetX = e.clientX - rect.left;
-            offsetY = e.clientY - rect.top;
-            document.addEventListener("mousemove", onMouseMove);
-            document.addEventListener("mouseup", onMouseUp);
-        });
-    }
-
-    function toggleGameStatsPopup() {
-        const popup = document.getElementById("gameStatsPopup");
-        if (!popup) return;
-        const showing = popup.style.display === "none";
-        popup.style.display = showing ? "block" : "none";
-        if (showing) updateGameStatsPopup();
-    }
-
-    function injectGameStatsButton() {
-        if (document.getElementById("btn_game_stats")) return;
-        const anchor = document.getElementById("view_electoral_map");
-        if (!anchor) return;
-
-        const btn = document.createElement("button");
-        btn.id = "btn_game_stats";
-        btn.textContent = "Campaign Data";
-        btn.addEventListener("click", (e) => {
-            e.preventDefault();
-            toggleGameStatsPopup();
-        });
-        anchor.insertAdjacentElement("afterend", btn);
-    }
-
-    createGameStatsPopup();
-
-    const gameWindow = document.getElementById("game_window");
-    if (gameWindow) {
-        new MutationObserver(() => {
-            injectGameStatsButton();
-            updateGameStatsPopup();
-        }).observe(gameWindow, { childList: true, subtree: true });
-    }
-})();
-// [JETS_CYOA_CAMPAIGN_DATA_END]
 //#endcode
 
 campaignTrail_temp.jet_data = [{
@@ -10596,7 +10696,9 @@ campaignTrail_temp.jet_data = [{
         "canName": "Underwood",
         "canImage": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/FrankPresident",
         "runName": "Vacant",
-        "runImage": "https://imgs.search.brave.com/p2kK4JqSkYikyrk_RxmQ1r0YlGBX8wXzIr-enNBv_PU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWlsaXRhcnlwbGFx/dWVzLmNvbS9pbWFn/ZXMvY29tX2hpa2Fz/aG9wL3VwbG9hZC90/aHVtYm5haWxzLzQw/MHg0MDBmL3ZpY2Vf/cHJlc2lkZW50X29m/X3RoZV91bml0ZWRf/c3RhdGVzX29mX2Ft/ZXJpY2Ffc2VhbC5w/bmc"
+        "runImage": "https://imgs.search.brave.com/p2kK4JqSkYikyrk_RxmQ1r0YlGBX8wXzIr-enNBv_PU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWlsaXRhcnlwbGFx/dWVzLmNvbS9pbWFn/ZXMvY29tX2hpa2Fz/aG9wL3VwbG9hZC90/aHVtYm5haWxzLzQw/MHg0MDBmL3ZpY2Vf/cHJlc2lkZW50X29m/X3RoZV91bml0ZWRf/c3RhdGVzX29mX2Ft/ZXJpY2Ffc2VhbC5w/bmc",
+        "signColor": "#0000D1",
+        "signBorderColor": "#700016"
     },
     "banner_enabled": true,
     "cyoa_enabled": true,
@@ -10719,7 +10821,7 @@ campaignTrail_temp.jet_data = [{
             "answer": 20846,
             "variable": "haas",
             "operation": "add",
-            "amount": 3
+            "amount": 5
         },
         "20855": {
             "id": 20855,
@@ -11072,7 +11174,6 @@ campaignTrail_temp.jet_data = [{
             "amount": 1
         }
     },
-    "cyoa_campaign_data_enabled": true,
     "cyoa_campaign_data_stats": {
         "1788736483651": {
             "id": 1788736483651,
@@ -11226,19 +11327,19 @@ campaignTrail_temp.jet_data = [{
             ],
             "conditions": [
                 {
-                    "variable": "mendoza",
+                    "variable": "conway",
                     "comparator": "<",
-                    "value": 10
+                    "value": 8
                 },
                 {
                     "variable": "haas",
                     "comparator": "<",
-                    "value": 10
+                    "value": 8
                 },
                 {
-                    "variable": "conway",
+                    "variable": "mendoza",
                     "comparator": "<",
-                    "value": 10
+                    "value": 8
                 }
             ],
             "swaps": [
@@ -11261,7 +11362,7 @@ campaignTrail_temp.jet_data = [{
             "endingSubtitle": "",
             "endingImage": "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png",
             "endingText": "And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your ",
-            "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 349,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"not_has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Dunbar's Gamble Succeeds \",\n    \"subtitle\": \"\",\n    \"content\": \"<p>Despite Democrats being underwater in polls for almost 4 years, at times as bad as 18% under the Republicans but ever since she managed to take the nomination away from incumbent President Underwood the democrats have gotten a meteoric comeback in the polls climbing back and have taken the presidency yet again. The Republicans are now left to pick up the piece of an absolute disaster of a campaign, with their scandals and failures they are going to need to find a new direction to take so that they can hope to contest the 2020 election.</p>\\n<p>Heather Dunbar will take the oath of office as the first female President and a very progressive one at that. Her open criticism of corporations and practically calling America Works a Reaganesque program. Dunbar has made a lot of people happy and a lot of donors angry, her calls for minimum wage increases and pro-worker programs have made some believe that her victory will lead directly to a rise of a new progressive wing of the Democratic Party. The few progressive senators and congressmen that have been elected have already announced support for her and her victory. All that's left to see is whether she'll be able to pass anything of note.</p>\",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\"\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Gutted\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>In a shocking turnaround former Conway campaign manager Mark Usher has managed to turn the sinking Republican ship into a victory against the Democrats. Mark Usher was considered as a completely random pick as a compromise ever since the RNC deadlocked due to a huge amount of enthusiasm for the three main Republicans which eventually lead to the deadlock. But that's the story we all know. Who even is Mark Usher? His campaign has shown him to be a moderate Republican, akin to Conway in most aspects however differs from Conway on social issues, not being as conservative as he was.</p>\\n<p>That isn't much to go off of but it gives us a tiny glimpse at what his presidency might look like. For now Usher still remains relatively unknown to most Americans which will almost certainly cause him problems when it comes time for reelection or even the midterms. All we can hope for is that Usher will be a stable President that won't be embroiled in scandal like Walker and Underwood were.</p> \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Usher%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20881\",\n    \"answerConditionAnswers\": \"20881\",\n    \"audio\": {\n      \"title\": \"To be King\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1d81e-7650-709b-a998-a78bb985a50a\"\n    }\n  }\n]",
+            "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 349,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Real Estate\",\n    \"subtitle\": \"\",\n    \"content\": \"And there it was. My magnum opus. America reduced to it's knees at the sight of me, that's me and Claire always wanted. And yet it feels awfully calm. The streets are empty for the first time since I took power. Our dream achieved so easily, it feels like the jump from Representative to Vice President was harder than turning this ship around. A Titanic now unsunk. I walk to the window and look down at the street, people there small as rats, they've never been more than a means to an end and yet despite knowing they still fall for it. Every single time.</p>\\n<p>The inauguration goes as expected, my power consolidated, two chambers more than loyal to me, and here you are. Waiting like a dog to get my attention, it's pathetic. You truly thought that you had power over me? That your decisions truly mattered? No no, i always did what i wanted, i only made you think you mattered because it entertained me. Did you not learn anything from Zoe Barnes? A loyal sheep is only as important as it's shepherd makes it. And you, my friend, are worth nothing. You have done nothing of worth, have brought nothing of note. Your \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-10%20192557.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"not_has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\",\n    \"audio\": {\n      \"title\": \"More Human Now\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1c802-d4e0-7034-9a7b-40a0caca0f6e\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Dunbar's Gamble Succeeds \",\n    \"subtitle\": \"\",\n    \"content\": \"<p>Despite Democrats being underwater in polls for almost 4 years, at times as bad as 18% under the Republicans but ever since she managed to take the nomination away from incumbent President Underwood the democrats have gotten a meteoric comeback in the polls climbing back and have taken the presidency yet again. The Republicans are now left to pick up the piece of an absolute disaster of a campaign, with their scandals and failures they are going to need to find a new direction to take so that they can hope to contest the 2020 election.</p>\\n<p>Heather Dunbar will take the oath of office as the first female President and a very progressive one at that. Her open criticism of corporations and practically calling America Works a Reaganesque program. Dunbar has made a lot of people happy and a lot of donors angry, her calls for minimum wage increases and pro-worker programs have made some believe that her victory will lead directly to a rise of a new progressive wing of the Democratic Party. The few progressive senators and congressmen that have been elected have already announced support for her and her victory. All that's left to see is whether she'll be able to pass anything of note.</p>\",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20806\",\n    \"answerConditionAnswers\": \"20806\"\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 0,\n    \"outcomeCondition\": \"tie\",\n    \"title\": \"Flipism \",\n    \"subtitle\": \"\",\n    \"content\": \"<p>The people are angry. Nine weeks ago, we had an election in this country, but because two states refused to certify, neither Conway nor myself received the 270 electoral votes required for victory. So they gather here every morning to exercise their magnificent right, guaranteed by the First Amendment, to let their angry voices be heard.</p><p>And so, Thanksgiving, Christmas, and half of January have come and gone, and all three branches of government are in crisis. The Congress is in disarray, the Supreme Court is doubting justice and doomed to deadlock, and the executive branch is without a boss.</p><p> You see, my feeling is, I think the Founding Fathers, they just got tired. And really, can you blame them? I mean, you can't think of everything. Black swans, Murphy's Law. I mean, at a certain point, you just have to sign off and cross your goddamn fingers and hope for the best. Or adopt \\\"flipism,\\\" a pseudo-philosophy of life in which the most important decisions are made by the flipping of a coin. It was first introduced in the Disney comic book Flip Decision - one of my favorites - in which Donald Duck is persuaded by Professor Batty to make all the most important decisions based on the flipping of a coin.\\\"Life is but a gamble. Let flipism guide your ramble.\\\"</p><p>We've had this sort of trouble before. The election of 1800, Jefferson versus Burr. They wound up in a tie. 73 electoral votes each. That was the number required then, and that's when Congress tried to address what the Founding Fathers just couldn't imagine. And, poof, the Twelfth Amendment was born. And it says that if the states don't certify, it's the House that chooses the president and the Senate that chooses the vice president. Now the House is a bit of a mess, but the Senate is rather democratic in how they choose the VP. One person, one vote. But if there's a tie - and this is where Donald Duck comes in - it's resolved by the toss of a coin. A solution that's elegant as hell. But then there's no elegance in modern politics. It's mostly hell.</p><p>The identity of the next President of these United States is once again in the hands of a bunch of self-serving, money-hungry, boot-licking, power-seeking politicians who can be seduced or sucker punched or blackmailed into submission. And all I need is just one more vote than the other guy.</p><p>As you can see, the Founding Fathers didn't plan for this.</p><p>But I did.</p>\",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Deadlock%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"not_has\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\"\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 269,\n    \"outcomeCondition\": \"loss\",\n    \"title\": \"Gutted\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>In a shocking turnaround former Conway campaign manager Mark Usher has managed to turn the sinking Republican ship into a victory against the Democrats. Mark Usher was considered as a completely random pick as a compromise ever since the RNC deadlocked due to a huge amount of enthusiasm for the three main Republicans which eventually lead to the deadlock. But that's the story we all know. Who even is Mark Usher? His campaign has shown him to be a moderate Republican, akin to Conway in most aspects however differs from Conway on social issues, not being as conservative as he was.</p>\\n<p>That isn't much to go off of but it gives us a tiny glimpse at what his presidency might look like. For now Usher still remains relatively unknown to most Americans which will almost certainly cause him problems when it comes time for reelection or even the midterms. All we can hope for is that Usher will be a stable President that won't be embroiled in scandal like Walker and Underwood were.</p> \",\n    \"image\": \"https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Usher%20Ending\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"has\",\n    \"answerConditionAnswer\": \"20881\",\n    \"answerConditionAnswers\": \"20881\",\n    \"audio\": {\n      \"title\": \"To be King\",\n      \"artist\": \"Jeff Beal\",\n      \"cover\": \"\",\n      \"url\": \"https://audio.jukehost.co.uk/01a1d81e-7650-709b-a998-a78bb985a50a\"\n    }\n  }\n]",
             "audioTitle": "More Human Now",
             "audioArtist": "Jeff Beal",
             "audioCover": "https://i.ytimg.com/vi/DlIgJVGfDQU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1CHR7QE3q6kv1_DTixlK4NEwaHg",
@@ -11283,3 +11384,245 @@ campaignTrail_temp.jet_data = [{
 ]
 
 
+const stats = [
+    {
+        getValue: () => primaries,
+        before: "The establishment is ",
+        after: ".",
+        tiers: [
+            [-4, "in panic", "#8c60bf"],
+            [-2, "cautious", "#6061bf"],
+            [0, "awaiting results", "#6084bf"],
+            [2, "at ease", "#60a1bf"],
+            [4, "very pleased", "#60b4bf"],
+            [Infinity, "fully on-board", "#60bfb4"]
+        ]
+    },
+    {
+        getValue: () => mendoza,
+        before: "Conservatives ",
+        after: " you.",
+        tiers: [
+            [-8, "are outraged with", "#6e60bf"],
+            [-6, "are displeased with", "#9460bf"],
+            [-3, "are skeptical of", "#ba60bf"],
+            [0, "are content with", "#bf6094"],
+            [3, "like", "#bf6073"],
+            [6, "are ecstatic with", "#8f3939"],
+            [Infinity, "are fully fired up for", "#5c1f1f"]
+        ]
+    },
+    {
+        getValue: () => haas,
+        before: "You have been ",
+        after: " on the global stage.",
+        tiers: [
+            [-2, "dovish, relatively speaking", "#58bfb5"],
+            [0, "pragmatic", "#58bfa0"],
+            [2, "interventionist", "#58bf64"],
+            [4, "a strongman", "#88bf58"],
+            [6, "a neoconservative", "#b0bf58"],
+            [Infinity, "a warmonger", "#bfa758"]
+        ]
+    }
+];
+
+const democrats = {
+    "William Conway": {
+        picture: "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/MV5BMTUyNzc0NzMwM15BMl5BanBnXkFtZTgwNzQzOTA0OTE@._V1_-extractpics%20(1).jpg",
+        advice: "The party's golden boy, governor of New York and far more popular than me. As long as our administration keeps going it's current way we will be stuck with him."
+    },
+    "Curtis Haas": {
+        picture: "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Haas",
+        advice: "A man so unpopular he almost lost Wyoming. The tea party bailled him out and now he's a prominent contender for the nomination. A bad showing in the midterms or investment in rural regions could push him further along."
+    },
+    "Hector Mendoza": {
+        picture: "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Screenshot%202026-11-17%20132303.png",
+        advice: "Mendoza is dead on arrival, he has no clear shot at the Presidency unless we make a very big turnaround in ideology towards my conservative roots."
+    },
+    "Mark Usher": {
+        picture: "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Ushertracker",
+        advice: "Mark Usher never ran for president, so why is he being considered? A deadlocked convention for Republicans by a weak administration could pave the way for a compromise."
+    },
+    "Tulsi Gabbard": {
+        picture: "https://imgup.uk/i/20kuKE9v.png",
+        advice: "Putin's favorite candidate has finally reached the pinnacle of the party, with your foreign policy, she has a real shot."
+    }
+};
+
+function leadingDemocrat() {
+    try {
+        if (conway >= 8 && (conway > haas && conway > mendoza ))
+            return "William Conway";
+
+        if (haas >= 8 && (haas > conway && conway > mendoza ))
+            return "Curtis Haas";
+
+        if (mendoza >= 8 && (mendoza > conway && mendoza > haas ))
+            return "Hector Mendoza";
+
+        if (mendoza < 10 && haas < 10 && conway <10)
+            return "Mark Usher";
+
+        if (primaries >= 6 && haas >= 15)
+            return "Tulsi Gabbard";
+
+    } catch (e) {}
+
+    return "No clear frontrunner";
+}
+
+function statLine(stat) {
+    const value = stat.getValue();
+    const [, label, color] = stat.tiers.find(([max]) => value <= max);
+
+    return `
+        <div class="tracker-stat">
+            ${stat.before}<span style="color:${color};font-weight:bold;">${label}</span>${stat.after}
+        </div>
+    `;
+}
+
+function frontrunnerHTML() {
+    const name = leadingDemocrat();
+    const { picture, advice } = democrats[name];
+
+    return `
+        <div class="tracker-frontrunner">
+            <h3>The Republican field</h3>
+            <div class="tracker-candidate">
+                <img src="${picture}" alt="">
+                <div>
+                    <h4>${name}</h4>
+                    <p>${advice}</p>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function buildTracker() {
+    let box = document.getElementById("trackerBox");
+
+    if (!box) {
+        box = document.createElement("div");
+        box.id = "trackerBox";
+        document.body.appendChild(box);
+    }
+
+    box.innerHTML = `
+        <img class="tracker-banner" src="https://imgup.uk/i/7PRvllcW.png" alt="">
+        <div class="tracker-stats">
+            ${stats.map(statLine).join("")}
+        </div>
+        ${frontrunnerHTML()}
+        <img class="tracker-banner" src="https://imgup.uk/i/Z5pYsCMv.png" alt="">
+    `;
+}
+
+function addTrackerButton() {
+    if (document.getElementById("btn_tracker")) return;
+
+    const anchor = document.getElementById("view_electoral_map");
+    if (!anchor) return;
+
+    const button = document.createElement("button");
+    button.id = "btn_tracker";
+    button.textContent = "📃 WH Report";
+    button.style.marginLeft = "1.5em";
+
+    button.addEventListener("click", event => {
+        event.preventDefault();
+
+        const box = document.getElementById("trackerBox");
+        if (box) {
+            box.style.display = box.style.display === "none" ? "" : "none";
+        }
+    });
+
+    anchor.insertAdjacentElement("afterend", button);
+}
+
+function addTrackerStyles() {
+    if (document.getElementById("tracker-styles")) return;
+
+    const style = document.createElement("style");
+    style.id = "tracker-styles";
+    style.textContent = `
+        #trackerBox {
+            position: fixed;
+            right: 16px;
+            bottom: 16px;
+            width: 300px;
+            z-index: 10000;
+            background: #ffffff;
+            color: #000000;
+            border: 1px solid #000000;
+            outline: 1px solid #ffffff;
+            border-radius: 4px;
+            box-shadow: 6px #000000;
+            overflow: hidden;
+        }
+
+        .tracker-banner {
+            display: block;
+            width: 100%;
+            height: 70px;
+            object-fit: cover;
+        }
+
+        .tracker-stats {
+            padding: 12px;
+            line-height: 1.5;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+
+        .tracker-stat {
+            margin-bottom: 6px;
+        }
+
+        .tracker-stat:last-child {
+            margin-bottom: 0;
+        }
+
+        .tracker-frontrunner {
+            border-bottom: 1px solid #000;
+        }
+
+        .tracker-frontrunner h3 {
+            margin: 10px;
+        }
+
+        .tracker-candidate {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0 10px 10px;
+        }
+
+        .tracker-candidate img {
+            width: 100px;
+            max-width: 100px;
+            height: auto;
+            border: 1px solid #ffffff;
+            outline: 1px solid #000000;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .tracker-candidate h4,
+        .tracker-candidate p {
+            margin: 4px 0;
+        }
+    `;
+
+    document.head.appendChild(style);
+}
+
+function updateTracker() {
+    addTrackerButton();
+    buildTracker();
+}
+
+addTrackerStyles();
+setInterval(updateTracker, 100);
