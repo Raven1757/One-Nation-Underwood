@@ -11511,7 +11511,7 @@ function buildTracker() {
     }
 
     box.innerHTML = `
-        <img class="tracker-banner" src="https://imgup.uk/i/7PRvllcW.png" alt="">
+        <img class="tracker-banner" src="https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/oKNYFn35UKwRnxu8GLQTUd.webp" alt="">
         <div class="tracker-stats">
             ${stats.map(statLine).join("")}
         </div>
