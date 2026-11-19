@@ -10602,23 +10602,23 @@ campaignTrail_temp.running_mate_state_id = "1004"
 campaignTrail_temp.election_json[0].fields.advisor_url = "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Dunbar%20GIF.gif";
 changeImage("https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/DunbarLogo.png");
 }
-if (ans == 5224 && haas >= 10 && (haas > conway && haas > mendoza) ) {
+if (ans == 5224 && haas >= 8 && (haas > conway && haas > mendoza) ) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Curtis"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Haas"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#850a0a"
 }
-if (ans == 5224 && conway >= 10 && (conway > haas && conway > mendoza )) {
+if (ans == 5224 && conway >= 8 && (conway > haas && conway > mendoza )) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "William"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Conway"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#d43636"
 }
-if (ans == 5224 && mendoza >= 10 && (mendoza > haas && mendoza > conway) ) {
+if (ans == 5224 && mendoza >= 8 && (mendoza > haas && mendoza > conway) ) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Hector"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Mendoza"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#ac5050"
 questionSwapper (1067,21035)
 }
-if (ans == 5224 && (mendoza < 10 && conway <10 && haas < 10)) {
+if (ans == 5224 && (mendoza < 8 && conway <8 && haas < 8)) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Mark"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Usher"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#6d3b3b"
@@ -10627,6 +10627,12 @@ if (ans == 5224 && china < 0 && ico < 0 && russia < 0) {
     campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.first_name = "Ted"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk ==1200).fields.last_name = "Brockhart"
 campaignTrail_temp.candidate_json.find(candidate => candidate.pk == 1200).fields.color_hex = "#470404"
+}
+if (ans == 5144 && ans == 5147 && ans == 20868) {
+    questionSwapper(20842,20843)
+}
+if (ans == 5174 && ans == 5157 && ans == 20854) {
+    questionSwapper(1077,20886)
 }
 }
 
@@ -11286,38 +11292,10 @@ campaignTrail_temp.jet_data = [{
                 }
             ]
         },
-        "1790350701272": {
-            "id": 1790350701272,
-            "triggers": [
-                5144,
-                5147,
-                20868
-            ],
-            "swaps": [
-                {
-                    "pk1": 20842,
-                    "pk2": 20843
-                }
-            ]
-        },
         "1794355559486": {
             "id": 1794355559486,
             "swaps": [
                 null
-            ]
-        },
-        "1794621392840": {
-            "id": 1794621392840,
-            "triggers": [
-                20854,
-                5157,
-                5174
-            ],
-            "swaps": [
-                {
-                    "pk1": 1077,
-                    "pk2": 20886
-                }
             ]
         },
         "1794622717961": {
@@ -11387,29 +11365,29 @@ campaignTrail_temp.jet_data = [{
 const stats = [
     {
         getValue: () => primaries,
-        before: "The establishment is ",
+        before: "The primaries are projected to be",
         after: ".",
         tiers: [
-            [-4, "in panic", "#8c60bf"],
-            [-2, "cautious", "#6061bf"],
-            [0, "awaiting results", "#6084bf"],
-            [2, "at ease", "#60a1bf"],
-            [4, "very pleased", "#60b4bf"],
-            [Infinity, "fully on-board", "#60bfb4"]
+            [-10, "a Dunbar landslide", "#500303"],
+            [-8, "a strong Dunbar victory", "#961a1a"],
+            [-5, "a Dunbar victory", "#b63232"],
+            [-2, "a small Dunbar victory", "#bf6060"],
+            [0, "a statistical tie", "#c09191"],
+            [Infinity, "an Underwood victory", "#191b7e"]
         ]
     },
     {
-        getValue: () => mendoza,
-        before: "Conservatives ",
-        after: " you.",
+        getValue: () => boldness,
+        before: "you are ",
+        after: ".",
         tiers: [
-            [-8, "are outraged with", "#6e60bf"],
-            [-6, "are displeased with", "#9460bf"],
-            [-3, "are skeptical of", "#ba60bf"],
-            [0, "are content with", "#bf6094"],
-            [3, "like", "#bf6073"],
-            [6, "are ecstatic with", "#8f3939"],
-            [Infinity, "are fully fired up for", "#5c1f1f"]
+            [-8, "being passive", "#db0e0e"],
+            [-6, "weak", "#bb3232"],
+            [-3, "underperforming your ambition", "#bf6060"],
+            [0, "mundane", "#d4b54e"],
+            [3, "emboldened", "#93bf60"],
+            [6, "letting your ambition grow", "#478f39"],
+            [Infinity, "lost in power", "#245c1f"]
         ]
     },
     {
@@ -11443,10 +11421,6 @@ const democrats = {
     "Mark Usher": {
         picture: "https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/Ushertracker",
         advice: "Mark Usher never ran for president, so why is he being considered? A deadlocked convention for Republicans by a weak administration could pave the way for a compromise."
-    },
-    "Tulsi Gabbard": {
-        picture: "https://imgup.uk/i/20kuKE9v.png",
-        advice: "Putin's favorite candidate has finally reached the pinnacle of the party, with your foreign policy, she has a real shot."
     }
 };
 
@@ -11461,11 +11435,8 @@ function leadingDemocrat() {
         if (mendoza >= 8 && (mendoza > conway && mendoza > haas ))
             return "Hector Mendoza";
 
-        if (mendoza < 10 && haas < 10 && conway <10)
+        if (mendoza < 8 && haas < 8 && conway <8)
             return "Mark Usher";
-
-        if (primaries >= 6 && haas >= 15)
-            return "Tulsi Gabbard";
 
     } catch (e) {}
 
@@ -11511,12 +11482,12 @@ function buildTracker() {
     }
 
     box.innerHTML = `
-        <img class="tracker-banner" src="https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/oKNYFn35UKwRnxu8GLQTUd.webp" alt="">
+        <img class="tracker-banner" src="https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/UpperTracker" alt="">
         <div class="tracker-stats">
             ${stats.map(statLine).join("")}
         </div>
         ${frontrunnerHTML()}
-        <img class="tracker-banner" src="https://imgup.uk/i/Z5pYsCMv.png" alt="">
+        <img class="tracker-banner" src="https://file.garden/ajctXfqJL0tJxyhI/The%20House%20of%20Cards/BottomTracker2" alt="">
     `;
 }
 
@@ -11555,10 +11526,10 @@ function addTrackerStyles() {
             bottom: 16px;
             width: 300px;
             z-index: 10000;
-            background: #ffffff;
-            color: #000000;
-            border: 1px solid #000000;
-            outline: 1px solid #ffffff;
+            background: #0b0b27;
+            color: #e4dcdc;
+            border: 1px solid #ffffff;
+            outline: 1px solid #000000;
             border-radius: 4px;
             box-shadow: 6px #000000;
             overflow: hidden;
@@ -11574,8 +11545,8 @@ function addTrackerStyles() {
         .tracker-stats {
             padding: 12px;
             line-height: 1.5;
-            border-top: 1px solid #000;
-            border-bottom: 1px solid #000;
+            border-top: 1px solid #ffffff;
+            border-bottom: 1px solid #ffffff;
         }
 
         .tracker-stat {
